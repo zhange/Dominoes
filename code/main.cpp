@@ -13,7 +13,6 @@
 using namespace std;
 
 //global variables
-Graph graph;
 string MODE;
 
 //function prototypes
@@ -30,11 +29,11 @@ int main(int argc, char *argv[])
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_DOUBLE);
 	glutInitWindowSize(500, 500);
 	glutInitWindowPosition(100, 100);
-	glutCreateWindow("BabelReggieGraphBodyReady");
+	glutCreateWindow("Dominos Pizza");
 	glutDisplayFunc(drawScene);
 	glutReshapeFunc(resize);
 	glutKeyboardFunc(keyInput);
-	glutMouseFunc(mouseControl)
+	glutMouseFunc(mouseControl);
 
 	glutMainLoop();
 
@@ -46,7 +45,6 @@ void drawScene()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 	glColor3f(0.0, 0.0, 0.0);
-	graph.draw();
 	glutSwapBuffers();
 }
 
@@ -80,13 +78,11 @@ void mouseControl(int button, int state, int x, int y)
 	// Store the clicked point in the currentPoint variable when left button is pressed.
 	if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
 	{
-		currentPoint = Point(x, height - y); 
 	}
 
 	// Store the currentPoint in the points vector when left button is released.
 	if (button == GLUT_LEFT_BUTTON && state == GLUT_UP)
 	{
-		points.push_back(currentPoint);
 	}
 
 	if (button == GLUT_RIGHT_BUTTON && state == GLUT_DOWN)
