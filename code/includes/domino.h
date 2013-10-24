@@ -1,35 +1,46 @@
-#ifndef _DOMINO_H
-#define _DOMINO_H
+#ifndef _DOMINO
+#define _DOMINO
 
 //includes
 
 //domino class
 
-class Point
+class domino
 {
 	private:
-		int x;
-		int y;
-		bool down;
-	  
+		double x;//x position
+		double y;//y position
+		double norm;//forward vector
+		bool standing;//whether or not the domino is standing
+		
 	public:
-		Point(int i, int j, bool press)
+		domino(double xpos, double ypos, double forward)
 		{
-			x = i;
-			y = j;
-			down = press;
+			x = xpos;
+			y = ypos;
+			norm = forward;
+			standing = true;
 		}
-		int getX()
+		double getX()
 		{
 			return x;
 		}
-		int getY()
+		double getY()
 		{
 			return y;
 		}
-		bool getDown()
+		bool isStanding()
 		{
-			return down;
+			return standing;
+		}
+		void move(double xpos, double ypos)
+		{
+			x = xpos;
+			y = ypos;
+		}
+		void rotate(double forward)
+		{
+			norm = forward;
 		}
 };
 
