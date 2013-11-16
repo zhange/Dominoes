@@ -213,6 +213,37 @@ void makeMenu(void)
    glutAttachMenu(GLUT_RIGHT_BUTTON);
 }
 
+vector<Point> removedups(vector<Point>pts)
+{
+	int temp = 0;
+	int i = 1;
+	while(i < pts.size())
+	{
+		if(pts[temp].x == pts[i].x && pts[temp].y == pts[i].y)
+		{
+			pts.remove(pts.begin()+i);
+		}
+		else
+		{
+			i++;
+			temp++;
+		}
+	}
+	return pts;
+}
+
+vector<Point> choosenth(vector<Point>pts, int n)
+{
+	int i = 0;
+	vector<Point>temp;
+	while(i < pts.size())
+	{
+		temp.push_back(pts[i]);
+		i = i+n;
+	}
+	return temp;
+}
+
 // Routine to output interaction instructions to the C++ window.
 void printInteraction(void)
 {
@@ -236,7 +267,7 @@ int main(int argc, char **argv)
 
    makeMenu(); // Create menu.
 
-   glutMainLoop(); 
+   glutMainLoop();
 
    return 0;  
 }
