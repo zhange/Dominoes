@@ -4,9 +4,6 @@
 #include <iostream>
 #include <vector>
 
-//added includes
-#include "includes/View.h"
-
 #ifdef __APPLE__
 #  include <GLUT/glut.h>
 #else
@@ -15,8 +12,8 @@
 
 using namespace std;
 
-//global variables
-string MODE;
+#include "include/view.h"
+#include "include/utils.h"
 
 //function prototypes
 void Initialize();
@@ -33,7 +30,7 @@ int main(int argc, char *argv[])
 	glutInit(&argc, argv);
 	//glutInitDisplayMode(GLUT_SINGLE | GLUT_DOUBLE);
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-	glutInitWindowSize(500, 500);
+	glutInitWindowSize(WIDTH, HEIGHT);
 	glutInitWindowPosition(100, 100);
 	glutCreateWindow("Dominos Pizza");
 	glutDisplayFunc(drawScene);
@@ -50,12 +47,22 @@ int main(int argc, char *argv[])
 //display function
 void drawScene()
 {
+	glClearColor(1.0, 1.0, 1.0, 0.0);
 	glClear(GL_COLOR_BUFFER_BIT);
-	glColor3f(0.0, 0.0, 0.0);;
-	glutSwapBuffers();
-	// Added function to control viewport
-	vMain();
+	glColor3f(1.0, 1.0, 1.0);
+	
+	if(MODE == "DRAW")
+	{
+		//draw mode display function
+	}
+	else if(MODE == "RUN")
+	{
+		//run mode display function
+	}
 
+	drawMenu();
+
+	glutSwapBuffers();
 }
 
 // init func
@@ -79,12 +86,13 @@ void Initialize()
 	// set the light position
 	GLfloat qaLightPosition[] = {.5,.5,0.0,1.0};
 	glLightfv(GL_LIGHT0, GL_POSITION, qaLightPosition);
-
 }
 
 //window resize function
 void resize(int w, int h)
 {
+	WIDTH = w;
+	HEIGHT = h;
 	glViewport(0, 0, (GLsizei)w, (GLsizei)h);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
@@ -96,32 +104,28 @@ void resize(int w, int h)
 //keyboard function
 void keyInput(unsigned char key, int x, int y)
 {
-	switch(key) 
+	if(MODE == "DRAW")
 	{
-		case 27:
-			exit(0);
-			break;
-		default:
-			break;
+		//draw mode keyboard function
 	}
+	else if(MODE == "RUN")
+	{
+		//run mode keyboard function
+	}
+	
+	glutPostRedisplay();
 }
 
 //mouse function
 void mouseControl(int button, int state, int x, int y)
 {
-	// Store the clicked point in the currentPoint variable when left button is pressed.
-	if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
+	if(MODE == "DRAW")
 	{
+		//draw mode mouse function
 	}
-
-	// Store the currentPoint in the points vector when left button is released.
-	if (button == GLUT_LEFT_BUTTON && state == GLUT_UP)
+	else if(MODE == "RUN")
 	{
-	}
-
-	if (button == GLUT_RIGHT_BUTTON && state == GLUT_DOWN)
-	{
-		exit(0);
+		//run mode mouse function
 	}
 
 	glutPostRedisplay();
