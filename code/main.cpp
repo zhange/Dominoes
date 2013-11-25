@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(WIDTH, HEIGHT);
 	glutInitWindowPosition(100, 100);
-	glutCreateWindow("Dominos Pizza");
+	glutCreateWindow("Dominoes");
 	glutDisplayFunc(drawScene);
 	Initialize();
 	glutReshapeFunc(resize);
@@ -53,13 +53,19 @@ void drawScene()
 	
 	if(MODE == "DRAW")
 	{
+		//change to 2d mode
+		
 		//draw mode display function
 	}
 	else if(MODE == "RUN")
 	{
+		//change to 3d mode 
+		
 		//run mode display function
 	}
-
+	
+	//change to 2d mode
+	
 	drawMenu();
 
 	glutSwapBuffers();
