@@ -53,20 +53,55 @@ void drawScene()
 	
 	if(MODE == "DRAW")
 	{
-		//change to 2d mode
+		glDisable(GL_LIGHTING);
+		glDepthMask(GL_FALSE);
+		glDisable(GL_DEPTH_TEST);
+
+		glMatrixMode(GL_PROJECTION);
+		glLoadIdentity();
+		gluOrtho2D(0,WIDTH,0,HEIGHT); //left,right,bottom,top
+
+		glMatrixMode(GL_MODELVIEW);
+		glLoadIdentity();
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); 
 		
 		//draw mode display function
 	}
 	else if(MODE == "RUN")
 	{
-		//change to 3d mode 
+		glEnable(GL_LIGHTING);
+		glEnable(GL_DEPTH_TEST);
+		glDepthFunc(GL_LESS);
+
+		//Set up projection matrix
+		glMatrixMode(GL_PROJECTION);
+		glLoadIdentity();
+		//Using gluPerspective. It's pretty easy and looks nice.
+		gluPerspective(0, 1, 0, 10);
+
+		//Set up modelview matrix
+		glMatrixMode(GL_MODELVIEW);
+		glLoadIdentity();
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 		
 		//run mode display function
 	}
-	
-	//change to 2d mode
+		
+	glDisable(GL_LIGHTING);
+	glDepthMask(GL_FALSE);
+	glDisable(GL_DEPTH_TEST);
+
+	glMatrixMode(GL_PROJECTION);
+	glLoadIdentity();
+	gluOrtho2D(0,WIDTH,0,HEIGHT); //left,right,bottom,top
+
+	glMatrixMode(GL_MODELVIEW);
+	glLoadIdentity();
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); 
 	
 	drawMenu();
+	
+	//glDepthMask(GL_TRUE);
 
 	glutSwapBuffers();
 }
