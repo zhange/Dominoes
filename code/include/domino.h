@@ -27,7 +27,6 @@ class domino
 			x = xpos;
 			y = ypos;
 			norm = forward;
-			torque = 0;
 			standing = true;
 			resting = false;
 			support = NULL;
@@ -80,7 +79,7 @@ class domino
 			{
 				if(tilt != 90)
 				{
-					double w = sqrt((x - support -> getX())^2 + (y - support -> getY())^2);
+					double w = sqrt((x - support -> getX())*(x - support -> getX()) + (y - support -> getY())*(y - support -> getY()));
 					double theta = asin(w*cos(support -> getTilt()/180*M_PI)/2)+support -> getTilt()/180*M_PI;
 				}
 			}
