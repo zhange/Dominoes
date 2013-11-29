@@ -1,8 +1,12 @@
 #include <stdio.h>
-//#include "include/domino.h"
 
-void domin(float x, float y)
+#include "domino.h"
+
+void draw_domino(domino d)
 {
+    float x = d.getX();
+    float y = d.getY();
+
     glPushMatrix();
     glTranslatef(x,y,0);
     glRotatef(90,1,0,0);
@@ -30,11 +34,10 @@ void display()
     gluPerspective(0, 1, 0, 10);
     
     // creating the domino
-    // domino x = new domino(0,0,0);
-    domin(50,50);
-    domin(5,5);
-    domin(0,0);
-    domin(-40,-40);
+    domino x(0,0,0);
+
+    draw_domino(x);
+
     glFlush();
 }
 void reshape(int w,int h)
