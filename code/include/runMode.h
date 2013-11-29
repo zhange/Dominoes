@@ -14,7 +14,7 @@ void draw_domino(domino d)
     glutSolidCube(100);
     glPopMatrix();
 }
-void display()
+void rdisplay()
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
@@ -27,11 +27,11 @@ void display()
     glLightfv(GL_LIGHT0,GL_AMBIENT,amb);
     glLightfv(GL_LIGHT0,GL_SPECULAR,spe);
 
-    glTranslatef(50,50,0);
+    //glTranslatef(50,50,0);
     //glRotatef(30,1,0,0);
     //glRotatef(-30,0,1,0);
 
-    gluPerspective(0, 1, 0, 10);
+    //xgluPerspective(0, 1, 0, 10);
     
     // creating the domino
     domino x(0,0,0);
@@ -50,7 +50,7 @@ void reshape(int w,int h)
     //gluLookAt(0,  0,  0,  0,  0,  0,  0,  0,  0);
 }
 
-void run_mode_display()
+void r_display()
 {
     //glutInit(&argc,argv);
     glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE | GLUT_DEPTH);
@@ -66,7 +66,7 @@ void run_mode_display()
 
     glShadeModel(GL_SMOOTH);
     glutReshapeFunc(reshape);
-    glutDisplayFunc(display);
+    glutDisplayFunc(rdisplay);
 
     glutMainLoop();
 }
