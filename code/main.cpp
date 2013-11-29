@@ -1,4 +1,4 @@
-//includes
+//standard includes
 #include <cmath>
 #include <cstdlib>
 #include <iostream>
@@ -12,6 +12,19 @@
 
 using namespace std;
 
+//object includes
+#include "include/button.h"
+#include "include/domino.h"
+
+//global variables
+string MODE = "RUN";
+int HEIGHT = 500;
+int WIDTH = 900;
+vector<button> demButtons;
+
+//helper includes
+#include "include/drawMode.h"
+#include "include/runMode.h"
 #include "include/view.h"
 #include "include/utils.h"
 
@@ -22,13 +35,10 @@ void resize(int w, int h);
 void keyInput(unsigned char key, int x, int y);
 void mouseControl(int button, int state, int x, int y);
 
-
-
 // main function
 int main(int argc, char *argv[])
 {
 	glutInit(&argc, argv);
-	//glutInitDisplayMode(GLUT_SINGLE | GLUT_DOUBLE);
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(WIDTH, HEIGHT);
 	glutInitWindowPosition(100, 100);
@@ -42,6 +52,29 @@ int main(int argc, char *argv[])
 	glutMainLoop();
 
 	return 0;
+}
+
+// init func
+void Initialize()
+{
+	glClearColor(1.0,1.0,1.0,.5);
+	glMatrixMode(GL_PROJECTION);
+	glLoadIdentity();
+	glOrtho(-1.0,1.0,-1.0,1.0,-1.0,1.0);
+	// Lighting Set Up
+	glLightModeli(GL_LIGHT_MODEL_LOCAL_VIEWER,GL_TRUE);
+	glEnable(GL_LIGHTING);
+	glEnable(GL_LIGHT0);
+	// Set lighting intensity and color
+	GLfloat qaAmbientLigh[] = {0.2,0.2,0.2,1.0};
+	GLfloat qaDiffuseLight[] = {.8,.8,.8,1.0};
+	GLfloat qaSpecularLight[] = {1.0,1.0,1.0,1.0};
+	glLightfv(GL_LIGHT0, GL_AMBIENT,qaAmbientLigh);
+	glLightfv(GL_LIGHT0, GL_DIFFUSE,qaDiffuseLight);
+	glLightfv(GL_LIGHT0, GL_SPECULAR,qaSpecularLight);
+	// set the light position
+	GLfloat qaLightPosition[] = {.5,.5,0.0,1.0};
+	glLightfv(GL_LIGHT0, GL_POSITION, qaLightPosition);
 }
 
 //display function
@@ -99,34 +132,28 @@ void drawScene()
 	glLoadIdentity();
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); 
 	
+	//menu buttons
+	demButtons.clear();
+	demButtons.push_back(button(1,1,"Draw Mode"));
+	demButtons.push_back(button(1,2,"Run Mode"));
+	demButtons.push_back(button(2,1,"Load Setup"));
+	demButtons.push_back(button(2,2,"Save Setup"));
+	
+	if(MODE == "DRAW")
+	{
+		//draw buttons
+	}
+	else if(MODE == "RUN")
+	{
+		demButtons.push_back(button(3,1,"Play Sequence"));
+		demButtons.push_back(button(3,2,"Reset Dominoes"));
+	}
+	
 	drawMenu();
 	
 	//glDepthMask(GL_TRUE);
 
 	glutSwapBuffers();
-}
-
-// init func
-void Initialize()
-{
-	glClearColor(1.0,1.0,1.0,.5);
-	glMatrixMode(GL_PROJECTION);
-	glLoadIdentity();
-	glOrtho(-1.0,1.0,-1.0,1.0,-1.0,1.0);
-	// Lighting Set Up
-	glLightModeli(GL_LIGHT_MODEL_LOCAL_VIEWER,GL_TRUE);
-	glEnable(GL_LIGHTING);
-	glEnable(GL_LIGHT0);
-	// Set lighting intensity and color
-	GLfloat qaAmbientLigh[] = {0.2,0.2,0.2,1.0};
-	GLfloat qaDiffuseLight[] = {.8,.8,.8,1.0};
-	GLfloat qaSpecularLight[] = {1.0,1.0,1.0,1.0};
-	glLightfv(GL_LIGHT0, GL_AMBIENT,qaAmbientLigh);
-	glLightfv(GL_LIGHT0, GL_DIFFUSE,qaDiffuseLight);
-	glLightfv(GL_LIGHT0, GL_SPECULAR,qaSpecularLight);
-	// set the light position
-	GLfloat qaLightPosition[] = {.5,.5,0.0,1.0};
-	glLightfv(GL_LIGHT0, GL_POSITION, qaLightPosition);
 }
 
 //window resize function
@@ -137,7 +164,6 @@ void resize(int w, int h)
 	glViewport(0, 0, (GLsizei)w, (GLsizei)h);
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
-	//glOrtho(0.0, 100.0, 0.0, 100.0, -1.0, 1.0);
 	glFrustum(-5.0, 5.0, -5.0, 5.0, 5.0, 250.0);
 	glMatrixMode(GL_MODELVIEW);
 }
@@ -160,13 +186,55 @@ void keyInput(unsigned char key, int x, int y)
 //mouse function
 void mouseControl(int button, int state, int x, int y)
 {
-	if(MODE == "DRAW")
+	if(x < WIDTH - 400)
 	{
-		//draw mode mouse function
+		if(MODE == "DRAW")
+		{
+			//draw mode mouse function
+		}
+		else if(MODE == "RUN")
+		{
+			//run mode mouse function
+		}
 	}
-	else if(MODE == "RUN")
+	else if(state == GLUT_DOWN && button == GLUT_LEFT_BUTTON)//menu button handling
 	{
-		//run mode mouse function
+		int left, right, top, bottom;
+		for(int i = 0; i < demButtons.size(); i++)
+		{
+			left = WIDTH - 385 + 190*(demButtons[i].getCol() - 1);
+			right = left + 180;
+			top = HEIGHT - 15 - 40*(demButtons[i].getRow() - 1);
+			bottom = top - 30;	
+
+			if(x < right && x > left && HEIGHT - y < top && HEIGHT - y > bottom)
+			{
+				if(demButtons[i].getName() == "Draw Mode")
+				{
+					MODE = "DRAW";
+				}
+				else if(demButtons[i].getName() == "Run Mode")
+				{
+					MODE = "RUN";
+				}
+				else if(demButtons[i].getName() == "Load Setup")
+				{
+					
+				}
+				else if(demButtons[i].getName() == "Save Setup")
+				{
+					
+				}
+				else if(demButtons[i].getName() == "Play Sequence")
+				{
+					
+				}
+				else if(demButtons[i].getName() == "Reset Dominoes")
+				{
+					
+				}
+			}
+		}
 	}
 
 	glutPostRedisplay();

@@ -1,7 +1,7 @@
 #ifndef _BUTTON
 #define _BUTTON
 
-class Button
+class button
 {
 	private:
 		int row;
@@ -9,7 +9,7 @@ class Button
 		string name;
 	  
 	public:
-		Button(int i, int j, string id)//constructor
+		button(int i, int j, string id)//constructor
 		{
 			row = i;
 			column = j;
