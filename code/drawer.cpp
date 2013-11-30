@@ -2,6 +2,7 @@
 #include <vector>
 #include <iostream>
 #include <cmath>
+#include <fstream>
 
 #ifdef __APPLE__
 #  include <GLUT/glut.h>
@@ -64,6 +65,37 @@ vector<Point> interp (float x1, float y1, float x2, float y2, float interval)
 		temp1 = (t3*x1) + t4*x2;
 		temp2 = (t3*y1) + t4*y2;
 		temp.push_back(Point(temp1, temp2));
+	}
+	return temp;
+}
+
+vector<Point> removedups(vector<Point>pts)
+{
+	int temp = 0;
+	int i = 1;
+	while(i < pts.size())
+	{
+		if(pts[temp].x == pts[i].x && pts[temp].y == pts[i].y)
+		{
+			pts.erase(pts.begin()+i);
+		}
+		else
+		{
+			i++;
+			temp++;
+		}
+	}
+	return pts;
+}
+
+vector<Point> choosenth(vector<Point>pts, int n)
+{
+	int i = 0;
+	vector<Point>temp;
+	while(i < pts.size())
+	{
+		temp.push_back(pts[i]);
+		i = i+n;
 	}
 	return temp;
 }
@@ -134,6 +166,20 @@ void mouseControl(int button, int state, int x, int y)
     glutPostRedisplay();
 }
 
+void saveout(vector<Point>pts)
+{
+	ofstream file;
+	file.open("setup.dsx");
+	cout << "hai" << endl;
+	
+	for(int i=0; i<pts.size(); i++)
+	{
+		file << "<domino>" << "<xpos>"<< pts[i].x << "</xpos><ypos>" << pts[i].y << "</ypos></domino>" << endl;
+	}
+	
+	file.close();
+}
+
 // Initialization routine.
 void setup(void) 
 {
@@ -166,6 +212,13 @@ void keyInput(unsigned char key, int x, int y)
       case 27:
          exit(0);
          break;
+      case 32:
+      {
+      	 points = removedups(points);
+      	 points = choosenth(points, 10);
+         saveout(points);
+         break;
+      }
       default:
          break;
    }
@@ -190,58 +243,17 @@ void rightMenu(int id)
    if (id==2) exit(0);
 }
 
-// The sub-menu callback function.
-void grid_menu(int id)
-{
-   if (id==3) isGrid = 1;
-   if (id==4) isGrid = 0;
-   glutPostRedisplay();
-}
-
 // Function to create menu.
 void makeMenu(void)
 {
    int sub_menu;
-   sub_menu = glutCreateMenu(grid_menu);
    glutAddMenuEntry("On", 3);
    glutAddMenuEntry("Off",4);
 
    glutCreateMenu(rightMenu);
-   glutAddSubMenu("Grid", sub_menu);
    glutAddMenuEntry("Clear",1);
    glutAddMenuEntry("Quit",2);
    glutAttachMenu(GLUT_RIGHT_BUTTON);
-}
-
-vector<Point> removedups(vector<Point>pts)
-{
-	int temp = 0;
-	int i = 1;
-	while(i < pts.size())
-	{
-		if(pts[temp].x == pts[i].x && pts[temp].y == pts[i].y)
-		{
-			pts.remove(pts.begin()+i);
-		}
-		else
-		{
-			i++;
-			temp++;
-		}
-	}
-	return pts;
-}
-
-vector<Point> choosenth(vector<Point>pts, int n)
-{
-	int i = 0;
-	vector<Point>temp;
-	while(i < pts.size())
-	{
-		temp.push_back(pts[i]);
-		i = i+n;
-	}
-	return temp;
 }
 
 // Routine to output interaction instructions to the C++ window.
