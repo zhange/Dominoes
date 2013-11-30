@@ -38,7 +38,7 @@ void rdisplay()
 
     draw_domino(x);
 
-    glFlush();
+    //glFlush();
 }
 void reshape(int w,int h)
 {

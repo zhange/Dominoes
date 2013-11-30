@@ -46,10 +46,11 @@ int main(int argc, char *argv[])
 	glutInitWindowPosition(100, 100);
 	glutCreateWindow("Dominoes");
 	glutDisplayFunc(drawScene);
-	Initialize();
 	glutReshapeFunc(resize);
 	glutKeyboardFunc(keyInput);
 	glutMouseFunc(mouseControl);
+	
+	Initialize();
 
 	glutMainLoop();
 
@@ -120,6 +121,7 @@ void drawScene()
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 		
 		//run mode display function
+		rdisplay();
 	}
 		
 	glDisable(GL_LIGHTING);
