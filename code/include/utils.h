@@ -46,39 +46,84 @@ void drawButton(string name, int row, int column)
 	writeString(left + 5 + (180 - 10*name.length())/2, bottom + 8, GLUT_BITMAP_HELVETICA_18, name.c_str());
 }
 
-//saves the current points into a file
-void saveout(vector<Point>pts)
+//saves the current dominos to a file
+void saveFile()
 {
 	ofstream file;
 	file.open("setup.dsx");
 	
-	for(int i=0; i<pts.size(); i++)
+	if(file.is_open())
 	{
-		file << pts[i].x << " " << pts[i].y << " " << pts[i].forward << endl;
+		for(int i = 0; i < dominos.size(); i++)
+		{
+			file << "<domino>\n\t<xpos> " << dominos[i].getX() << " </xpos>\n\t<ypos> " << dominos[i].getY() << " </ypos>\n\t<norm> " << dominos[i].getNorm() << " </norm>\n</domino>" << endl;
+		}	
+		file.close();
 	}
-	file.close();
+	else
+	{
+		cout << "Error! File will not open for writing!" << endl;
+	}
 }
 
-//reads from setupfile and returns a vector with the points
-vector<Point> readfile()
+//reads from setup file and populates dominos vector
+void readFile()
 {
-	fstream file;
+	ifstream file;
 	file.open("setup.dsx");
 	
-	vector<Point>temp;
-	Point p(0,0);
-	int a, b;
-	float c;
-	
-	while(file >> a >> b >> c)
+	if(file.is_open())
 	{
-		p.x = a;
-		p.y = b;
-		p.forward = c;
-		temp.push_back(p);
+		dominos.clear();
+		
+		string temp;
+		double val1,val2,val3;
+	
+		while(file >> temp)
+		{
+			if(temp == "<domino>")
+			{
+				file >> temp;
+				if(temp == "<xpos>")
+				{
+					file >> val1;
+					file >> temp;
+					if(temp == "</xpos>")
+					{
+						file >> temp;
+						if(temp == "<ypos>")
+						{
+							file >> val2;
+							file >> temp;
+							if(temp == "</ypos>")
+							{
+								file >> temp;
+								if(temp == "<norm>")
+								{
+									file >> val3;
+									file >> temp;
+									if(temp == "</norm>")
+									{
+										file >> temp;
+										if(temp == "</domino>")
+										{
+											dominos.push_back(domino(val1, val2, val3));
+											cout << val1 << " " << val2 << " " << val3 << endl;
+										}
+									}
+								}
+							}
+						}
+					}
+				}			
+			}
+		}
+		file.close();
 	}
-	file.close();
-	return temp;
+	else
+	{
+		cout << "Error! File will not open for reading!" << endl;
+	}
 }
 
 //menu drawing function

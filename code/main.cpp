@@ -1,6 +1,7 @@
 //standard includes
 #include <cmath>
 #include <cstdlib>
+#include <fstream>
 #include <iostream>
 #include <vector>
 
@@ -21,6 +22,7 @@ string MODE = "RUN";
 int HEIGHT = 500;
 int WIDTH = 900;
 vector<button> demButtons;
+vector<domino> dominos;
 
 //helper includes
 #include "include/drawMode.h"
@@ -219,11 +221,11 @@ void mouseControl(int button, int state, int x, int y)
 				}
 				else if(demButtons[i].getName() == "Load Setup")
 				{
-					
+					readFile();
 				}
 				else if(demButtons[i].getName() == "Save Setup")
 				{
-					
+					saveFile();
 				}
 				else if(demButtons[i].getName() == "Play Sequence")
 				{

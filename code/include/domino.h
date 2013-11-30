@@ -44,6 +44,12 @@ class domino
 			return y;
 		}
 		
+		//get the norm angle
+		double getNorm()
+		{
+			return norm;
+		}
+		
 		//get the tilt angle
 		double getTilt()
 		{
