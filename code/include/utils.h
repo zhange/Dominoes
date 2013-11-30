@@ -46,6 +46,41 @@ void drawButton(string name, int row, int column)
 	writeString(left + 5 + (180 - 10*name.length())/2, bottom + 8, GLUT_BITMAP_HELVETICA_18, name.c_str());
 }
 
+//saves the current points into a file
+void saveout(vector<Point>pts)
+{
+	ofstream file;
+	file.open("setup.dsx");
+	
+	for(int i=0; i<pts.size(); i++)
+	{
+		file << pts[i].x << " " << pts[i].y << " " << pts[i].forward << endl;
+	}
+	file.close();
+}
+
+//reads from setupfile and returns a vector with the points
+vector<Point> readfile()
+{
+	fstream file;
+	file.open("setup.dsx");
+	
+	vector<Point>temp;
+	Point p(0,0);
+	int a, b;
+	float c;
+	
+	while(file >> a >> b >> c)
+	{
+		p.x = a;
+		p.y = b;
+		p.forward = c;
+		temp.push_back(p);
+	}
+	file.close();
+	return temp;
+}
+
 //menu drawing function
 void drawMenu()
 {

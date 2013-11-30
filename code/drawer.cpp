@@ -34,11 +34,12 @@ class Point
 public:
    Point(int xVal, int yVal)
    {
-	  x = xVal; y = yVal;
+	  x = xVal; y = yVal; forward = 0;
    }
    void drawPoint(void); // Function to draw a point.
    
    int x, y; // x and y co-ordinates of point.
+   float forward; //angle of the domino with respect to the horzizontal
    static float size; // Size of point.
 };
 
@@ -53,6 +54,7 @@ void Point::drawPoint()
    glEnd();   
 }
 
+//interpolates the points between 2 points drawn, and inserts them into the vector
 vector<Point> interp (float x1, float y1, float x2, float y2, float interval)
 {
 	vector<Point>temp;
@@ -69,6 +71,7 @@ vector<Point> interp (float x1, float y1, float x2, float y2, float interval)
 	return temp;
 }
 
+//remove the duplicates in the vector
 vector<Point> removedups(vector<Point>pts)
 {
 	int temp = 0;
@@ -88,6 +91,21 @@ vector<Point> removedups(vector<Point>pts)
 	return pts;
 }
 
+//calculates the forward of the points in the vector
+//forward is the angle of the point with repsect to the horizontal
+vector<Point> calcforward(vector<Point>pts)
+{
+	vector<Point>temp = pts;
+	for(int i=0; i<pts.size()-1; i++)
+	{
+		temp[i].forward = abs((atan2((temp[i].y-temp[i+1].y),(temp[i].x-temp[i+1].x))*180)/3.1415926535897);
+	}
+	temp[temp.size()-1].forward = temp[temp.size()-2].forward;
+	
+	return temp;
+}
+
+//chooses the each nth value
 vector<Point> choosenth(vector<Point>pts, int n)
 {
 	int i = 0;
@@ -139,14 +157,12 @@ void mousemove( int x, int y)
 {
 	vector<Point>temp;
 	y = height - y;
-	cout << points.size() << endl;
 
 	if(points.size() > 1)
 		temp = interp(points[points.size()-1].x, points[points.size()-1].y, x, y, 12);
 	for(int i = 0; i<temp.size(); i++)
 	{
 		points.push_back(temp[i]);
-		cout << points[points.size()-1].x << " " << points[points.size()-1].y << endl;
 	}	
 	points.push_back( Point(x,y) );
 	
@@ -170,14 +186,33 @@ void saveout(vector<Point>pts)
 {
 	ofstream file;
 	file.open("setup.dsx");
-	cout << "hai" << endl;
 	
 	for(int i=0; i<pts.size(); i++)
 	{
-		file << "<domino>" << "<xpos>"<< pts[i].x << "</xpos><ypos>" << pts[i].y << "</ypos></domino>" << endl;
+		file << pts[i].x << " " << pts[i].y << " " << pts[i].forward << endl;
 	}
-	
 	file.close();
+}
+
+vector<Point> readfile()
+{
+	fstream file;
+	file.open("setup.dsx");
+	
+	vector<Point>temp;
+	Point p(0,0);
+	int a, b;
+	float c;
+	
+	while(file >> a >> b >> c)
+	{
+		p.x = a;
+		p.y = b;
+		p.forward = c;
+		temp.push_back(p);
+	}
+	file.close();
+	return temp;
 }
 
 // Initialization routine.
@@ -212,12 +247,22 @@ void keyInput(unsigned char key, int x, int y)
       case 27:
          exit(0);
          break;
+      //on space output skeleton of the line to a file
       case 32:
       {
       	 points = removedups(points);
       	 points = choosenth(points, 10);
+      	 points = calcforward(points);
          saveout(points);
+         glutPostRedisplay();
          break;
+      }
+      //on tab read in whatever is in the file
+      case 9:
+      {
+      	points = readfile();
+      	glutPostRedisplay();
+      	break;
       }
       default:
          break;
