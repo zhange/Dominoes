@@ -1,6 +1,7 @@
 //standard includes
 #include <cmath>
 #include <cstdlib>
+#include <fstream>
 #include <iostream>
 #include <vector>
 
@@ -21,6 +22,7 @@ string MODE = "RUN";
 int HEIGHT = 500;
 int WIDTH = 900;
 vector<button> demButtons;
+vector<domino> dominos;
 
 //helper includes
 #include "include/drawMode.h"
@@ -44,10 +46,11 @@ int main(int argc, char *argv[])
 	glutInitWindowPosition(100, 100);
 	glutCreateWindow("Dominoes");
 	glutDisplayFunc(drawScene);
-	Initialize();
 	glutReshapeFunc(resize);
 	glutKeyboardFunc(keyInput);
 	glutMouseFunc(mouseControl);
+	
+	Initialize();
 
 	glutMainLoop();
 
@@ -118,6 +121,7 @@ void drawScene()
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 		
 		//run mode display function
+		rdisplay();
 	}
 		
 	glDisable(GL_LIGHTING);
@@ -219,11 +223,11 @@ void mouseControl(int button, int state, int x, int y)
 				}
 				else if(demButtons[i].getName() == "Load Setup")
 				{
-					
+					readFile();
 				}
 				else if(demButtons[i].getName() == "Save Setup")
 				{
-					
+					saveFile();
 				}
 				else if(demButtons[i].getName() == "Play Sequence")
 				{
