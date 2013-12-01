@@ -1,0 +1,20 @@
+<domino>
+	<xpos> 7 </xpos>
+	<ypos> 3 </ypos>
+	<norm> 0 </norm>
+</domino>
+<domino>
+	<xpos> 56 </xpos>
+	<ypos> 31 </ypos>
+	<norm> 90 </norm>
+</domino>
+<domino>
+	<xpos> 12 </xpos>
+	<ypos> 91 </ypos>
+	<norm> 42 </norm>
+</domino>
+<domino>
+	<xpos> 68 </xpos>
+	<ypos> 49 </ypos>
+	<norm> 180 </norm>
+</domino>
