@@ -3,6 +3,7 @@
 #include <iostream>
 #include <cmath>
 #include <fstream>
+#define _USE_MATH_DEFINES
 
 #ifdef __APPLE__
 #  include <GLUT/glut.h>
@@ -24,8 +25,8 @@ static float pointSize = 3.0; // Size of point
 static int primitive = INACTIVE; // Current drawing primitive.
 static int pointCount = 0; // Number of  specified points.
 static int tempX, tempY; // Co-ordinates of clicked point.
-static int isGrid = 1; // Is there grid?
 
+int ptslines = 0;
 bool constantline;
 
 // Point class.
@@ -37,6 +38,7 @@ public:
 	  x = xVal; y = yVal; forward = 0;
    }
    void drawPoint(void); // Function to draw a point.
+   void drawline(void);
    
    int x, y; // x and y co-ordinates of point.
    float forward; //angle of the domino with respect to the horzizontal
@@ -52,6 +54,14 @@ void Point::drawPoint()
    glBegin(GL_POINTS);
       glVertex3f(x, y, 0.0);
    glEnd();   
+}
+
+void Point::drawline()
+{  
+   glBegin(GL_LINES);
+      glVertex3f(x-5*cos(forward+(M_PI/2)), y-5*sin(forward+(M_PI/2)), 0.0);
+      glVertex3f(x+5*cos(forward+(M_PI/2)), y+5*sin(forward+(M_PI/2)), 0.0);
+   glEnd();
 }
 
 //interpolates the points between 2 points drawn, and inserts them into the vector
@@ -98,22 +108,33 @@ vector<Point> calcforward(vector<Point>pts)
 	vector<Point>temp = pts;
 	for(int i=0; i<pts.size()-1; i++)
 	{
-		temp[i].forward = abs((atan2((temp[i].y-temp[i+1].y),(temp[i].x-temp[i+1].x))*180)/3.1415926535897);
+		temp[i].forward = atan2((temp[i].y-temp[i+1].y),(temp[i].x-temp[i+1].x));
+		//cout << temp[i].x << " " << temp[i].y << " " << temp[i+1].x << " " << temp[i+1].y << " " << temp[i].forward << endl;
 	}
 	temp[temp.size()-1].forward = temp[temp.size()-2].forward;
 	
 	return temp;
 }
 
-//chooses the each nth value
-vector<Point> choosenth(vector<Point>pts, int n)
+int dist(Point a, Point b)
 {
+	return(sqrt(pow(b.x-a.x,2)+pow(b.y-a.y,2)));
+}
+
+//chooses the each nth value
+vector<Point> choosepts(vector<Point>pts, int n)
+{
+	//i keeps track in actual
 	int i = 0;
 	vector<Point>temp;
+	temp.push_back(pts[0]);
 	while(i < pts.size())
 	{
-		temp.push_back(pts[i]);
-		i = i+n;
+		if(dist(pts[i],temp[temp.size()-1]) > n)
+		{
+			temp.push_back(pts[i]);
+		}
+		i++;
 	}
 	return temp;
 }
@@ -136,15 +157,32 @@ void drawPoints(void)
    }
 }
 
+// Function to draw all points in the points array.
+void drawlines(void)
+{
+   // Loop through the points array drawing each point.
+   pointsIterator = points.begin();
+   while(pointsIterator != points.end() )
+   {
+      pointsIterator->drawline();
+	  pointsIterator++;
+   }
+}
+
 // Drawing routine.
 void drawScene(void)
 {
-   glClear(GL_COLOR_BUFFER_BIT);
-   glColor3f(0.0, 0.0, 0.0); 
-
-   drawPoints();
-
-   glutSwapBuffers();
+	glClear(GL_COLOR_BUFFER_BIT);
+	glColor3f(0.0, 0.0, 0.0); 
+	if(ptslines==0)
+	{
+		drawPoints();
+	}
+	else
+	{
+		drawlines();
+	}
+	glutSwapBuffers();
 }
 
 // Function to pick primitive if click is in left selection area.
@@ -155,6 +193,7 @@ void pickPrimitive(int y)
 
 void mousemove( int x, int y)
 {
+	ptslines = 0;
 	vector<Point>temp;
 	y = height - y;
 
@@ -251,9 +290,10 @@ void keyInput(unsigned char key, int x, int y)
       case 32:
       {
       	 points = removedups(points);
-      	 points = choosenth(points, 10);
+      	 points = choosepts(points, 10);
       	 points = calcforward(points);
          saveout(points);
+         ptslines = 1;
          glutPostRedisplay();
          break;
       }
@@ -261,6 +301,7 @@ void keyInput(unsigned char key, int x, int y)
       case 9:
       {
       	points = readfile();
+      	ptslines = 1;
       	glutPostRedisplay();
       	break;
       }
