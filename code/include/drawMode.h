@@ -10,6 +10,18 @@ void drawPoints(void)
    }
 }
 
+// Function to draw all points in the points array.
+void drawLines(void)
+{
+   // Loop through the points array drawing each point.
+   vector<Point>::iterator pointsIterator = points.begin();
+   while(pointsIterator != points.end() )
+   {
+      pointsIterator->drawline();
+	  pointsIterator++;
+   }
+}
+
 //interpolates the points between 2 points drawn, and inserts them into the vector
 vector<Point> interp (float x1, float y1, float x2, float y2, float interval)
 {

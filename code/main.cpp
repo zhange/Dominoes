@@ -23,7 +23,7 @@ using namespace std;
 string MODE = "RUN";
 int HEIGHT = 500;
 int WIDTH = 900;
-
+int ptslines = 0;
 vector<button> demButtons;
 vector<domino> dominos;
 vector<Point> points;
@@ -99,7 +99,14 @@ void drawScene()
 		
 		//draw mode display function
 		glColor3f(0.0, 0.0, 0.0);
-		drawPoints();
+		if(ptslines==0)
+		{
+			drawPoints();
+		}
+		else
+		{
+			drawLines();
+		}
 		glutSwapBuffers();
 	}
 	else if(MODE == "RUN")
@@ -177,8 +184,6 @@ void mousemove( int x, int y)
 		points.push_back(temp[i]);
 	}	
 	points.push_back( Point(x,y) );
-	
-	glutPostRedisplay();
 }
 
 //mouse function
@@ -191,6 +196,7 @@ void mouseControl(int button, int state, int x, int y)
 			y = HEIGHT - y; // Correct from mouse to OpenGL co-ordinates.
 			if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
     		{
+    			ptslines = 0;
     			points.clear();
     			points.push_back( Point(x,y) );
 				glutMotionFunc(mousemove);
@@ -201,8 +207,8 @@ void mouseControl(int button, int state, int x, int y)
 				points = choosepts(points, 10);
 				points = calcforward(points);
 				dominos = pointtodomino(points);
+				ptslines = 1;
 			}
-    		glutPostRedisplay();
 		}
 		else if(MODE == "RUN")
 		{
