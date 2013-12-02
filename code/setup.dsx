@@ -1,20 +1,245 @@
 <domino>
-	<xpos> 7 </xpos>
-	<ypos> 3 </ypos>
-	<norm> 0 </norm>
+	<xpos> 157 </xpos>
+	<ypos> 439 </ypos>
+	<norm> 1.30454 </norm>
 </domino>
 <domino>
-	<xpos> 56 </xpos>
-	<ypos> 31 </ypos>
-	<norm> 90 </norm>
+	<xpos> 154 </xpos>
+	<ypos> 428 </ypos>
+	<norm> 1.39094 </norm>
 </domino>
 <domino>
-	<xpos> 12 </xpos>
-	<ypos> 91 </ypos>
-	<norm> 42 </norm>
+	<xpos> 152 </xpos>
+	<ypos> 417 </ypos>
+	<norm> 1.39094 </norm>
 </domino>
 <domino>
-	<xpos> 68 </xpos>
-	<ypos> 49 </ypos>
-	<norm> 180 </norm>
+	<xpos> 150 </xpos>
+	<ypos> 406 </ypos>
+	<norm> 1.39094 </norm>
+</domino>
+<domino>
+	<xpos> 148 </xpos>
+	<ypos> 395 </ypos>
+	<norm> 1.39094 </norm>
+</domino>
+<domino>
+	<xpos> 146 </xpos>
+	<ypos> 384 </ypos>
+	<norm> 1.39094 </norm>
+</domino>
+<domino>
+	<xpos> 144 </xpos>
+	<ypos> 373 </ypos>
+	<norm> 1.39094 </norm>
+</domino>
+<domino>
+	<xpos> 142 </xpos>
+	<ypos> 362 </ypos>
+	<norm> 1.48014 </norm>
+</domino>
+<domino>
+	<xpos> 141 </xpos>
+	<ypos> 351 </ypos>
+	<norm> 1.30454 </norm>
+</domino>
+<domino>
+	<xpos> 138 </xpos>
+	<ypos> 340 </ypos>
+	<norm> 1.5708 </norm>
+</domino>
+<domino>
+	<xpos> 138 </xpos>
+	<ypos> 329 </ypos>
+	<norm> 1.39094 </norm>
+</domino>
+<domino>
+	<xpos> 136 </xpos>
+	<ypos> 318 </ypos>
+	<norm> 1.5708 </norm>
+</domino>
+<domino>
+	<xpos> 136 </xpos>
+	<ypos> 307 </ypos>
+	<norm> 1.5708 </norm>
+</domino>
+<domino>
+	<xpos> 136 </xpos>
+	<ypos> 296 </ypos>
+	<norm> 1.5708 </norm>
+</domino>
+<domino>
+	<xpos> 136 </xpos>
+	<ypos> 285 </ypos>
+	<norm> 1.5708 </norm>
+</domino>
+<domino>
+	<xpos> 136 </xpos>
+	<ypos> 274 </ypos>
+	<norm> 1.5708 </norm>
+</domino>
+<domino>
+	<xpos> 136 </xpos>
+	<ypos> 263 </ypos>
+	<norm> 1.5708 </norm>
+</domino>
+<domino>
+	<xpos> 136 </xpos>
+	<ypos> 252 </ypos>
+	<norm> 1.83705 </norm>
+</domino>
+<domino>
+	<xpos> 139 </xpos>
+	<ypos> 241 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 144 </xpos>
+	<ypos> 231 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 153 </xpos>
+	<ypos> 224 </ypos>
+	<norm> 2.96174 </norm>
+</domino>
+<domino>
+	<xpos> 164 </xpos>
+	<ypos> 222 </ypos>
+	<norm> 2.96174 </norm>
+</domino>
+<domino>
+	<xpos> 175 </xpos>
+	<ypos> 220 </ypos>
+	<norm> 3.05093 </norm>
+</domino>
+<domino>
+	<xpos> 186 </xpos>
+	<ypos> 219 </ypos>
+	<norm> 3.05093 </norm>
+</domino>
+<domino>
+	<xpos> 197 </xpos>
+	<ypos> 218 </ypos>
+	<norm> 3.05093 </norm>
+</domino>
+<domino>
+	<xpos> 208 </xpos>
+	<ypos> 217 </ypos>
+	<norm> -3.05093 </norm>
+</domino>
+<domino>
+	<xpos> 219 </xpos>
+	<ypos> 218 </ypos>
+	<norm> -2.96174 </norm>
+</domino>
+<domino>
+	<xpos> 230 </xpos>
+	<ypos> 220 </ypos>
+	<norm> -2.87534 </norm>
+</domino>
+<domino>
+	<xpos> 241 </xpos>
+	<ypos> 223 </ypos>
+	<norm> -2.60117 </norm>
+</domino>
+<domino>
+	<xpos> 251 </xpos>
+	<ypos> 229 </ypos>
+	<norm> -2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 259 </xpos>
+	<ypos> 237 </ypos>
+	<norm> -2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 267 </xpos>
+	<ypos> 245 </ypos>
+	<norm> -2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 273 </xpos>
+	<ypos> 255 </ypos>
+	<norm> -2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 279 </xpos>
+	<ypos> 265 </ypos>
+	<norm> -1.91957 </norm>
+</domino>
+<domino>
+	<xpos> 283 </xpos>
+	<ypos> 276 </ypos>
+	<norm> -1.83705 </norm>
+</domino>
+<domino>
+	<xpos> 286 </xpos>
+	<ypos> 287 </ypos>
+	<norm> -1.83705 </norm>
+</domino>
+<domino>
+	<xpos> 289 </xpos>
+	<ypos> 298 </ypos>
+	<norm> -1.75065 </norm>
+</domino>
+<domino>
+	<xpos> 291 </xpos>
+	<ypos> 309 </ypos>
+	<norm> -1.75065 </norm>
+</domino>
+<domino>
+	<xpos> 293 </xpos>
+	<ypos> 320 </ypos>
+	<norm> -1.83705 </norm>
+</domino>
+<domino>
+	<xpos> 296 </xpos>
+	<ypos> 331 </ypos>
+	<norm> -1.66146 </norm>
+</domino>
+<domino>
+	<xpos> 297 </xpos>
+	<ypos> 342 </ypos>
+	<norm> -1.75065 </norm>
+</domino>
+<domino>
+	<xpos> 299 </xpos>
+	<ypos> 353 </ypos>
+	<norm> -1.75065 </norm>
+</domino>
+<domino>
+	<xpos> 301 </xpos>
+	<ypos> 364 </ypos>
+	<norm> -1.75065 </norm>
+</domino>
+<domino>
+	<xpos> 303 </xpos>
+	<ypos> 375 </ypos>
+	<norm> -1.66146 </norm>
+</domino>
+<domino>
+	<xpos> 304 </xpos>
+	<ypos> 386 </ypos>
+	<norm> -1.75065 </norm>
+</domino>
+<domino>
+	<xpos> 306 </xpos>
+	<ypos> 397 </ypos>
+	<norm> -1.5708 </norm>
+</domino>
+<domino>
+	<xpos> 306 </xpos>
+	<ypos> 408 </ypos>
+	<norm> -1.66146 </norm>
+</domino>
+<domino>
+	<xpos> 307 </xpos>
+	<ypos> 419 </ypos>
+	<norm> -1.66146 </norm>
+</domino>
+<domino>
+	<xpos> 308 </xpos>
+	<ypos> 430 </ypos>
+	<norm> -1.66146 </norm>
 </domino>

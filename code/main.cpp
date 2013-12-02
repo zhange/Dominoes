@@ -162,28 +162,34 @@ void resize(int w, int h)
 //keyboard function
 void keyInput(unsigned char key, int x, int y)
 {
-	if(key == 'q')
+	if(key == 'd')
 	{
+		//draw
 		MODE = "DRAW";
-	}
-	else if(key == 'w')
-	{
-		MODE = "RUN";
-	}
-	else if(key == 'e')
-	{
-		readFile();
 	}
 	else if(key == 'r')
 	{
+		//run
+		MODE = "RUN";
+	}
+	else if(key == 'l')
+	{
+		//load
+		readFile();
+	}
+	else if(key == 's')
+	{
+		//save
 		saveFile();
 	}
-	else if(key == 't')
+	else if(key == 'g')
 	{
+		//go
 		
 	}
-	else if(key == 'y')
+	else if(key == 'c')
 	{
+		//clear
 		
 	}
 	
