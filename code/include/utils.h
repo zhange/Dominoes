@@ -25,7 +25,7 @@ void mode3D()
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 	//Using gluPerspective. It's pretty easy and looks nice.
-	gluPerspective(0, 1, 0, 10);
+	gluPerspective(45, 1, 1, 1000);//gluPerspective(0, 1, 0, 10);
 
 	//Set up modelview matrix
 	glMatrixMode(GL_MODELVIEW);

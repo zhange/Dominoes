@@ -1,6 +1,11 @@
 #ifndef _DOMINO
 #define _DOMINO
 
+//includes
+#include <cmath>
+#include <vector>
+using namespace std;
+
 //domino class
 
 class domino
@@ -8,8 +13,8 @@ class domino
 	private:
 		double x;//x position
 		double y;//y position
-		double norm;//forward vector angle from positive x axis in radians
-		double tilt;//angle of tilt in radians
+		double norm;//forward vector
+		double tilt;//angle of tilt
 		int load;//number of dominoes resting on it
 		bool standing;//whether or not the domino is standing
 		bool resting;//whether of not the domino is resting
@@ -81,11 +86,10 @@ class domino
 				if(tilt != 90)
 				{
 					double w = sqrt((x - support -> getX())*(x - support -> getX()) + (y - support -> getY())*(y - support -> getY()));
-					double theta = asin(w*cos(support -> getTilt())/2)+support -> getTilt();
+					double theta = asin(w*cos(support -> getTilt()/180*M_PI)/2)+support -> getTilt()/180*M_PI;
 				}
 			}
 		}
-
 };
 
 #endif

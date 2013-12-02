@@ -3,7 +3,6 @@
 #include <cstdlib>
 #include <fstream>
 #include <iostream>
-#include <stdio.h>
 #include <vector>
 
 #ifdef __APPLE__
@@ -17,16 +16,13 @@ using namespace std;
 //object includes
 #include "include/button.h"
 #include "include/domino.h"
-#include "include/point.h"
 
 //global variables
 string MODE = "RUN";
 int HEIGHT = 500;
 int WIDTH = 900;
-int ptslines = 0;
 vector<button> demButtons;
 vector<domino> dominos;
-vector<Point> points;
 
 //helper includes
 #include "include/drawMode.h"
@@ -45,7 +41,7 @@ void mouseControl(int button, int state, int x, int y);
 int main(int argc, char *argv[])
 {
 	glutInit(&argc, argv);
-	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(WIDTH, HEIGHT);
 	glutInitWindowPosition(100, 100);
 	glutCreateWindow("Dominoes");
@@ -53,10 +49,9 @@ int main(int argc, char *argv[])
 	glutReshapeFunc(resize);
 	glutKeyboardFunc(keyInput);
 	glutMouseFunc(mouseControl);
-	//glutTimerFunc(5, animate, 1);
 	
 	Initialize();
-	
+
 	glutMainLoop();
 
 	return 0;
@@ -95,19 +90,10 @@ void drawScene()
 	if(MODE == "DRAW")
 	{
 		//turn to 2D mode
-		//mode2D();
+		mode2D();
 		
 		//draw mode display function
-		glColor3f(0.0, 0.0, 0.0);
-		if(ptslines==0)
-		{
-			drawPoints();
-		}
-		else
-		{
-			drawLines();
-		}
-		glutSwapBuffers();
+		
 	}
 	else if(MODE == "RUN")
 	{
@@ -196,6 +182,7 @@ void mouseControl(int button, int state, int x, int y)
 				dominos = pointtodomino(points);
 				ptslines = 1;
 			}
+			//draw mode mouse function
 		}
 		else if(MODE == "RUN")
 		{
