@@ -90,6 +90,7 @@ class domino
 				}
 			}
 		}
+
 };
 
 #endif
