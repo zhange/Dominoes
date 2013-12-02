@@ -172,19 +172,6 @@ void keyInput(unsigned char key, int x, int y)
 	glutPostRedisplay();
 }
 
-void mousemove( int x, int y)
-{
-	vector<Point>temp;
-	y = HEIGHT - y;
-	cout << x << " " << y << endl;
-	if(points.size() > 1)
-		temp = interp(points[points.size()-1].x, points[points.size()-1].y, x, y, 12);
-	for(int i = 0; i<temp.size(); i++)
-	{
-		points.push_back(temp[i]);
-	}	
-	points.push_back( Point(x,y) );
-}
 
 //mouse function
 void mouseControl(int button, int state, int x, int y)
@@ -199,6 +186,7 @@ void mouseControl(int button, int state, int x, int y)
     			ptslines = 0;
     			points.clear();
     			points.push_back( Point(x,y) );
+
 				glutMotionFunc(mousemove);
 			}
 			else
@@ -209,6 +197,9 @@ void mouseControl(int button, int state, int x, int y)
 				dominos = pointtodomino(points);
 				ptslines = 1;
 			}
+
+			//draw mode mouse function
+
 		}
 		else if(MODE == "RUN")
 		{
