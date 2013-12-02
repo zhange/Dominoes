@@ -1,7 +1,3 @@
-#include <stdio.h>
-
-#include "domino.h"
-
 void draw_domino(domino d)
 {
     float x = d.getX();
