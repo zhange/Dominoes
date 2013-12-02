@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
 	glutReshapeFunc(resize);
 	glutKeyboardFunc(keyInput);
 	glutMouseFunc(mouseControl);
-	glutTimerFunc(5, animate, 1);
+	//glutTimerFunc(5, animate, 1);
 	
 	Initialize();
 	
