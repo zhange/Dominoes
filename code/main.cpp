@@ -101,7 +101,6 @@ void drawScene()
 		glColor3f(0.0, 0.0, 0.0);
 		if(ptslines==0)
 		{
-			cout << "a" << endl;
 			drawPoints();
 		}
 		else
@@ -203,7 +202,6 @@ void mouseControl(int button, int state, int x, int y)
 			y = HEIGHT - y; // Correct from mouse to OpenGL co-ordinates.
 			if ((button == GLUT_LEFT_BUTTON || button == GLUT_RIGHT_BUTTON )&& state == GLUT_DOWN)
     		{
-    			cout << "b" << endl;
     			ptslines = 0;
     			points.clear();
     			points.push_back( Point(x,y) );
