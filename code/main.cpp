@@ -22,7 +22,7 @@ using namespace std;
 //global variables
 string MODE = "RUN";
 int HEIGHT = 500;
-int WIDTH = 900;
+int WIDTH = 500;
 int ptslines = 0;
 vector<button> demButtons;
 vector<domino> dominos;
@@ -95,7 +95,7 @@ void drawScene()
 	if(MODE == "DRAW")
 	{
 		//turn to 2D mode
-		//mode2D();
+		mode2D();
 		
 		//draw mode display function
 		glColor3f(0.0, 0.0, 0.0);
@@ -117,7 +117,8 @@ void drawScene()
 		//run mode display function
 		r_display(); 
 	}
-		
+	
+	/*	
 	//turn to 2D mode
 	mode2D();
 	
@@ -141,6 +142,7 @@ void drawScene()
 	drawMenu();
 	
 	//glDepthMask(GL_TRUE);
+	*/
 
 	glutSwapBuffers();
 }
@@ -160,13 +162,29 @@ void resize(int w, int h)
 //keyboard function
 void keyInput(unsigned char key, int x, int y)
 {
-	if(MODE == "DRAW")
+	if(key == 'q')
 	{
-		//draw mode keyboard function
+		MODE = "DRAW";
 	}
-	else if(MODE == "RUN")
+	else if(key == 'w')
 	{
-		//run mode keyboard function
+		MODE = "RUN";
+	}
+	else if(key == 'e')
+	{
+		readFile();
+	}
+	else if(key == 'r')
+	{
+		saveFile();
+	}
+	else if(key == 't')
+	{
+		
+	}
+	else if(key == 'y')
+	{
+		
 	}
 	
 	glutPostRedisplay();
@@ -176,9 +194,10 @@ void keyInput(unsigned char key, int x, int y)
 //mouse function
 void mouseControl(int button, int state, int x, int y)
 {
+/*
 	if(x < WIDTH - 400)
 	{
-		if(MODE == "DRAW")
+	*/	if(MODE == "DRAW")
 		{
 			y = HEIGHT - y; // Correct from mouse to OpenGL co-ordinates.
 			if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
@@ -205,6 +224,7 @@ void mouseControl(int button, int state, int x, int y)
 		{
 			//run mode mouse function
 		}
+		/*
 	}
 	else if(state == GLUT_DOWN && button == GLUT_LEFT_BUTTON)//menu button handling
 	{
@@ -245,6 +265,7 @@ void mouseControl(int button, int state, int x, int y)
 			}
 		}
 	}
+	*/
 
 	glutPostRedisplay();
 }
