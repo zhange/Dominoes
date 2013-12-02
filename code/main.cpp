@@ -16,13 +16,16 @@ using namespace std;
 //object includes
 #include "include/button.h"
 #include "include/domino.h"
+#include "include/point.h"
 
 //global variables
 string MODE = "RUN";
 int HEIGHT = 500;
 int WIDTH = 900;
+
 vector<button> demButtons;
 vector<domino> dominos;
+vector<Point> points;
 
 //helper includes
 #include "include/drawMode.h"
@@ -90,10 +93,12 @@ void drawScene()
 	if(MODE == "DRAW")
 	{
 		//turn to 2D mode
-		mode2D();
+		//mode2D();
 		
 		//draw mode display function
-		
+		glColor3f(0.0, 0.0, 0.0);
+		drawPoints();
+		glutSwapBuffers();
 	}
 	else if(MODE == "RUN")
 	{
@@ -158,6 +163,22 @@ void keyInput(unsigned char key, int x, int y)
 	glutPostRedisplay();
 }
 
+void mousemove( int x, int y)
+{
+	vector<Point>temp;
+	y = HEIGHT - y;
+	cout << x << " " << y << endl;
+	if(points.size() > 1)
+		temp = interp(points[points.size()-1].x, points[points.size()-1].y, x, y, 12);
+	for(int i = 0; i<temp.size(); i++)
+	{
+		points.push_back(temp[i]);
+	}	
+	points.push_back( Point(x,y) );
+	
+	glutPostRedisplay();
+}
+
 //mouse function
 void mouseControl(int button, int state, int x, int y)
 {
@@ -165,7 +186,21 @@ void mouseControl(int button, int state, int x, int y)
 	{
 		if(MODE == "DRAW")
 		{
-			//draw mode mouse function
+			y = HEIGHT - y; // Correct from mouse to OpenGL co-ordinates.
+			if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
+    		{
+    			points.clear();
+    			points.push_back( Point(x,y) );
+				glutMotionFunc(mousemove);
+			}
+			else
+			{
+				points = removedups(points);
+				points = choosepts(points, 10);
+				points = calcforward(points);
+				dominos = pointtodomino(points);
+			}
+    		glutPostRedisplay();
 		}
 		else if(MODE == "RUN")
 		{
