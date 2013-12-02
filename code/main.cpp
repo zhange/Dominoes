@@ -57,6 +57,8 @@ int main(int argc, char *argv[])
 	
 	Initialize();
 	
+	cout << "d = draw" << endl << "r = run" << endl << "l = load" << endl << "s = save" << endl << "g = go" << endl << "c = clear" << endl;
+	
 	glutMainLoop();
 
 	return 0;
