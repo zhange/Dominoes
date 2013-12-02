@@ -22,7 +22,7 @@ using namespace std;
 //global variables
 string MODE = "RUN";
 int HEIGHT = 500;
-int WIDTH = 500;
+int WIDTH = 900;
 int ptslines = 0;
 vector<button> demButtons;
 vector<domino> dominos;
@@ -45,7 +45,7 @@ void mouseControl(int button, int state, int x, int y);
 int main(int argc, char *argv[])
 {
 	glutInit(&argc, argv);
-	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
+	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(WIDTH, HEIGHT);
 	glutInitWindowPosition(100, 100);
 	glutCreateWindow("Dominoes");
@@ -91,7 +91,16 @@ void Initialize()
 void drawScene()
 {
 	glClearColor(1.0, 1.0, 1.0, 0.0);
-	glClear(GL_COLOR_BUFFER_BIT);
+	//glClear(GL_COLOR_BUFFER_BIT);
+	
+	glColor3f(255.0/255.0, 255.0/255.0, 255.0/255.0);
+	glBegin(GL_QUADS);
+		glVertex2f(WIDTH - 400, 0);
+		glVertex2f(0, 0);
+		glVertex2f(0, HEIGHT);
+		glVertex2f(WIDTH - 400, HEIGHT);
+	glEnd();
+	
 	glColor3f(1.0, 1.0, 1.0);
 	
 	if(MODE == "DRAW")
@@ -120,7 +129,7 @@ void drawScene()
 		r_display(); 
 	}
 	
-	/*	
+		
 	//turn to 2D mode
 	mode2D();
 	
@@ -144,9 +153,9 @@ void drawScene()
 	drawMenu();
 	
 	//glDepthMask(GL_TRUE);
-	*/
+	
 
-	glutSwapBuffers();
+	//glutSwapBuffers();
 }
 
 //window resize function
@@ -202,10 +211,10 @@ void keyInput(unsigned char key, int x, int y)
 //mouse function
 void mouseControl(int button, int state, int x, int y)
 {
-/*
+
 	if(x < WIDTH - 400)
 	{
-	*/	if(MODE == "DRAW")
+		if(MODE == "DRAW")
 		{
 			y = HEIGHT - y; // Correct from mouse to OpenGL co-ordinates.
 			if ((button == GLUT_LEFT_BUTTON || button == GLUT_RIGHT_BUTTON )&& state == GLUT_DOWN)
@@ -231,7 +240,7 @@ void mouseControl(int button, int state, int x, int y)
 		{
 			//run mode mouse function
 		}
-		/*
+		
 	}
 	else if(state == GLUT_DOWN && button == GLUT_LEFT_BUTTON)//menu button handling
 	{
@@ -272,7 +281,7 @@ void mouseControl(int button, int state, int x, int y)
 			}
 		}
 	}
-	*/
+	
 
 	glutPostRedisplay();
 }

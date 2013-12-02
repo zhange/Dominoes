@@ -11,7 +11,7 @@ void mode2D()
 
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
-	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); 
+	//glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); 
 }
 
 //sets up for 3d mode
@@ -30,7 +30,7 @@ void mode3D()
 	//Set up modelview matrix
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
-	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+	//glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 }
 
 //writes bitmap string to screen

@@ -25,7 +25,7 @@ void draw_domino(domino d)
 //Drawing funciton
 void rdraw(void)
 {
-  glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+ // glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
   //Background color
   glClearColor(0,1,1,1);
   glMatrixMode(GL_MODELVIEW);
@@ -58,7 +58,7 @@ void rdraw(void)
 //Main program
 int r_display()
 {
-   glutInitDisplayMode(GLUT_RGBA | GLUT_DEPTH | GLUT_DOUBLE);
+   glutInitDisplayMode(GLUT_RGBA | GLUT_DEPTH);
    rdraw();
    init();
   //glutDisplayFunc(rdraw);
