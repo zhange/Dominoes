@@ -1,11 +1,6 @@
 #ifndef _DOMINO
 #define _DOMINO
 
-//includes
-#include <cmath>
-#include <vector>
-using namespace std;
-
 //domino class
 
 class domino

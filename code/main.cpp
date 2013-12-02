@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <fstream>
 #include <iostream>
+#include <stdio.h>
 #include <vector>
 
 #ifdef __APPLE__
@@ -41,7 +42,7 @@ void mouseControl(int button, int state, int x, int y);
 int main(int argc, char *argv[])
 {
 	glutInit(&argc, argv);
-	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
 	glutInitWindowSize(WIDTH, HEIGHT);
 	glutInitWindowPosition(100, 100);
 	glutCreateWindow("Dominoes");
@@ -49,9 +50,10 @@ int main(int argc, char *argv[])
 	glutReshapeFunc(resize);
 	glutKeyboardFunc(keyInput);
 	glutMouseFunc(mouseControl);
+	glutTimerFunc(5, animate, 1);
 	
 	Initialize();
-
+	
 	glutMainLoop();
 
 	return 0;
