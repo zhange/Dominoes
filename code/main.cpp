@@ -92,7 +92,7 @@ void Initialize()
 	glLightfv(GL_LIGHT0, GL_POSITION, qaLightPosition);
 	
 	// new stuff //
-	   // Material property vectors.
+	// Material property vectors.
    float matSpec[] = { 0.0, 1.0, 1.0, 1.0 };
    float matShine[] = { 50.0 };
    float matAmbAndDif[] = {0.0, 0.1, 1.0, 1.0};
