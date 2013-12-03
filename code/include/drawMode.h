@@ -109,7 +109,7 @@ vector<domino> pointtodomino(vector<Point>pts)
 
 void mousemove(int x, int y)
 {
-	if(MODE == "DRAW")
+	if(MODE == "DRAW" && x < WIDTH - 400)
 	{
 		vector<Point>temp;
 		y = HEIGHT - y;
