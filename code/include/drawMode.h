@@ -109,8 +109,8 @@ vector<domino> pointtodomino(vector<Point>pts)
 
 void mousemove(int x, int y)
 {
-	//if(x < WIDTH-400)
-	//{
+	if(MODE == "DRAW" && x < WIDTH - 400)
+	{
 		vector<Point>temp;
 		y = HEIGHT - y;
 		if(points.size() > 1)
@@ -120,6 +120,7 @@ void mousemove(int x, int y)
 			points.push_back(temp[i]);
 		}	
 		points.push_back( Point(x,y) );
-	//}
+		glutPostRedisplay();
+	}
 }
 
