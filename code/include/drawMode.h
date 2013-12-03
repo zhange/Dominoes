@@ -113,8 +113,10 @@ void mousemove(int x, int y)
 	{
 		vector<Point>temp;
 		y = HEIGHT - y;
-		if(points.size() > 1)
+		if(points.size() >= 1)
+		{
 			temp = interp(points[points.size()-1].x, points[points.size()-1].y, x, y, 12);
+		}
 		for(int i = 0; i<temp.size(); i++)
 		{
 			points.push_back(temp[i]);
