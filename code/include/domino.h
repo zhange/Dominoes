@@ -114,6 +114,14 @@ class domino
 		{
 			tilt = 1;
 		}
+		
+		void drawline()
+		{  
+		   glBegin(GL_LINES);
+			  glVertex3f(x-5*cos(norm+(M_PI/2)), y-5*sin(norm+(M_PI/2)), 0.0);
+			  glVertex3f(x+5*cos(norm+(M_PI/2)), y+5*sin(norm+(M_PI/2)), 0.0);
+		   glEnd();
+		}
 };
 
 #endif

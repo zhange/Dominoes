@@ -36,13 +36,5 @@ void Point::drawPoint()
    glEnd();   
 }
 
-void Point::drawline()
-{  
-   glBegin(GL_LINES);
-      glVertex3f(x-5*cos(forward+(M_PI/2)), y-5*sin(forward+(M_PI/2)), 0.0);
-      glVertex3f(x+5*cos(forward+(M_PI/2)), y+5*sin(forward+(M_PI/2)), 0.0);
-   glEnd();
-}
-
 
 #endif

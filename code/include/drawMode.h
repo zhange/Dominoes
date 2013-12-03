@@ -14,11 +14,11 @@ void drawPoints(void)
 void drawLines(void)
 {
    // Loop through the points array drawing each point.
-   vector<Point>::iterator pointsIterator = points.begin();
-   while(pointsIterator != points.end() )
+   vector<domino>::iterator domIterator = dominoes.begin();
+   while(domIterator != dominoes.end() )
    {
-      pointsIterator->drawline();
-	  pointsIterator++;
+      domIterator->drawline();
+	  domIterator++;
    }
 }
 
