@@ -1,14 +1,27 @@
 
-void init()
-{
-/*
-    glEnable(GL_DEPTH_TEST);
-    glEnable(GL_LIGHTING);
-    glEnable(GL_LIGHT0);
-    glEnable(GL_COLOR_MATERIAL);
-*/
-}
 
+void make_floor()
+{   
+    float t = 1000*WIDTH;
+    
+  //glClear(GL_COLOR_BUFFER_BIT);
+
+  // Draw a blue grid 
+  glColor3f(1, 0, 0);
+  glBegin(GL_QUADS);
+    glVertex3f(-t, -t, 0); glVertex3f(t, -t, 0);
+    glVertex3f(t, t, 0); glVertex3f(-t, t, 0);
+  /*
+  for (GLfloat i = -t; i <= t; i += t/1000) {
+    glVertex3f(i, t, 0); glVertex3f(i, -t, 0);
+    glVertex3f(t, i, 0); glVertex3f(-t, i, 0);
+  }
+  */
+  glEnd();
+
+
+  
+}
 
 void draw_domino(domino d)
 {
@@ -45,7 +58,7 @@ void draw_domino(domino d)
     glRotatef(norm, 0 , 0 , 1 );
     glRotatef(tilt, 0,  1 , 0 );
     //glScalef(1.5, 2.5, .5); //glScalef(.025,.025,.025);
-    glScalef(5,15,25);
+    glScalef(5,15,-25);
     //glScalef(.5,.5,.5);
     //glColor3f(1,0,0);
     //glutSolidCube(.75);
@@ -69,20 +82,18 @@ void rdraw(void)
     glTranslatef( 0, 0, -300 );
 
     //if(dominoes.size()>1)gluLookAt(0.0, 0.0, 50, dominoes[0].getX(), dominoes[0].getY(), 0.0, 0, 1, 0);
-    gluLookAt(10.0, 10.0, 14.0, 0.0, 0.0, 0.0, 0.0, 0, -1); 
-    
+    // need 2 to give it perspective, or maybe just one done right
+    gluLookAt(10.0, 10.0, -14.0, 0.0, 0.0, 0.0, 0.0, 0, -1); 
     gluLookAt(0.0, 0.0, 0.0, WIDTH/2, HEIGHT/2, 5.0, 0, 0, -1);
+    
+    make_floor();
+    
   for (int i = 0; i < dominoes.size(); i++)
   {
     draw_domino(dominoes[i]);
     cout << dominoes[i].getX() << " " << dominoes[i].getY() << " normal: " << endl;//dominoes[i].getNorm()*180/3.14 << endl;
   }
-  //if(dominoes.size()>1)gluLookAt(dominoes[0].getX(), dominoes[0].getY(), 250, dominoes[0].getX(), dominoes[0].getY(), 0.0, 0, 1, 0);
-  // look at first domino ?
-  //gluLookAt(0.0, 0.0, 5.0, x.getX(), x.getY(), 0.0, 0.0, 0.0, 1.0);
 
-  //Draw order
-  // this makes flashy glFlush();
 }
 
 //Main program
@@ -90,7 +101,6 @@ int r_display()
 {
    glutInitDisplayMode(GLUT_RGBA | GLUT_DEPTH);
    rdraw();
-   init();
-  //glutDisplayFunc(rdraw);
+  
   return 0;
 }
