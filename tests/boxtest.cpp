@@ -40,8 +40,7 @@ void drawScene()
    
    // Position the objects for viewing.
    gluLookAt(10.0, 10.0, 14.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0); 
-
-   glLineWidth(2.0); // Thicken the wireframes.
+    glLineWidth(2.0); // Thicken the wireframes.
 
    // Commands to turn the objects.
    glPushMatrix();

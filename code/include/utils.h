@@ -17,20 +17,24 @@ void mode2D()
 //sets up for 3d mode
 void mode3D()
 {
+    
 	glEnable(GL_LIGHTING);
 	glEnable(GL_DEPTH_TEST);
 	glDepthFunc(GL_LESS);
-
+    
 	//Set up projection matrix
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 	//Using gluPerspective. It's pretty easy and looks nice.
-	gluPerspective(60, 1, 1, 1000);//gluPerspective(0, 1, 0, 10);
-
+	
+gluPerspective(60, 1, 1, 1000);//gluPerspective(0, 1, 0, 10);
 	//Set up modelview matrix
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
+	
+	
 	//glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+	
 }
 
 //writes bitmap string to screen

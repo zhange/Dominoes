@@ -27,6 +27,7 @@ int ptslines = 0;
 vector<button> demButtons;
 vector<domino> dominos;
 vector<Point> points;
+domino *lead;
 
 //helper includes
 #include "include/drawMode.h"
@@ -84,8 +85,42 @@ void Initialize()
 	glLightfv(GL_LIGHT0, GL_DIFFUSE,qaDiffuseLight);
 	glLightfv(GL_LIGHT0, GL_SPECULAR,qaSpecularLight);
 	// set the light position
-	GLfloat qaLightPosition[] = {.5,.5,0.0,1.0};
+	GLfloat qaLightPosition[] = {-.5,-.5,0.0,1.0};
 	glLightfv(GL_LIGHT0, GL_POSITION, qaLightPosition);
+	
+	// new stuff //
+	   // Material property vectors.
+   float matSpec[] = { 0.0, 1.0, 1.0, 1.0 };
+   float matShine[] = { 50.0 };
+   float matAmbAndDif[] = {0.0, 0.1, 1.0, 1.0};
+
+   // Light property vectors.
+   float lightAmb[] = { 0.0, 0.1, 1.0, 1.0 };
+   float lightDifAndSpec[] = { 0.0, 0.1, 1.0, 1.0 };
+   float lightPos[] = { 0.0, 7.0, 3.0, 0.0 };
+   float globAmb[] = { 0.2, 0.2, 0.2, 1.0 };
+
+   // Material properties of the objects.
+   glMaterialfv(GL_FRONT_AND_BACK, GL_SPECULAR, matSpec);
+   glMaterialfv(GL_FRONT_AND_BACK, GL_SHININESS, matShine);
+   glMaterialfv(GL_FRONT_AND_BACK, GL_DIFFUSE, matAmbAndDif);
+
+   // Light0 properties.
+   glLightfv(GL_LIGHT0, GL_AMBIENT, lightAmb);
+   glLightfv(GL_LIGHT0, GL_DIFFUSE, lightDifAndSpec);
+   glLightfv(GL_LIGHT0, GL_SPECULAR, lightDifAndSpec);
+   glLightfv(GL_LIGHT0, GL_POSITION, lightPos);
+    
+   // Poperties of the ambient light.
+   glLightModelfv(GL_LIGHT_MODEL_AMBIENT, globAmb); // Global ambient light.
+
+   glEnable(GL_LIGHTING); // Enable lighting calculations.
+   glEnable(GL_LIGHT0); // Enable particular light source.
+   glEnable(GL_DEPTH_TEST); // Enable depth testing.
+
+   glEnable(GL_NORMALIZE); // Enable automatic normalization of normals.
+
+   glClearColor(1.0, 1.0, 1.0, 0.0);
 	
 }
 
@@ -134,6 +169,7 @@ void drawScene()
 	
 		
 	//turn to 2D mode
+	
 	mode2D();
 	
 	//menu buttons
@@ -155,10 +191,10 @@ void drawScene()
 	
 	drawMenu();
 	
-	//glDepthMask(GL_TRUE);
+	glDepthMask(GL_TRUE);
 	
 
-	//glutSwapBuffers();
+	glutSwapBuffers();
 }
 
 //window resize function
