@@ -14,8 +14,8 @@ void make_floor()
   // Draw a blue grid 
   glColor3f(1, 0, 0);
   glBegin(GL_QUADS);
-    glVertex3f(0, 0, 0); glVertex3f(t, 0, 0);
-    glVertex3f(t, t, 0); glVertex3f(0, t, 0);
+    glVertex3f(0, 0, 12.5); glVertex3f(t, 0, 12.5);
+    glVertex3f(t, t, 12.5); glVertex3f(0, t, 12.5);
   /*
   for (GLfloat i = -t; i <= t; i += t/1000) {
     glVertex3f(i, t, 0); glVertex3f(i, -t, 0);
@@ -40,8 +40,11 @@ void draw_domino(domino d)
    
     float x = d.getX();
     float y = d.getY();
-    float tilt = d.getTilt();
+    float tilt = d.getTilt()*180/3.14;
     float norm = d.getNorm()*180/3.14;
+    
+    tilt = 90;
+    
     //if (norm >= 100) 
     //norm = 90;
     
@@ -55,7 +58,7 @@ void draw_domino(domino d)
     if (norm <=0) norm+=90;
     }
     */
-    cout << (int)norm << "  ";
+    //cout << (int)norm << "  ";
     glPushMatrix();
     // rotate then translate...
     
@@ -66,7 +69,7 @@ void draw_domino(domino d)
     // put two rotations in here, one for tilt one for forward
     
     glRotatef(norm, 0 , 0 , 1 );
-    glRotatef(tilt, 0,  1 , 0 );
+    glRotatef(tilt, 0,  12.5 , 0 );
     //glScalef(1.5, 2.5, .5); //glScalef(.025,.025,.025);
     glScalef(5,15,-25);
     //glScalef(.5,.5,.5);
@@ -96,7 +99,8 @@ void rdraw(void)
     //gluLookAt(10.0, 10.0, -14.0, 0.0, 0.0, 0.0, 0.0, 0, -1); 
     if(dominoes.size())
     {
-    	gluLookAt(lead -> getX() - 25, lead -> getY() - 25, -25, lead -> getX(), lead -> getY(), 0, 0, 0, -1);
+        if(!lead)gluLookAt(dominoes[0].getX() - 25 +testThingX, dominoes[0].getY() - 25+testThingY, -25, dominoes[0].getX(), dominoes[0].getY(), 0, 0, 0, -1);
+    	else gluLookAt(lead -> getX() - 25+testThingX, lead -> getY()+testThingY - 25, -25, lead -> getX(), lead -> getY(), 0, 0, 0, -1);
 	}
 	else
 	{
@@ -108,7 +112,7 @@ void rdraw(void)
   for (int i = 0; i < dominoes.size(); i++)
   {
     draw_domino(dominoes[i]);
-    cout << dominoes[i].getX() << " " << dominoes[i].getY() << " normal: " << endl;//dominoes[i].getNorm()*180/3.14 << endl;
+    //cout << dominoes[i].getX() << " " << dominoes[i].getY() << " normal: " << endl;//dominoes[i].getNorm()*180/3.14 << endl;
   }
 
 }
