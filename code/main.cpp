@@ -30,6 +30,8 @@ vector<Point> points;
 domino *lead;
 int leadInd;
 bool touchFlag = false;
+float testThingX = 0; 
+float testThingY = 0;
 bool up = true;
 
 //helper includes
@@ -247,7 +249,15 @@ void keyInput(unsigned char key, int x, int y)
 		//clear
 		reset();		
 	}
-	
+	else if(key == 'z')
+	    testThingY++;
+	else if(key == 'x')
+	    testThingY--;
+	else if(key == 'v')
+	    testThingX++;
+	else if(key == 'b')
+	    testThingX--;
+	    
 	glutPostRedisplay();
 }
 
