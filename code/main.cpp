@@ -30,6 +30,7 @@ vector<Point> points;
 domino *lead;
 int leadInd;
 bool touchFlag = false;
+bool up = true;
 
 //helper includes
 #include "include/drawMode.h"
@@ -255,13 +256,14 @@ void keyInput(unsigned char key, int x, int y)
 void mouseControl(int button, int state, int x, int y)
 {
 
-	if(x < WIDTH - 400)
+	if(x < WIDTH - 400 && x >= 0 && y <= HEIGHT && y >= 0)
 	{
 		if(MODE == "DRAW")
 		{
 			y = HEIGHT - y; // Correct from mouse to OpenGL co-ordinates.
 			if ((button == GLUT_LEFT_BUTTON || button == GLUT_RIGHT_BUTTON )&& state == GLUT_DOWN)
     		{
+    			up = false;
     			ptslines = 0;
     			points.clear();
     			points.push_back( Point(x,y) );
@@ -269,11 +271,15 @@ void mouseControl(int button, int state, int x, int y)
 			}
 			else
 			{
-				points = removedups(points);
-				points = choosepts(points, 10);
-				points = calcforward(points);
-				dominoes = pointtodomino(points);
-				ptslines = 1;
+				up = true;
+				if(points.size() > 0)
+				{
+					points = removedups(points);
+					points = choosepts(points, 10);
+					points = calcforward(points);
+					dominoes = pointtodomino(points);
+					ptslines = 1;
+				}
 			}
 
 			//draw mode mouse function

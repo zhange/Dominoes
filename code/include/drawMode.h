@@ -109,7 +109,7 @@ vector<domino> pointtodomino(vector<Point>pts)
 
 void mousemove(int x, int y)
 {
-	if(MODE == "DRAW" && x < WIDTH - 400)
+	if(MODE == "DRAW" && x < WIDTH - 400 && x >= 0 && y <= HEIGHT && y >= 0 && !up)
 	{
 		vector<Point>temp;
 		y = HEIGHT - y;
@@ -123,6 +123,16 @@ void mousemove(int x, int y)
 		}	
 		points.push_back( Point(x,y) );
 		glutPostRedisplay();
+	}
+	else
+	{
+		up = true;
+		
+		points = removedups(points);
+		points = choosepts(points, 10);
+		points = calcforward(points);
+		dominoes = pointtodomino(points);
+		ptslines = 1;			
 	}
 }
 
