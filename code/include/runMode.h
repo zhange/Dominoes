@@ -48,16 +48,16 @@ void rdraw(void)
 
     // move back a bit
     
-    //if(dominos.size()>1)gluLookAt(0.0, 0.0, 50, dominos[0].getX(), dominos[0].getY(), 0.0, 0, 1, 0);
+    //if(dominoes.size()>1)gluLookAt(0.0, 0.0, 50, dominoes[0].getX(), dominoes[0].getY(), 0.0, 0, 1, 0);
     glTranslatef( 0, 0, -300 );
-    //if(dominos.size()>1)gluLookAt(0.0, 0.0, 50, dominos[0].getX(), dominos[0].getY(), 0.0, 0, 1, 0);
+    //if(dominoes.size()>1)gluLookAt(0.0, 0.0, 50, dominoes[0].getX(), dominoes[0].getY(), 0.0, 0, 1, 0);
     gluLookAt(10.0, 10.0, 14.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0); 
-  for (int i = 0; i < dominos.size(); i++)
+  for (int i = 0; i < dominoes.size(); i++)
   {
-    draw_domino(dominos[i]);
-    cout << dominos[i].getX() << " " << dominos[i].getY() << " normal: " << dominos[i].getNorm()*180/3.14 << endl;
+    draw_domino(dominoes[i]);
+    //cout << dominoes[i].getX() << " " << dominoes[i].getY() << " normal: " << dominoes[i].getNorm()*180/3.14 << endl;
   }
-  //if(dominos.size()>1)gluLookAt(dominos[0].getX(), dominos[0].getY(), 250, dominos[0].getX(), dominos[0].getY(), 0.0, 0, 1, 0);
+  //if(dominoes.size()>1)gluLookAt(dominoes[0].getX(), dominoes[0].getY(), 250, dominoes[0].getX(), dominoes[0].getY(), 0.0, 0, 1, 0);
   // look at first domino ?
   //gluLookAt(0.0, 0.0, 5.0, x.getX(), x.getY(), 0.0, 0.0, 0.0, 1.0);
 

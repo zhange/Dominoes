@@ -25,9 +25,11 @@ int HEIGHT = 500;
 int WIDTH = 900;
 int ptslines = 0;
 vector<button> demButtons;
-vector<domino> dominos;
+vector<domino> dominoes;
 vector<Point> points;
 domino *lead;
+int leadInd;
+bool touchFlag = false;
 
 //helper includes
 #include "include/drawMode.h"
@@ -162,8 +164,10 @@ void drawScene()
 		//turn to 3D mode
 		mode3D();
 		
-		//run mode display function
+		fullStep();
+		colDet();
 		
+		//run mode display function
 		r_display(); 
 	}
 	
@@ -240,7 +244,7 @@ void keyInput(unsigned char key, int x, int y)
 	else if(key == 'c')
 	{
 		//clear
-		
+		reset();		
 	}
 	
 	glutPostRedisplay();
@@ -268,7 +272,7 @@ void mouseControl(int button, int state, int x, int y)
 				points = removedups(points);
 				points = choosepts(points, 10);
 				points = calcforward(points);
-				dominos = pointtodomino(points);
+				dominoes = pointtodomino(points);
 				ptslines = 1;
 			}
 
@@ -295,6 +299,7 @@ void mouseControl(int button, int state, int x, int y)
 			{
 				if(demButtons[i].getName() == "Draw Mode")
 				{
+					reset();
 					MODE = "DRAW";
 				}
 				else if(demButtons[i].getName() == "Run Mode")
@@ -311,11 +316,11 @@ void mouseControl(int button, int state, int x, int y)
 				}
 				else if(demButtons[i].getName() == "Play Sequence")
 				{
-					
+					start();
 				}
 				else if(demButtons[i].getName() == "Reset Dominoes")
 				{
-					
+					reset();
 				}
 			}
 		}

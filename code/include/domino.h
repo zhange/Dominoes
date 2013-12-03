@@ -25,6 +25,7 @@ class domino
 			standing = true;
 			resting = false;
 			support = NULL;
+			load = 0;
 		}
 		
 		//get the x position
@@ -64,16 +65,22 @@ class domino
 		}
 		
 		//timestep
-		void step()
+		bool step()
 		{
 			if(!resting)
 			{
-				double speed = tilt/10 + load; 
-				tilt += speed/60;
+				//falling
+				double speed = tilt/10.0 + load; 
+				tilt += speed/60.0;
 				if(tilt >= 90)
 				{
 					tilt = 90;
 					resting = true;
+				}
+				//collision detection
+				if(cos(tilt)*0.75*25 >= 10)
+				{
+					return true;
 				}
 			}
 			else
@@ -82,10 +89,31 @@ class domino
 				{
 					double w = sqrt((x - support -> getX())*(x - support -> getX()) + (y - support -> getY())*(y - support -> getY()));
 					double theta = asin(w*cos(support -> getTilt())/2)+support -> getTilt();
+					tilt = theta;
 				}
 			}
+			
+			return false;
 		}
-
+		
+		void reset()
+		{
+			tilt = 0;
+			load = 0;
+			standing = true;
+			resting = false;
+			support = NULL;
+		}
+		
+		void setSupport(domino *supporter)
+		{
+			support = supporter;
+		}
+		
+		void start()
+		{
+			tilt = 1;
+		}
 };
 
 #endif

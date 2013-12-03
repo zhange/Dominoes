@@ -85,7 +85,7 @@ void drawButton(string name, int row, int column)
 	writeString(left + 5 + (180 - 10*name.length())/2, bottom + 8, GLUT_BITMAP_HELVETICA_18, name.c_str());
 }
 
-//saves the current dominos to a file
+//saves the current dominoes to a file
 void saveFile()
 {
 	ofstream file;
@@ -93,9 +93,9 @@ void saveFile()
 	
 	if(file.is_open())
 	{
-		for(int i = 0; i < dominos.size(); i++)
+		for(int i = 0; i < dominoes.size(); i++)
 		{
-			file << "<domino>\n\t<xpos> " << dominos[i].getX() << " </xpos>\n\t<ypos> " << dominos[i].getY() << " </ypos>\n\t<norm> " << dominos[i].getNorm() << " </norm>\n</domino>" << endl;
+			file << "<domino>\n\t<xpos> " << dominoes[i].getX() << " </xpos>\n\t<ypos> " << dominoes[i].getY() << " </ypos>\n\t<norm> " << dominoes[i].getNorm() << " </norm>\n</domino>" << endl;
 		}	
 		file.close();
 	}
@@ -105,7 +105,7 @@ void saveFile()
 	}
 }
 
-//reads from setup file and populates dominos vector
+//reads from setup file and populates dominoes vector
 void readFile()
 {
 	ifstream file;
@@ -113,7 +113,7 @@ void readFile()
 	
 	if(file.is_open())
 	{
-		dominos.clear();
+		dominoes.clear();
 		
 		string temp;
 		double val1,val2,val3;
@@ -146,7 +146,7 @@ void readFile()
 										file >> temp;
 										if(temp == "</domino>")
 										{
-											dominos.push_back(domino(val1, val2, val3));
+											dominoes.push_back(domino(val1, val2, val3));
 											cout << val1 << " " << val2 << " " << val3 << endl;
 										}
 									}
@@ -187,5 +187,52 @@ void drawMenu()
 	for(int i = 0; i < demButtons.size(); i++)
 	{
 		drawButton(demButtons[i].getName(), demButtons[i].getRow(), demButtons[i].getCol());
+	}
+}
+
+void reset()
+{
+	for(int i = 0; i < dominoes.size(); i++)
+	{
+		dominoes[i].reset();
+	}
+	
+	if(dominoes.size() != 0)
+	{
+		lead = &dominoes[0];
+		leadInd = 0;
+	}
+}
+
+void fullStep()
+{
+	
+	for(int i = 0; i < dominoes.size(); i++)
+	{
+		if(dominoes[i].step() && i == leadInd)
+		{
+			touchFlag = true;
+		}
+	}
+}
+
+void colDet()
+{
+	if(touchFlag)
+	{
+		if(leadInd < dominoes.size() - 1)
+		{
+			dominoes[leadInd].setSupport(&dominoes[leadInd + 1]);
+			lead = &dominoes[leadInd + 1];
+			leadInd++;
+		}
+	}
+}
+
+void start()
+{
+	if(dominoes.size() > 0)
+	{
+		dominoes[0].start();
 	}
 }
