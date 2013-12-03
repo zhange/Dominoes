@@ -71,22 +71,22 @@ void Initialize()
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 	glOrtho(-1.0,1.0,-1.0,1.0,-1.0,1.0);
-	/*
+	
 	// Lighting Set Up
 	glLightModeli(GL_LIGHT_MODEL_LOCAL_VIEWER,GL_TRUE);
 	glEnable(GL_LIGHTING);
 	glEnable(GL_LIGHT0);
 	// Set lighting intensity and color
-	GLfloat qaAmbientLigh[] = {0.2,0.2,0.2,1.0};
-	GLfloat qaDiffuseLight[] = {.8,.8,.8,1.0};
-	GLfloat qaSpecularLight[] = {1.0,1.0,1.0,1.0};
+	GLfloat qaAmbientLigh[] = {0.2,0.0,0.0,1.0};
+	GLfloat qaDiffuseLight[] = {.8,.0,.0,1.0};
+	GLfloat qaSpecularLight[] = {1.0,0.0,0.0,1.0};
 	glLightfv(GL_LIGHT0, GL_AMBIENT,qaAmbientLigh);
 	glLightfv(GL_LIGHT0, GL_DIFFUSE,qaDiffuseLight);
 	glLightfv(GL_LIGHT0, GL_SPECULAR,qaSpecularLight);
 	// set the light position
 	GLfloat qaLightPosition[] = {.5,.5,0.0,1.0};
 	glLightfv(GL_LIGHT0, GL_POSITION, qaLightPosition);
-	*/
+	
 }
 
 //display function

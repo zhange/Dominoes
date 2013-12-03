@@ -70,7 +70,6 @@ void draw_domino(domino d)
             glVertex3f( -0.5, -0.5, -0.5 );
             glEnd();
              
-            glFlush();
             glutSwapBuffers();
     glPopMatrix();
 }
