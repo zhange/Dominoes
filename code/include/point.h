@@ -6,6 +6,7 @@
 #include <vector>
 using namespace std;
 
+//set the size of each point
 float pointSize = 3.0;
 
 // Point class.
