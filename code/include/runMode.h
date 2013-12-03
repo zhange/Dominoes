@@ -9,15 +9,22 @@ void init()
 
 void draw_domino(domino d)
 {
+  float W = WIDTH/2;
+  float H = HEIGHT/2;
    
-    float x = d.getX();
-    float y = d.getY();
-    
+    float x = d.getX()-W;
+    float y = d.getY()-H;
+    float tilt = d.getTilt();
+    float norm = d.getNorm()/180*3.14;
     
     glPushMatrix();
+    
+   // put two rotations in here, one for tilt one for forward
+    glRotatef(tilt, 1 , 0 , 0 );
+    glRotatef(norm, 0 , 1 , 0 );
+    //glRotatef(45,forward,rotation,0); // do rotation before translation
     glTranslatef(x,y,0);
-    //glRotatef(angle,0,0,0); // do rotation before translation
-    glScalef(1, 2.5, .5);
+    glScalef(1.5, 2.5, .5); //glScalef(.025,.025,.025);
     glColor3f(1,0,0);
     glutSolidCube(5);
     glPopMatrix();
@@ -25,6 +32,7 @@ void draw_domino(domino d)
 //Drawing funciton
 void rdraw(void)
 {
+ 
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
   //Background color
   glClearColor(0,1,1,1);
@@ -32,23 +40,18 @@ void rdraw(void)
   glLoadIdentity();
 
     // move back a bit
-    glTranslatef( 0, 0, -50 );
     
-    glPushMatrix();
-    glScalef(1, 2.5, .5);
-    glColor3f(1,0,0);
-    glutSolidCube(5);
-    glPopMatrix();
-  /*
-
-  domino x(0,0,0);
-  draw_domino(x);
+    //if(dominos.size()>1)gluLookAt(0.0, 0.0, 50, dominos[0].getX(), dominos[0].getY(), 0.0, 0, 1, 0);
+    glTranslatef( 0, 0, -100 );
+    //if(dominos.size()>1)gluLookAt(0.0, 0.0, 50, dominos[0].getX(), dominos[0].getY(), 0.0, 0, 1, 0);
+  for (int i = 0; i < dominos.size(); i++)
+  {
+    draw_domino(dominos[i]);
+    cout << dominos[i].getX() << " " << dominos[i].getY() << " normal: " << dominos[i].getNorm() << endl;
+  }
+  if(dominos.size()>1)gluLookAt(0.0, 0.0, 50, dominos[0].getX(), dominos[0].getY(), 0.0, 0, 1, 0);
   // look at first domino ?
   //gluLookAt(0.0, 0.0, 5.0, x.getX(), x.getY(), 0.0, 0.0, 0.0, 1.0);
-  
-  domino y(-10,-10,0);
-  draw_domino(y);
-  */
   
   glutSwapBuffers();
   //Draw order

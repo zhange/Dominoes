@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
 	glutKeyboardFunc(keyInput);
 	glutMouseFunc(mouseControl);
 	//glutTimerFunc(5, animate, 1);
-	
+	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 	Initialize();
 	
 	glutMainLoop();
@@ -69,6 +69,7 @@ void Initialize()
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 	glOrtho(-1.0,1.0,-1.0,1.0,-1.0,1.0);
+	/*
 	// Lighting Set Up
 	glLightModeli(GL_LIGHT_MODEL_LOCAL_VIEWER,GL_TRUE);
 	glEnable(GL_LIGHTING);
@@ -83,6 +84,7 @@ void Initialize()
 	// set the light position
 	GLfloat qaLightPosition[] = {.5,.5,0.0,1.0};
 	glLightfv(GL_LIGHT0, GL_POSITION, qaLightPosition);
+	*/
 }
 
 //display function
@@ -115,6 +117,7 @@ void drawScene()
 		mode3D();
 		
 		//run mode display function
+		
 		r_display(); 
 	}
 	
