@@ -244,5 +244,5 @@ void start()
 
 void freeze()
 {
-	STARTED = false;
+	STARTED = !STARTED;
 }
