@@ -202,6 +202,8 @@ void reset()
 		lead = &dominoes[0];
 		leadInd = 0;
 	}
+	
+	STARTED = false;
 }
 
 void fullStep()
@@ -236,5 +238,6 @@ void start()
 	if(dominoes.size())
 	{
 		dominoes[0].start();
+		STARTED = true;
 	}
 }
