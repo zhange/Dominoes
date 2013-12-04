@@ -324,6 +324,7 @@ void mouseControl(int button, int state, int x, int y)
 				else if(demButtons[i].getName() == "Load Setup")
 				{
 					readFile();
+					ptslines=1;
 				}
 				else if(demButtons[i].getName() == "Save Setup")
 				{
