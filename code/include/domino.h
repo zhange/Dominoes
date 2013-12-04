@@ -70,7 +70,7 @@ class domino
 			if(!resting)
 			{
 				//falling
-				double speed = tilt/M_PI*180 + 10*load; 
+				double speed = min(300.0,tilt/M_PI*180 + 15*load); 
 				tilt += speed/180.0*M_PI/60.0;
 				//cout << speed << endl;
 				if(tilt >= M_PI/2)

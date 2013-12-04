@@ -227,8 +227,7 @@ void colDet()
 			dominoes[leadInd].setSupport(&dominoes[leadInd + 1]);
 			lead = &dominoes[leadInd + 1];
 			dominoes[leadInd].rest(&dominoes[leadInd + 1]);
-			int number = dominoes[leadInd].getLoad();
-			cout << number << endl;
+			int number = dominoes[leadInd].getLoad() + 1;
 			leadInd++;
 			dominoes[leadInd].start(number);
 		}

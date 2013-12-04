@@ -112,7 +112,8 @@ void rdraw(void)
         double centX,centY;
         centX = lead -> getX() + cos(lead -> getTilt())*25*.75*cos(lead -> getNorm());
         centY = lead -> getY() + cos(lead -> getTilt())*25*.75*sin(lead -> getNorm());
-        gluLookAt(centX + cos(lead -> getNorm())*100 + testThingX, centY + sin(lead -> getNorm())*100 + testThingY, -30, centX, centY, 0, 0, 0, -1);
+        //gluLookAt(centX + cos(lead -> getNorm())*100 + testThingX, centY + sin(lead -> getNorm())*100 + testThingY, -30, centX, centY, 0, 0, 0, -1);
+        gluLookAt(-300 + testThingX, 250 + testThingY, -300, 250, 400, 0, 0, 0, -1);
 	}
 	else
 	{
