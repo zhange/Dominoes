@@ -75,7 +75,6 @@ class domino
 				if(tilt >= M_PI/2)
 				{
 					tilt = M_PI/2;
-					resting = true;
 				}
 				//collision detection
 				if(sin(tilt)*0.75*25 >= 10)
@@ -85,11 +84,15 @@ class domino
 			}
 			else
 			{
-				if(tilt != 90)
+				if(support != NULL)
 				{
 					double w = sqrt((x - support -> getX())*(x - support -> getX()) + (y - support -> getY())*(y - support -> getY()));
 					double theta = asin(w*cos(support -> getTilt())/2)+support -> getTilt();
 					tilt = theta;
+				}
+				else if(tilt > 90/180*M_PI)
+				{
+					tilt = 90/180*M_PI;
 				}
 			}
 			
@@ -128,6 +131,11 @@ class domino
 		{
 			resting = true;
 			support = supporter;
+		}
+		
+		void rest()
+		{
+			resting = true;
 		}
 };
 
