@@ -1,2450 +1,3725 @@
 <domino>
-	<xpos> 20 </xpos>
-	<ypos> 480 </ypos>
-	<norm> 1.22203 </norm>
+	<xpos> 12 </xpos>
+	<ypos> 6 </ypos>
+	<norm> -1.66146 </norm>
 </domino>
 <domino>
-	<xpos> 16 </xpos>
-	<ypos> 469 </ypos>
-	<norm> 0.909753 </norm>
+	<xpos> 13 </xpos>
+	<ypos> 17 </ypos>
+	<norm> -1.66146 </norm>
 </domino>
 <domino>
-	<xpos> 9 </xpos>
-	<ypos> 460 </ypos>
-	<norm> 3.05093 </norm>
-</domino>
-<domino>
-	<xpos> 20 </xpos>
-	<ypos> 459 </ypos>
-	<norm> -2.53087 </norm>
-</domino>
-<domino>
-	<xpos> 30 </xpos>
-	<ypos> 466 </ypos>
-	<norm> -2.48055 </norm>
-</domino>
-<domino>
-	<xpos> 39 </xpos>
-	<ypos> 473 </ypos>
-	<norm> -2.48055 </norm>
-</domino>
-<domino>
-	<xpos> 48 </xpos>
-	<ypos> 480 </ypos>
-	<norm> -2.53087 </norm>
-</domino>
-<domino>
-	<xpos> 58 </xpos>
-	<ypos> 487 </ypos>
-	<norm> 1.91957 </norm>
-</domino>
-<domino>
-	<xpos> 62 </xpos>
-	<ypos> 476 </ypos>
-	<norm> 1.48014 </norm>
-</domino>
-<domino>
-	<xpos> 61 </xpos>
-	<ypos> 465 </ypos>
-	<norm> 1.22203 </norm>
-</domino>
-<domino>
-	<xpos> 57 </xpos>
-	<ypos> 454 </ypos>
-	<norm> 1.10715 </norm>
-</domino>
-<domino>
-	<xpos> 52 </xpos>
-	<ypos> 444 </ypos>
-	<norm> 0.785398 </norm>
-</domino>
-<domino>
-	<xpos> 44 </xpos>
-	<ypos> 436 </ypos>
-	<norm> 0.785398 </norm>
-</domino>
-<domino>
-	<xpos> 36 </xpos>
-	<ypos> 428 </ypos>
-	<norm> 0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 26 </xpos>
-	<ypos> 422 </ypos>
-	<norm> 0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 17 </xpos>
-	<ypos> 415 </ypos>
-	<norm> 1.5708 </norm>
-</domino>
-<domino>
-	<xpos> 17 </xpos>
-	<ypos> 404 </ypos>
-	<norm> 2.23184 </norm>
+	<xpos> 14 </xpos>
+	<ypos> 28 </ypos>
+	<norm> 2.67795 </norm>
 </domino>
 <domino>
 	<xpos> 24 </xpos>
-	<ypos> 395 </ypos>
-	<norm> 3.05093 </norm>
-</domino>
-<domino>
-	<xpos> 35 </xpos>
-	<ypos> 394 </ypos>
-	<norm> -2.71497 </norm>
-</domino>
-<domino>
-	<xpos> 46 </xpos>
-	<ypos> 399 </ypos>
-	<norm> -2.48055 </norm>
-</domino>
-<domino>
-	<xpos> 55 </xpos>
-	<ypos> 406 </ypos>
-	<norm> -2.23184 </norm>
-</domino>
-<domino>
-	<xpos> 62 </xpos>
-	<ypos> 415 </ypos>
-	<norm> -2.11122 </norm>
-</domino>
-<domino>
-	<xpos> 68 </xpos>
-	<ypos> 425 </ypos>
-	<norm> -2.29744 </norm>
-</domino>
-<domino>
-	<xpos> 76 </xpos>
-	<ypos> 434 </ypos>
-	<norm> -2.23184 </norm>
-</domino>
-<domino>
-	<xpos> 83 </xpos>
-	<ypos> 443 </ypos>
-	<norm> -2.23184 </norm>
-</domino>
-<domino>
-	<xpos> 90 </xpos>
-	<ypos> 452 </ypos>
-	<norm> -2.35619 </norm>
-</domino>
-<domino>
-	<xpos> 98 </xpos>
-	<ypos> 460 </ypos>
-	<norm> -2.29744 </norm>
-</domino>
-<domino>
-	<xpos> 106 </xpos>
-	<ypos> 469 </ypos>
-	<norm> -2.48055 </norm>
-</domino>
-<domino>
-	<xpos> 115 </xpos>
-	<ypos> 476 </ypos>
-	<norm> -2.35619 </norm>
-</domino>
-<domino>
-	<xpos> 123 </xpos>
-	<ypos> 484 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 134 </xpos>
-	<ypos> 487 </ypos>
-	<norm> 3.05093 </norm>
-</domino>
-<domino>
-	<xpos> 145 </xpos>
-	<ypos> 486 </ypos>
-	<norm> 2.35619 </norm>
-</domino>
-<domino>
-	<xpos> 153 </xpos>
-	<ypos> 478 </ypos>
-	<norm> 1.83705 </norm>
-</domino>
-<domino>
-	<xpos> 156 </xpos>
-	<ypos> 467 </ypos>
-	<norm> 1.22203 </norm>
-</domino>
-<domino>
-	<xpos> 152 </xpos>
-	<ypos> 456 </ypos>
-	<norm> 0.844154 </norm>
-</domino>
-<domino>
-	<xpos> 144 </xpos>
-	<ypos> 447 </ypos>
-	<norm> 0.909753 </norm>
-</domino>
-<domino>
-	<xpos> 137 </xpos>
-	<ypos> 438 </ypos>
-	<norm> 0.844154 </norm>
-</domino>
-<domino>
-	<xpos> 129 </xpos>
-	<ypos> 429 </ypos>
-	<norm> 0.844154 </norm>
-</domino>
-<domino>
-	<xpos> 121 </xpos>
-	<ypos> 420 </ypos>
-	<norm> 0.785398 </norm>
-</domino>
-<domino>
-	<xpos> 113 </xpos>
-	<ypos> 412 </ypos>
-	<norm> 0.909753 </norm>
-</domino>
-<domino>
-	<xpos> 106 </xpos>
-	<ypos> 403 </ypos>
-	<norm> 0.726642 </norm>
-</domino>
-<domino>
-	<xpos> 97 </xpos>
-	<ypos> 395 </ypos>
-	<norm> 0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 88 </xpos>
-	<ypos> 388 </ypos>
-	<norm> 0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 78 </xpos>
-	<ypos> 382 </ypos>
-	<norm> 0.348771 </norm>
-</domino>
-<domino>
-	<xpos> 67 </xpos>
-	<ypos> 378 </ypos>
-	<norm> 0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 58 </xpos>
-	<ypos> 371 </ypos>
-	<norm> 0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 48 </xpos>
-	<ypos> 365 </ypos>
-	<norm> 0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 39 </xpos>
-	<ypos> 358 </ypos>
-	<norm> 0.610726 </norm>
-</domino>
-<domino>
-	<xpos> 29 </xpos>
-	<ypos> 351 </ypos>
-	<norm> 0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 20 </xpos>
-	<ypos> 344 </ypos>
-	<norm> 1.30454 </norm>
-</domino>
-<domino>
-	<xpos> 17 </xpos>
-	<ypos> 333 </ypos>
-	<norm> 1.66146 </norm>
-</domino>
-<domino>
-	<xpos> 18 </xpos>
-	<ypos> 322 </ypos>
+	<ypos> 23 </ypos>
 	<norm> 2.11122 </norm>
 </domino>
 <domino>
-	<xpos> 24 </xpos>
-	<ypos> 312 </ypos>
-	<norm> 2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 35 </xpos>
-	<ypos> 309 </ypos>
-	<norm> 3.14159 </norm>
-</domino>
-<domino>
-	<xpos> 46 </xpos>
-	<ypos> 309 </ypos>
-	<norm> -3.05093 </norm>
-</domino>
-<domino>
-	<xpos> 57 </xpos>
-	<ypos> 310 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 68 </xpos>
-	<ypos> 313 </ypos>
-	<norm> -2.71497 </norm>
-</domino>
-<domino>
-	<xpos> 79 </xpos>
-	<ypos> 318 </ypos>
-	<norm> -2.79282 </norm>
-</domino>
-<domino>
-	<xpos> 90 </xpos>
-	<ypos> 322 </ypos>
-	<norm> -2.35619 </norm>
-</domino>
-<domino>
-	<xpos> 98 </xpos>
-	<ypos> 330 </ypos>
-	<norm> -2.35619 </norm>
-</domino>
-<domino>
-	<xpos> 106 </xpos>
-	<ypos> 338 </ypos>
-	<norm> -2.35619 </norm>
-</domino>
-<domino>
-	<xpos> 114 </xpos>
-	<ypos> 346 </ypos>
-	<norm> -2.11122 </norm>
-</domino>
-<domino>
-	<xpos> 120 </xpos>
-	<ypos> 356 </ypos>
-	<norm> -2.11122 </norm>
-</domino>
-<domino>
-	<xpos> 126 </xpos>
-	<ypos> 366 </ypos>
-	<norm> -2.18152 </norm>
-</domino>
-<domino>
-	<xpos> 133 </xpos>
-	<ypos> 376 </ypos>
-	<norm> -2.11122 </norm>
-</domino>
-<domino>
-	<xpos> 139 </xpos>
-	<ypos> 386 </ypos>
-	<norm> -2.11122 </norm>
-</domino>
-<domino>
-	<xpos> 145 </xpos>
-	<ypos> 396 </ypos>
-	<norm> -2.29744 </norm>
-</domino>
-<domino>
-	<xpos> 153 </xpos>
-	<ypos> 405 </ypos>
-	<norm> -2.48055 </norm>
-</domino>
-<domino>
-	<xpos> 162 </xpos>
-	<ypos> 412 </ypos>
-	<norm> -2.35619 </norm>
-</domino>
-<domino>
-	<xpos> 170 </xpos>
-	<ypos> 420 </ypos>
-	<norm> -2.41495 </norm>
-</domino>
-<domino>
-	<xpos> 179 </xpos>
-	<ypos> 428 </ypos>
-	<norm> -2.41495 </norm>
-</domino>
-<domino>
-	<xpos> 188 </xpos>
-	<ypos> 436 </ypos>
-	<norm> -2.29744 </norm>
-</domino>
-<domino>
-	<xpos> 196 </xpos>
-	<ypos> 445 </ypos>
-	<norm> -2.35619 </norm>
-</domino>
-<domino>
-	<xpos> 204 </xpos>
-	<ypos> 453 </ypos>
-	<norm> -2.35619 </norm>
-</domino>
-<domino>
-	<xpos> 212 </xpos>
-	<ypos> 461 </ypos>
-	<norm> -2.41495 </norm>
-</domino>
-<domino>
-	<xpos> 221 </xpos>
-	<ypos> 469 </ypos>
-	<norm> -2.48055 </norm>
-</domino>
-<domino>
-	<xpos> 230 </xpos>
-	<ypos> 476 </ypos>
-	<norm> -2.67795 </norm>
-</domino>
-<domino>
-	<xpos> 240 </xpos>
-	<ypos> 481 </ypos>
-	<norm> -2.67795 </norm>
-</domino>
-<domino>
-	<xpos> 250 </xpos>
-	<ypos> 486 </ypos>
-	<norm> 1.5708 </norm>
-</domino>
-<domino>
-	<xpos> 250 </xpos>
-	<ypos> 475 </ypos>
-	<norm> 1.22203 </norm>
-</domino>
-<domino>
-	<xpos> 246 </xpos>
-	<ypos> 464 </ypos>
-	<norm> 1.30454 </norm>
-</domino>
-<domino>
-	<xpos> 243 </xpos>
-	<ypos> 453 </ypos>
-	<norm> 1.30454 </norm>
-</domino>
-<domino>
-	<xpos> 240 </xpos>
-	<ypos> 442 </ypos>
-	<norm> 1.39094 </norm>
-</domino>
-<domino>
-	<xpos> 238 </xpos>
-	<ypos> 431 </ypos>
-	<norm> 1.48014 </norm>
-</domino>
-<domino>
-	<xpos> 237 </xpos>
-	<ypos> 420 </ypos>
-	<norm> 1.39094 </norm>
-</domino>
-<domino>
-	<xpos> 235 </xpos>
-	<ypos> 409 </ypos>
-	<norm> 1.30454 </norm>
-</domino>
-<domino>
-	<xpos> 232 </xpos>
-	<ypos> 398 </ypos>
-	<norm> 1.10715 </norm>
-</domino>
-<domino>
-	<xpos> 227 </xpos>
-	<ypos> 388 </ypos>
-	<norm> 1.03038 </norm>
-</domino>
-<domino>
-	<xpos> 221 </xpos>
-	<ypos> 378 </ypos>
-	<norm> 0.909753 </norm>
-</domino>
-<domino>
-	<xpos> 214 </xpos>
-	<ypos> 369 </ypos>
-	<norm> 0.909753 </norm>
-</domino>
-<domino>
-	<xpos> 207 </xpos>
-	<ypos> 360 </ypos>
-	<norm> 0.785398 </norm>
-</domino>
-<domino>
-	<xpos> 199 </xpos>
-	<ypos> 352 </ypos>
-	<norm> 0.726642 </norm>
-</domino>
-<domino>
-	<xpos> 190 </xpos>
-	<ypos> 344 </ypos>
-	<norm> 0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 181 </xpos>
-	<ypos> 337 </ypos>
-	<norm> 0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 172 </xpos>
-	<ypos> 330 </ypos>
-	<norm> 0.348771 </norm>
-</domino>
-<domino>
-	<xpos> 161 </xpos>
-	<ypos> 326 </ypos>
-	<norm> 0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 152 </xpos>
-	<ypos> 319 </ypos>
-	<norm> 0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 142 </xpos>
-	<ypos> 313 </ypos>
-	<norm> 0.463648 </norm>
-</domino>
-<domino>
-	<xpos> 132 </xpos>
-	<ypos> 308 </ypos>
-	<norm> 0.610726 </norm>
-</domino>
-<domino>
-	<xpos> 122 </xpos>
-	<ypos> 301 </ypos>
-	<norm> 0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 112 </xpos>
-	<ypos> 295 </ypos>
-	<norm> 0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 102 </xpos>
-	<ypos> 289 </ypos>
-	<norm> 0.463648 </norm>
-</domino>
-<domino>
-	<xpos> 92 </xpos>
-	<ypos> 284 </ypos>
-	<norm> 0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 83 </xpos>
-	<ypos> 277 </ypos>
-	<norm> 0.463648 </norm>
-</domino>
-<domino>
-	<xpos> 73 </xpos>
-	<ypos> 272 </ypos>
-	<norm> 0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 63 </xpos>
-	<ypos> 266 </ypos>
-	<norm> 0.426628 </norm>
-</domino>
-<domino>
-	<xpos> 52 </xpos>
-	<ypos> 261 </ypos>
-	<norm> 0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 42 </xpos>
-	<ypos> 255 </ypos>
-	<norm> 0.785398 </norm>
-</domino>
-<domino>
-	<xpos> 34 </xpos>
-	<ypos> 247 </ypos>
-	<norm> 0.726642 </norm>
-</domino>
-<domino>
-	<xpos> 25 </xpos>
-	<ypos> 239 </ypos>
-	<norm> 0.785398 </norm>
-</domino>
-<domino>
-	<xpos> 17 </xpos>
-	<ypos> 231 </ypos>
-	<norm> 1.91957 </norm>
-</domino>
-<domino>
-	<xpos> 21 </xpos>
-	<ypos> 220 </ypos>
-	<norm> 2.67795 </norm>
-</domino>
-<domino>
-	<xpos> 31 </xpos>
-	<ypos> 215 </ypos>
-	<norm> 2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 42 </xpos>
-	<ypos> 212 </ypos>
-	<norm> 3.14159 </norm>
-</domino>
-<domino>
-	<xpos> 53 </xpos>
-	<ypos> 212 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 64 </xpos>
-	<ypos> 215 </ypos>
-	<norm> -2.79282 </norm>
-</domino>
-<domino>
-	<xpos> 75 </xpos>
-	<ypos> 219 </ypos>
-	<norm> -2.60117 </norm>
-</domino>
-<domino>
-	<xpos> 85 </xpos>
-	<ypos> 225 </ypos>
-	<norm> -2.60117 </norm>
-</domino>
-<domino>
-	<xpos> 95 </xpos>
-	<ypos> 231 </ypos>
-	<norm> -2.48055 </norm>
-</domino>
-<domino>
-	<xpos> 104 </xpos>
-	<ypos> 238 </ypos>
-	<norm> -2.60117 </norm>
-</domino>
-<domino>
-	<xpos> 114 </xpos>
-	<ypos> 244 </ypos>
-	<norm> -2.79282 </norm>
-</domino>
-<domino>
-	<xpos> 125 </xpos>
-	<ypos> 248 </ypos>
-	<norm> -2.79282 </norm>
-</domino>
-<domino>
-	<xpos> 136 </xpos>
-	<ypos> 252 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 147 </xpos>
-	<ypos> 255 </ypos>
-	<norm> -2.67795 </norm>
-</domino>
-<domino>
-	<xpos> 157 </xpos>
-	<ypos> 260 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 168 </xpos>
-	<ypos> 263 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 179 </xpos>
-	<ypos> 266 </ypos>
-	<norm> -2.79282 </norm>
-</domino>
-<domino>
-	<xpos> 190 </xpos>
-	<ypos> 270 </ypos>
-	<norm> -2.48055 </norm>
-</domino>
-<domino>
-	<xpos> 199 </xpos>
-	<ypos> 277 </ypos>
-	<norm> -2.67795 </norm>
-</domino>
-<domino>
-	<xpos> 209 </xpos>
-	<ypos> 282 </ypos>
-	<norm> -2.67795 </norm>
-</domino>
-<domino>
-	<xpos> 219 </xpos>
-	<ypos> 287 </ypos>
-	<norm> -2.67795 </norm>
-</domino>
-<domino>
-	<xpos> 229 </xpos>
-	<ypos> 292 </ypos>
-	<norm> -2.41495 </norm>
-</domino>
-<domino>
-	<xpos> 238 </xpos>
-	<ypos> 300 </ypos>
-	<norm> -2.53087 </norm>
-</domino>
-<domino>
-	<xpos> 248 </xpos>
-	<ypos> 307 </ypos>
-	<norm> -2.53087 </norm>
-</domino>
-<domino>
-	<xpos> 258 </xpos>
-	<ypos> 314 </ypos>
-	<norm> -2.11122 </norm>
-</domino>
-<domino>
-	<xpos> 264 </xpos>
-	<ypos> 324 </ypos>
-	<norm> -2.23184 </norm>
-</domino>
-<domino>
-	<xpos> 271 </xpos>
-	<ypos> 333 </ypos>
-	<norm> -2.23184 </norm>
-</domino>
-<domino>
-	<xpos> 278 </xpos>
-	<ypos> 342 </ypos>
-	<norm> -2.03444 </norm>
-</domino>
-<domino>
-	<xpos> 283 </xpos>
-	<ypos> 352 </ypos>
-	<norm> -2.03444 </norm>
-</domino>
-<domino>
-	<xpos> 288 </xpos>
-	<ypos> 362 </ypos>
-	<norm> -1.91957 </norm>
-</domino>
-<domino>
-	<xpos> 292 </xpos>
-	<ypos> 373 </ypos>
-	<norm> -1.91957 </norm>
-</domino>
-<domino>
-	<xpos> 296 </xpos>
-	<ypos> 384 </ypos>
-	<norm> -1.75065 </norm>
-</domino>
-<domino>
-	<xpos> 298 </xpos>
-	<ypos> 395 </ypos>
-	<norm> -1.91957 </norm>
-</domino>
-<domino>
-	<xpos> 302 </xpos>
-	<ypos> 406 </ypos>
-	<norm> -1.83705 </norm>
-</domino>
-<domino>
-	<xpos> 305 </xpos>
-	<ypos> 417 </ypos>
-	<norm> -1.83705 </norm>
-</domino>
-<domino>
-	<xpos> 308 </xpos>
-	<ypos> 428 </ypos>
-	<norm> -1.91957 </norm>
-</domino>
-<domino>
-	<xpos> 312 </xpos>
-	<ypos> 439 </ypos>
-	<norm> -2.11122 </norm>
-</domino>
-<domino>
-	<xpos> 318 </xpos>
-	<ypos> 449 </ypos>
-	<norm> -2.03444 </norm>
-</domino>
-<domino>
-	<xpos> 323 </xpos>
-	<ypos> 459 </ypos>
-	<norm> -2.29744 </norm>
-</domino>
-<domino>
-	<xpos> 331 </xpos>
-	<ypos> 468 </ypos>
-	<norm> -2.41495 </norm>
-</domino>
-<domino>
-	<xpos> 340 </xpos>
-	<ypos> 476 </ypos>
-	<norm> -2.67795 </norm>
-</domino>
-<domino>
-	<xpos> 350 </xpos>
-	<ypos> 481 </ypos>
-	<norm> 2.67795 </norm>
-</domino>
-<domino>
-	<xpos> 360 </xpos>
-	<ypos> 476 </ypos>
-	<norm> 1.39094 </norm>
-</domino>
-<domino>
-	<xpos> 358 </xpos>
-	<ypos> 465 </ypos>
-	<norm> 1.39094 </norm>
-</domino>
-<domino>
-	<xpos> 356 </xpos>
-	<ypos> 454 </ypos>
-	<norm> 1.48014 </norm>
-</domino>
-<domino>
-	<xpos> 355 </xpos>
-	<ypos> 443 </ypos>
-	<norm> 1.66146 </norm>
-</domino>
-<domino>
-	<xpos> 356 </xpos>
-	<ypos> 432 </ypos>
-	<norm> 1.66146 </norm>
-</domino>
-<domino>
-	<xpos> 357 </xpos>
-	<ypos> 421 </ypos>
-	<norm> 1.48014 </norm>
-</domino>
-<domino>
-	<xpos> 356 </xpos>
-	<ypos> 410 </ypos>
-	<norm> 1.30454 </norm>
-</domino>
-<domino>
-	<xpos> 353 </xpos>
-	<ypos> 399 </ypos>
-	<norm> 1.30454 </norm>
-</domino>
-<domino>
-	<xpos> 350 </xpos>
-	<ypos> 388 </ypos>
-	<norm> 1.39094 </norm>
-</domino>
-<domino>
-	<xpos> 348 </xpos>
-	<ypos> 377 </ypos>
-	<norm> 1.30454 </norm>
-</domino>
-<domino>
-	<xpos> 345 </xpos>
-	<ypos> 366 </ypos>
-	<norm> 1.48014 </norm>
-</domino>
-<domino>
-	<xpos> 344 </xpos>
-	<ypos> 355 </ypos>
-	<norm> 1.22203 </norm>
-</domino>
-<domino>
-	<xpos> 340 </xpos>
-	<ypos> 344 </ypos>
-	<norm> 1.30454 </norm>
-</domino>
-<domino>
-	<xpos> 337 </xpos>
-	<ypos> 333 </ypos>
-	<norm> 1.22203 </norm>
-</domino>
-<domino>
-	<xpos> 333 </xpos>
-	<ypos> 322 </ypos>
-	<norm> 1.10715 </norm>
-</domino>
-<domino>
-	<xpos> 328 </xpos>
-	<ypos> 312 </ypos>
-	<norm> 0.844154 </norm>
-</domino>
-<domino>
-	<xpos> 320 </xpos>
-	<ypos> 303 </ypos>
-	<norm> 0.785398 </norm>
-</domino>
-<domino>
-	<xpos> 312 </xpos>
-	<ypos> 295 </ypos>
-	<norm> 0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 303 </xpos>
-	<ypos> 288 </ypos>
-	<norm> 0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 294 </xpos>
-	<ypos> 281 </ypos>
-	<norm> 1.03038 </norm>
-</domino>
-<domino>
-	<xpos> 288 </xpos>
-	<ypos> 271 </ypos>
-	<norm> 1.10715 </norm>
-</domino>
-<domino>
-	<xpos> 283 </xpos>
-	<ypos> 261 </ypos>
-	<norm> 0.844154 </norm>
-</domino>
-<domino>
-	<xpos> 275 </xpos>
-	<ypos> 252 </ypos>
-	<norm> 0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 266 </xpos>
-	<ypos> 245 </ypos>
-	<norm> 0.785398 </norm>
-</domino>
-<domino>
-	<xpos> 258 </xpos>
-	<ypos> 237 </ypos>
-	<norm> 0.785398 </norm>
-</domino>
-<domino>
-	<xpos> 250 </xpos>
-	<ypos> 229 </ypos>
-	<norm> 0.463648 </norm>
-</domino>
-<domino>
-	<xpos> 240 </xpos>
-	<ypos> 224 </ypos>
-	<norm> 0.348771 </norm>
-</domino>
-<domino>
-	<xpos> 229 </xpos>
-	<ypos> 220 </ypos>
-	<norm> 0.426628 </norm>
-</domino>
-<domino>
-	<xpos> 218 </xpos>
-	<ypos> 215 </ypos>
-	<norm> 0.266252 </norm>
-</domino>
-<domino>
-	<xpos> 207 </xpos>
-	<ypos> 212 </ypos>
-	<norm> 0.348771 </norm>
-</domino>
-<domino>
-	<xpos> 196 </xpos>
-	<ypos> 208 </ypos>
-	<norm> 0.348771 </norm>
-</domino>
-<domino>
-	<xpos> 185 </xpos>
-	<ypos> 204 </ypos>
-	<norm> 0.266252 </norm>
-</domino>
-<domino>
-	<xpos> 174 </xpos>
-	<ypos> 201 </ypos>
-	<norm> 0.266252 </norm>
-</domino>
-<domino>
-	<xpos> 163 </xpos>
-	<ypos> 198 </ypos>
-	<norm> 0.179853 </norm>
-</domino>
-<domino>
-	<xpos> 152 </xpos>
-	<ypos> 196 </ypos>
-	<norm> 0.0906599 </norm>
-</domino>
-<domino>
-	<xpos> 141 </xpos>
-	<ypos> 195 </ypos>
-	<norm> 0.266252 </norm>
-</domino>
-<domino>
-	<xpos> 130 </xpos>
-	<ypos> 192 </ypos>
-	<norm> 0.179853 </norm>
-</domino>
-<domino>
-	<xpos> 119 </xpos>
-	<ypos> 190 </ypos>
-	<norm> 0.266252 </norm>
-</domino>
-<domino>
-	<xpos> 108 </xpos>
-	<ypos> 187 </ypos>
-	<norm> 0.426628 </norm>
-</domino>
-<domino>
-	<xpos> 97 </xpos>
-	<ypos> 182 </ypos>
-	<norm> 0.266252 </norm>
-</domino>
-<domino>
-	<xpos> 86 </xpos>
-	<ypos> 179 </ypos>
-	<norm> 0.348771 </norm>
-</domino>
-<domino>
-	<xpos> 75 </xpos>
-	<ypos> 175 </ypos>
-	<norm> 0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 65 </xpos>
-	<ypos> 169 </ypos>
-	<norm> 0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 55 </xpos>
-	<ypos> 163 </ypos>
-	<norm> 0.610726 </norm>
-</domino>
-<domino>
-	<xpos> 45 </xpos>
-	<ypos> 156 </ypos>
-	<norm> 0.463648 </norm>
-</domino>
-<domino>
-	<xpos> 35 </xpos>
-	<ypos> 151 </ypos>
-	<norm> 0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 25 </xpos>
-	<ypos> 145 </ypos>
-	<norm> 1.48014 </norm>
-</domino>
-<domino>
-	<xpos> 24 </xpos>
-	<ypos> 134 </ypos>
-	<norm> 2.03444 </norm>
-</domino>
-<domino>
-	<xpos> 29 </xpos>
-	<ypos> 124 </ypos>
-	<norm> 2.67795 </norm>
+	<xpos> 30 </xpos>
+	<ypos> 13 </ypos>
+	<norm> 2.48055 </norm>
 </domino>
 <domino>
 	<xpos> 39 </xpos>
-	<ypos> 119 </ypos>
-	<norm> 3.05093 </norm>
-</domino>
-<domino>
-	<xpos> 50 </xpos>
-	<ypos> 118 </ypos>
-	<norm> 3.14159 </norm>
-</domino>
-<domino>
-	<xpos> 61 </xpos>
-	<ypos> 118 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 72 </xpos>
-	<ypos> 121 </ypos>
-	<norm> -2.79282 </norm>
-</domino>
-<domino>
-	<xpos> 83 </xpos>
-	<ypos> 125 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 94 </xpos>
-	<ypos> 128 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 105 </xpos>
-	<ypos> 131 </ypos>
-	<norm> -2.96174 </norm>
-</domino>
-<domino>
-	<xpos> 116 </xpos>
-	<ypos> 133 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 127 </xpos>
-	<ypos> 136 </ypos>
-	<norm> -2.96174 </norm>
-</domino>
-<domino>
-	<xpos> 138 </xpos>
-	<ypos> 138 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 149 </xpos>
-	<ypos> 141 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 160 </xpos>
-	<ypos> 144 </ypos>
-	<norm> -2.79282 </norm>
-</domino>
-<domino>
-	<xpos> 171 </xpos>
-	<ypos> 148 </ypos>
-	<norm> -2.96174 </norm>
-</domino>
-<domino>
-	<xpos> 182 </xpos>
-	<ypos> 150 </ypos>
-	<norm> -2.79282 </norm>
-</domino>
-<domino>
-	<xpos> 193 </xpos>
-	<ypos> 154 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 204 </xpos>
-	<ypos> 157 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 215 </xpos>
-	<ypos> 160 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 226 </xpos>
-	<ypos> 163 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 237 </xpos>
-	<ypos> 166 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 248 </xpos>
-	<ypos> 169 </ypos>
-	<norm> -2.67795 </norm>
-</domino>
-<domino>
-	<xpos> 258 </xpos>
-	<ypos> 174 </ypos>
-	<norm> -2.79282 </norm>
-</domino>
-<domino>
-	<xpos> 269 </xpos>
-	<ypos> 178 </ypos>
-	<norm> -2.79282 </norm>
-</domino>
-<domino>
-	<xpos> 280 </xpos>
-	<ypos> 182 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 291 </xpos>
-	<ypos> 185 </ypos>
-	<norm> -2.71497 </norm>
-</domino>
-<domino>
-	<xpos> 302 </xpos>
-	<ypos> 190 </ypos>
-	<norm> -2.11122 </norm>
-</domino>
-<domino>
-	<xpos> 308 </xpos>
-	<ypos> 200 </ypos>
-	<norm> -2.23184 </norm>
-</domino>
-<domino>
-	<xpos> 315 </xpos>
-	<ypos> 209 </ypos>
-	<norm> -2.23184 </norm>
-</domino>
-<domino>
-	<xpos> 322 </xpos>
-	<ypos> 218 </ypos>
-	<norm> -2.18152 </norm>
-</domino>
-<domino>
-	<xpos> 329 </xpos>
-	<ypos> 228 </ypos>
-	<norm> -1.99742 </norm>
-</domino>
-<domino>
-	<xpos> 334 </xpos>
-	<ypos> 239 </ypos>
-	<norm> -1.83705 </norm>
-</domino>
-<domino>
-	<xpos> 337 </xpos>
-	<ypos> 250 </ypos>
-	<norm> -2.03444 </norm>
-</domino>
-<domino>
-	<xpos> 342 </xpos>
-	<ypos> 260 </ypos>
-	<norm> -2.23184 </norm>
-</domino>
-<domino>
-	<xpos> 349 </xpos>
-	<ypos> 269 </ypos>
-	<norm> -2.11122 </norm>
-</domino>
-<domino>
-	<xpos> 355 </xpos>
-	<ypos> 279 </ypos>
-	<norm> -2.03444 </norm>
-</domino>
-<domino>
-	<xpos> 360 </xpos>
-	<ypos> 289 </ypos>
-	<norm> -2.03444 </norm>
-</domino>
-<domino>
-	<xpos> 365 </xpos>
-	<ypos> 299 </ypos>
-	<norm> -1.83705 </norm>
-</domino>
-<domino>
-	<xpos> 368 </xpos>
-	<ypos> 310 </ypos>
-	<norm> -1.91957 </norm>
-</domino>
-<domino>
-	<xpos> 372 </xpos>
-	<ypos> 321 </ypos>
-	<norm> -1.83705 </norm>
-</domino>
-<domino>
-	<xpos> 375 </xpos>
-	<ypos> 332 </ypos>
-	<norm> -1.83705 </norm>
-</domino>
-<domino>
-	<xpos> 378 </xpos>
-	<ypos> 343 </ypos>
-	<norm> -1.83705 </norm>
-</domino>
-<domino>
-	<xpos> 381 </xpos>
-	<ypos> 354 </ypos>
-	<norm> -1.83705 </norm>
-</domino>
-<domino>
-	<xpos> 384 </xpos>
-	<ypos> 365 </ypos>
-	<norm> -1.75065 </norm>
-</domino>
-<domino>
-	<xpos> 386 </xpos>
-	<ypos> 376 </ypos>
-	<norm> -1.83705 </norm>
-</domino>
-<domino>
-	<xpos> 389 </xpos>
-	<ypos> 387 </ypos>
-	<norm> -1.91957 </norm>
-</domino>
-<domino>
-	<xpos> 393 </xpos>
-	<ypos> 398 </ypos>
-	<norm> -1.83705 </norm>
-</domino>
-<domino>
-	<xpos> 396 </xpos>
-	<ypos> 409 </ypos>
-	<norm> -1.91957 </norm>
-</domino>
-<domino>
-	<xpos> 400 </xpos>
-	<ypos> 420 </ypos>
-	<norm> -2.03444 </norm>
-</domino>
-<domino>
-	<xpos> 405 </xpos>
-	<ypos> 430 </ypos>
-	<norm> -2.18152 </norm>
-</domino>
-<domino>
-	<xpos> 412 </xpos>
-	<ypos> 440 </ypos>
-	<norm> -2.35619 </norm>
-</domino>
-<domino>
-	<xpos> 420 </xpos>
-	<ypos> 448 </ypos>
-	<norm> -2.48055 </norm>
-</domino>
-<domino>
-	<xpos> 429 </xpos>
-	<ypos> 455 </ypos>
-	<norm> -2.35619 </norm>
-</domino>
-<domino>
-	<xpos> 437 </xpos>
-	<ypos> 463 </ypos>
-	<norm> 2.03444 </norm>
-</domino>
-<domino>
-	<xpos> 442 </xpos>
-	<ypos> 453 </ypos>
-	<norm> 1.66146 </norm>
-</domino>
-<domino>
-	<xpos> 443 </xpos>
-	<ypos> 442 </ypos>
-	<norm> 1.66146 </norm>
-</domino>
-<domino>
-	<xpos> 444 </xpos>
-	<ypos> 431 </ypos>
-	<norm> 1.5708 </norm>
-</domino>
-<domino>
-	<xpos> 444 </xpos>
-	<ypos> 420 </ypos>
-	<norm> 1.5708 </norm>
-</domino>
-<domino>
-	<xpos> 444 </xpos>
-	<ypos> 409 </ypos>
-	<norm> 1.75065 </norm>
-</domino>
-<domino>
-	<xpos> 446 </xpos>
-	<ypos> 398 </ypos>
-	<norm> 1.39094 </norm>
-</domino>
-<domino>
-	<xpos> 444 </xpos>
-	<ypos> 387 </ypos>
-	<norm> 1.39094 </norm>
-</domino>
-<domino>
-	<xpos> 442 </xpos>
-	<ypos> 376 </ypos>
-	<norm> 1.30454 </norm>
-</domino>
-<domino>
-	<xpos> 439 </xpos>
-	<ypos> 365 </ypos>
-	<norm> 1.10715 </norm>
-</domino>
-<domino>
-	<xpos> 434 </xpos>
-	<ypos> 355 </ypos>
-	<norm> 1.22203 </norm>
-</domino>
-<domino>
-	<xpos> 430 </xpos>
-	<ypos> 344 </ypos>
-	<norm> 1.30454 </norm>
-</domino>
-<domino>
-	<xpos> 427 </xpos>
-	<ypos> 333 </ypos>
-	<norm> 1.10715 </norm>
-</domino>
-<domino>
-	<xpos> 422 </xpos>
-	<ypos> 323 </ypos>
-	<norm> 1.30454 </norm>
-</domino>
-<domino>
-	<xpos> 419 </xpos>
-	<ypos> 312 </ypos>
-	<norm> 1.30454 </norm>
-</domino>
-<domino>
-	<xpos> 416 </xpos>
-	<ypos> 301 </ypos>
-	<norm> 1.30454 </norm>
-</domino>
-<domino>
-	<xpos> 413 </xpos>
-	<ypos> 290 </ypos>
-	<norm> 1.39094 </norm>
-</domino>
-<domino>
-	<xpos> 411 </xpos>
-	<ypos> 279 </ypos>
-	<norm> 1.10715 </norm>
-</domino>
-<domino>
-	<xpos> 406 </xpos>
-	<ypos> 269 </ypos>
-	<norm> 1.30454 </norm>
-</domino>
-<domino>
-	<xpos> 403 </xpos>
-	<ypos> 258 </ypos>
-	<norm> 1.30454 </norm>
-</domino>
-<domino>
-	<xpos> 400 </xpos>
-	<ypos> 247 </ypos>
-	<norm> 1.39094 </norm>
-</domino>
-<domino>
-	<xpos> 398 </xpos>
-	<ypos> 236 </ypos>
-	<norm> 1.10715 </norm>
-</domino>
-<domino>
-	<xpos> 393 </xpos>
-	<ypos> 226 </ypos>
-	<norm> 0.844154 </norm>
-</domino>
-<domino>
-	<xpos> 385 </xpos>
-	<ypos> 217 </ypos>
-	<norm> 0.96007 </norm>
-</domino>
-<domino>
-	<xpos> 378 </xpos>
-	<ypos> 207 </ypos>
-	<norm> 0.844154 </norm>
-</domino>
-<domino>
-	<xpos> 370 </xpos>
-	<ypos> 198 </ypos>
-	<norm> 0.785398 </norm>
-</domino>
-<domino>
-	<xpos> 362 </xpos>
-	<ypos> 190 </ypos>
-	<norm> 0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 353 </xpos>
-	<ypos> 183 </ypos>
-	<norm> 0.844154 </norm>
-</domino>
-<domino>
-	<xpos> 345 </xpos>
-	<ypos> 174 </ypos>
-	<norm> 0.785398 </norm>
-</domino>
-<domino>
-	<xpos> 337 </xpos>
-	<ypos> 166 </ypos>
-	<norm> 0.785398 </norm>
-</domino>
-<domino>
-	<xpos> 329 </xpos>
-	<ypos> 158 </ypos>
-	<norm> 0.726642 </norm>
-</domino>
-<domino>
-	<xpos> 320 </xpos>
-	<ypos> 150 </ypos>
-	<norm> 0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 311 </xpos>
-	<ypos> 143 </ypos>
-	<norm> 0.726642 </norm>
-</domino>
-<domino>
-	<xpos> 302 </xpos>
-	<ypos> 135 </ypos>
-	<norm> 0.844154 </norm>
-</domino>
-<domino>
-	<xpos> 294 </xpos>
-	<ypos> 126 </ypos>
-	<norm> 0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 284 </xpos>
-	<ypos> 120 </ypos>
-	<norm> 0.610726 </norm>
-</domino>
-<domino>
-	<xpos> 274 </xpos>
-	<ypos> 113 </ypos>
-	<norm> 0.463648 </norm>
-</domino>
-<domino>
-	<xpos> 264 </xpos>
-	<ypos> 108 </ypos>
-	<norm> 0.463648 </norm>
-</domino>
-<domino>
-	<xpos> 254 </xpos>
-	<ypos> 103 </ypos>
-	<norm> 0.266252 </norm>
-</domino>
-<domino>
-	<xpos> 243 </xpos>
-	<ypos> 100 </ypos>
-	<norm> 0.266252 </norm>
-</domino>
-<domino>
-	<xpos> 232 </xpos>
-	<ypos> 97 </ypos>
-	<norm> 0.266252 </norm>
-</domino>
-<domino>
-	<xpos> 221 </xpos>
-	<ypos> 94 </ypos>
-	<norm> 0.266252 </norm>
-</domino>
-<domino>
-	<xpos> 210 </xpos>
-	<ypos> 91 </ypos>
-	<norm> 0.0906599 </norm>
-</domino>
-<domino>
-	<xpos> 199 </xpos>
-	<ypos> 90 </ypos>
-	<norm> 0.266252 </norm>
-</domino>
-<domino>
-	<xpos> 188 </xpos>
-	<ypos> 87 </ypos>
-	<norm> 0.165149 </norm>
-</domino>
-<domino>
-	<xpos> 176 </xpos>
-	<ypos> 85 </ypos>
-	<norm> 0.266252 </norm>
-</domino>
-<domino>
-	<xpos> 165 </xpos>
-	<ypos> 82 </ypos>
-	<norm> 0.0906599 </norm>
-</domino>
-<domino>
-	<xpos> 154 </xpos>
-	<ypos> 81 </ypos>
-	<norm> 0.0906599 </norm>
-</domino>
-<domino>
-	<xpos> 143 </xpos>
-	<ypos> 80 </ypos>
-	<norm> 0.179853 </norm>
-</domino>
-<domino>
-	<xpos> 132 </xpos>
-	<ypos> 78 </ypos>
-	<norm> 0.266252 </norm>
-</domino>
-<domino>
-	<xpos> 121 </xpos>
-	<ypos> 75 </ypos>
-	<norm> 0.348771 </norm>
-</domino>
-<domino>
-	<xpos> 110 </xpos>
-	<ypos> 71 </ypos>
-	<norm> 0.266252 </norm>
-</domino>
-<domino>
-	<xpos> 99 </xpos>
-	<ypos> 68 </ypos>
-	<norm> 0.348771 </norm>
-</domino>
-<domino>
-	<xpos> 88 </xpos>
-	<ypos> 64 </ypos>
-	<norm> 0.266252 </norm>
-</domino>
-<domino>
-	<xpos> 77 </xpos>
-	<ypos> 61 </ypos>
-	<norm> 0.179853 </norm>
-</domino>
-<domino>
-	<xpos> 66 </xpos>
-	<ypos> 59 </ypos>
-	<norm> 0.348771 </norm>
-</domino>
-<domino>
-	<xpos> 55 </xpos>
-	<ypos> 55 </ypos>
-	<norm> 0.179853 </norm>
-</domino>
-<domino>
-	<xpos> 44 </xpos>
-	<ypos> 53 </ypos>
-	<norm> 0.463648 </norm>
-</domino>
-<domino>
-	<xpos> 34 </xpos>
-	<ypos> 48 </ypos>
-	<norm> 1.66146 </norm>
-</domino>
-<domino>
-	<xpos> 35 </xpos>
-	<ypos> 37 </ypos>
-	<norm> 2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 46 </xpos>
-	<ypos> 34 </ypos>
-	<norm> 3.05093 </norm>
-</domino>
-<domino>
-	<xpos> 57 </xpos>
-	<ypos> 33 </ypos>
-	<norm> 3.05093 </norm>
-</domino>
-<domino>
-	<xpos> 68 </xpos>
-	<ypos> 32 </ypos>
-	<norm> -3.05093 </norm>
-</domino>
-<domino>
-	<xpos> 79 </xpos>
-	<ypos> 33 </ypos>
-	<norm> -3.05093 </norm>
-</domino>
-<domino>
-	<xpos> 90 </xpos>
-	<ypos> 34 </ypos>
-	<norm> -2.96174 </norm>
-</domino>
-<domino>
-	<xpos> 101 </xpos>
-	<ypos> 36 </ypos>
-	<norm> 3.05093 </norm>
-</domino>
-<domino>
-	<xpos> 112 </xpos>
-	<ypos> 35 </ypos>
-	<norm> 3.05093 </norm>
-</domino>
-<domino>
-	<xpos> 123 </xpos>
-	<ypos> 34 </ypos>
-	<norm> 2.96174 </norm>
-</domino>
-<domino>
-	<xpos> 134 </xpos>
-	<ypos> 32 </ypos>
-	<norm> 2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 145 </xpos>
-	<ypos> 29 </ypos>
-	<norm> 2.96174 </norm>
-</domino>
-<domino>
-	<xpos> 156 </xpos>
-	<ypos> 27 </ypos>
-	<norm> 3.05093 </norm>
-</domino>
-<domino>
-	<xpos> 167 </xpos>
-	<ypos> 26 </ypos>
-	<norm> 3.14159 </norm>
-</domino>
-<domino>
-	<xpos> 178 </xpos>
-	<ypos> 26 </ypos>
-	<norm> 3.14159 </norm>
-</domino>
-<domino>
-	<xpos> 189 </xpos>
-	<ypos> 26 </ypos>
-	<norm> 3.14159 </norm>
-</domino>
-<domino>
-	<xpos> 200 </xpos>
-	<ypos> 26 </ypos>
-	<norm> 3.14159 </norm>
-</domino>
-<domino>
-	<xpos> 211 </xpos>
-	<ypos> 26 </ypos>
-	<norm> -3.05093 </norm>
-</domino>
-<domino>
-	<xpos> 222 </xpos>
-	<ypos> 27 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 233 </xpos>
-	<ypos> 30 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 244 </xpos>
-	<ypos> 33 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 255 </xpos>
-	<ypos> 36 </ypos>
-	<norm> -2.67795 </norm>
-</domino>
-<domino>
-	<xpos> 265 </xpos>
-	<ypos> 41 </ypos>
-	<norm> -2.71497 </norm>
-</domino>
-<domino>
-	<xpos> 276 </xpos>
-	<ypos> 46 </ypos>
-	<norm> -2.53087 </norm>
-</domino>
-<domino>
-	<xpos> 286 </xpos>
-	<ypos> 53 </ypos>
-	<norm> -2.48055 </norm>
-</domino>
-<domino>
-	<xpos> 295 </xpos>
-	<ypos> 60 </ypos>
-	<norm> -2.48055 </norm>
-</domino>
-<domino>
-	<xpos> 304 </xpos>
-	<ypos> 67 </ypos>
-	<norm> -2.35619 </norm>
-</domino>
-<domino>
-	<xpos> 312 </xpos>
-	<ypos> 75 </ypos>
-	<norm> -2.23184 </norm>
-</domino>
-<domino>
-	<xpos> 319 </xpos>
-	<ypos> 84 </ypos>
-	<norm> -1.99742 </norm>
-</domino>
-<domino>
-	<xpos> 324 </xpos>
-	<ypos> 95 </ypos>
-	<norm> -2.23184 </norm>
-</domino>
-<domino>
-	<xpos> 331 </xpos>
-	<ypos> 104 </ypos>
-	<norm> -2.03444 </norm>
-</domino>
-<domino>
-	<xpos> 336 </xpos>
-	<ypos> 114 </ypos>
-	<norm> -2.03444 </norm>
-</domino>
-<domino>
-	<xpos> 341 </xpos>
-	<ypos> 124 </ypos>
-	<norm> -2.03444 </norm>
-</domino>
-<domino>
-	<xpos> 346 </xpos>
-	<ypos> 134 </ypos>
-	<norm> -2.23184 </norm>
-</domino>
-<domino>
-	<xpos> 353 </xpos>
-	<ypos> 143 </ypos>
-	<norm> -2.48055 </norm>
-</domino>
-<domino>
-	<xpos> 362 </xpos>
-	<ypos> 150 </ypos>
-	<norm> -2.53087 </norm>
-</domino>
-<domino>
-	<xpos> 372 </xpos>
-	<ypos> 157 </ypos>
-	<norm> -2.67795 </norm>
-</domino>
-<domino>
-	<xpos> 382 </xpos>
-	<ypos> 162 </ypos>
-	<norm> -2.48055 </norm>
-</domino>
-<domino>
-	<xpos> 391 </xpos>
-	<ypos> 169 </ypos>
-	<norm> -2.48055 </norm>
-</domino>
-<domino>
-	<xpos> 400 </xpos>
-	<ypos> 176 </ypos>
-	<norm> -2.23184 </norm>
-</domino>
-<domino>
-	<xpos> 407 </xpos>
-	<ypos> 185 </ypos>
-	<norm> -2.35619 </norm>
-</domino>
-<domino>
-	<xpos> 415 </xpos>
-	<ypos> 193 </ypos>
-	<norm> -2.23184 </norm>
-</domino>
-<domino>
-	<xpos> 422 </xpos>
-	<ypos> 202 </ypos>
-	<norm> -2.23184 </norm>
-</domino>
-<domino>
-	<xpos> 429 </xpos>
-	<ypos> 211 </ypos>
-	<norm> -2.11122 </norm>
-</domino>
-<domino>
-	<xpos> 435 </xpos>
-	<ypos> 221 </ypos>
-	<norm> -2.03444 </norm>
-</domino>
-<domino>
-	<xpos> 440 </xpos>
-	<ypos> 231 </ypos>
-	<norm> -2.11122 </norm>
-</domino>
-<domino>
-	<xpos> 446 </xpos>
-	<ypos> 241 </ypos>
-	<norm> -2.11122 </norm>
-</domino>
-<domino>
-	<xpos> 452 </xpos>
-	<ypos> 251 </ypos>
-	<norm> -1.99742 </norm>
-</domino>
-<domino>
-	<xpos> 457 </xpos>
-	<ypos> 262 </ypos>
-	<norm> -1.99742 </norm>
-</domino>
-<domino>
-	<xpos> 462 </xpos>
-	<ypos> 273 </ypos>
-	<norm> -1.83705 </norm>
-</domino>
-<domino>
-	<xpos> 465 </xpos>
-	<ypos> 284 </ypos>
-	<norm> 2.67795 </norm>
-</domino>
-<domino>
-	<xpos> 475 </xpos>
-	<ypos> 279 </ypos>
-	<norm> 1.75065 </norm>
-</domino>
-<domino>
-	<xpos> 477 </xpos>
-	<ypos> 268 </ypos>
-	<norm> 1.66146 </norm>
-</domino>
-<domino>
-	<xpos> 478 </xpos>
-	<ypos> 257 </ypos>
-	<norm> 1.5708 </norm>
-</domino>
-<domino>
-	<xpos> 478 </xpos>
-	<ypos> 246 </ypos>
-	<norm> 1.48014 </norm>
-</domino>
-<domino>
-	<xpos> 477 </xpos>
-	<ypos> 235 </ypos>
-	<norm> 1.30454 </norm>
-</domino>
-<domino>
-	<xpos> 474 </xpos>
-	<ypos> 224 </ypos>
-	<norm> 1.30454 </norm>
-</domino>
-<domino>
-	<xpos> 471 </xpos>
-	<ypos> 213 </ypos>
-	<norm> 1.22203 </norm>
-</domino>
-<domino>
-	<xpos> 467 </xpos>
-	<ypos> 202 </ypos>
-	<norm> 1.03038 </norm>
-</domino>
-<domino>
-	<xpos> 461 </xpos>
-	<ypos> 192 </ypos>
-	<norm> 1.10715 </norm>
-</domino>
-<domino>
-	<xpos> 456 </xpos>
-	<ypos> 182 </ypos>
-	<norm> 1.10715 </norm>
-</domino>
-<domino>
-	<xpos> 451 </xpos>
-	<ypos> 172 </ypos>
-	<norm> 1.03038 </norm>
-</domino>
-<domino>
-	<xpos> 445 </xpos>
-	<ypos> 162 </ypos>
-	<norm> 1.10715 </norm>
-</domino>
-<domino>
-	<xpos> 440 </xpos>
-	<ypos> 152 </ypos>
-	<norm> 1.03038 </norm>
-</domino>
-<domino>
-	<xpos> 434 </xpos>
-	<ypos> 142 </ypos>
-	<norm> 1.03038 </norm>
-</domino>
-<domino>
-	<xpos> 428 </xpos>
-	<ypos> 132 </ypos>
-	<norm> 1.03038 </norm>
-</domino>
-<domino>
-	<xpos> 422 </xpos>
-	<ypos> 122 </ypos>
-	<norm> 1.03038 </norm>
-</domino>
-<domino>
-	<xpos> 416 </xpos>
-	<ypos> 112 </ypos>
-	<norm> 0.785398 </norm>
-</domino>
-<domino>
-	<xpos> 408 </xpos>
-	<ypos> 104 </ypos>
-	<norm> 0.844154 </norm>
-</domino>
-<domino>
-	<xpos> 400 </xpos>
-	<ypos> 95 </ypos>
-	<norm> 0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 391 </xpos>
-	<ypos> 88 </ypos>
-	<norm> 0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 381 </xpos>
-	<ypos> 82 </ypos>
-	<norm> 0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 372 </xpos>
-	<ypos> 75 </ypos>
-	<norm> 0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 362 </xpos>
-	<ypos> 69 </ypos>
-	<norm> 0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 352 </xpos>
-	<ypos> 63 </ypos>
-	<norm> 0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 343 </xpos>
-	<ypos> 56 </ypos>
-	<norm> 0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 333 </xpos>
-	<ypos> 50 </ypos>
-	<norm> 0.726642 </norm>
-</domino>
-<domino>
-	<xpos> 324 </xpos>
-	<ypos> 42 </ypos>
-	<norm> 0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 315 </xpos>
-	<ypos> 35 </ypos>
-	<norm> 0.909753 </norm>
-</domino>
-<domino>
-	<xpos> 308 </xpos>
-	<ypos> 26 </ypos>
-	<norm> 2.67795 </norm>
-</domino>
-<domino>
-	<xpos> 318 </xpos>
-	<ypos> 21 </ypos>
-	<norm> -2.96174 </norm>
-</domino>
-<domino>
-	<xpos> 329 </xpos>
-	<ypos> 23 </ypos>
-	<norm> -3.05093 </norm>
-</domino>
-<domino>
-	<xpos> 340 </xpos>
-	<ypos> 24 </ypos>
-	<norm> -3.05093 </norm>
-</domino>
-<domino>
-	<xpos> 351 </xpos>
-	<ypos> 25 </ypos>
-	<norm> 3.14159 </norm>
-</domino>
-<domino>
-	<xpos> 362 </xpos>
-	<ypos> 25 </ypos>
-	<norm> 3.14159 </norm>
-</domino>
-<domino>
-	<xpos> 373 </xpos>
-	<ypos> 25 </ypos>
-	<norm> -3.05093 </norm>
-</domino>
-<domino>
-	<xpos> 384 </xpos>
-	<ypos> 26 </ypos>
-	<norm> -2.87534 </norm>
-</domino>
-<domino>
-	<xpos> 395 </xpos>
-	<ypos> 29 </ypos>
-	<norm> -2.23184 </norm>
-</domino>
-<domino>
-	<xpos> 402 </xpos>
-	<ypos> 38 </ypos>
-	<norm> -2.03444 </norm>
-</domino>
-<domino>
-	<xpos> 407 </xpos>
-	<ypos> 48 </ypos>
-	<norm> -2.03444 </norm>
-</domino>
-<domino>
-	<xpos> 412 </xpos>
-	<ypos> 58 </ypos>
-	<norm> -2.03444 </norm>
-</domino>
-<domino>
-	<xpos> 417 </xpos>
-	<ypos> 68 </ypos>
-	<norm> -2.53087 </norm>
-</domino>
-<domino>
-	<xpos> 427 </xpos>
-	<ypos> 75 </ypos>
-	<norm> -2.29744 </norm>
-</domino>
-<domino>
-	<xpos> 435 </xpos>
-	<ypos> 84 </ypos>
-	<norm> -2.35619 </norm>
-</domino>
-<domino>
-	<xpos> 443 </xpos>
-	<ypos> 92 </ypos>
+	<ypos> 6 </ypos>
 	<norm> -2.41495 </norm>
 </domino>
 <domino>
-	<xpos> 452 </xpos>
-	<ypos> 100 </ypos>
-	<norm> -2.48055 </norm>
+	<xpos> 48 </xpos>
+	<ypos> 14 </ypos>
+	<norm> -1.39094 </norm>
 </domino>
 <domino>
-	<xpos> 461 </xpos>
-	<ypos> 107 </ypos>
-	<norm> -2.48055 </norm>
+	<xpos> 46 </xpos>
+	<ypos> 25 </ypos>
+	<norm> -0.661043 </norm>
 </domino>
 <domino>
-	<xpos> 470 </xpos>
-	<ypos> 114 </ypos>
-	<norm> -2.35619 </norm>
+	<xpos> 37 </xpos>
+	<ypos> 32 </ypos>
+	<norm> -0.54042 </norm>
 </domino>
 <domino>
-	<xpos> 478 </xpos>
-	<ypos> 122 </ypos>
-	<norm> -2.03444 </norm>
+	<xpos> 27 </xpos>
+	<ypos> 38 </ypos>
+	<norm> -0.54042 </norm>
 </domino>
 <domino>
-	<xpos> 483 </xpos>
-	<ypos> 132 </ypos>
+	<xpos> 17 </xpos>
+	<ypos> 44 </ypos>
+	<norm> -1.10715 </norm>
+</domino>
+<domino>
+	<xpos> 12 </xpos>
+	<ypos> 54 </ypos>
+	<norm> -2.87534 </norm>
+</domino>
+<domino>
+	<xpos> 23 </xpos>
+	<ypos> 57 </ypos>
+	<norm> 3.05093 </norm>
+</domino>
+<domino>
+	<xpos> 34 </xpos>
+	<ypos> 56 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 42 </xpos>
+	<ypos> 48 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 50 </xpos>
+	<ypos> 40 </ypos>
+	<norm> 1.83705 </norm>
+</domino>
+<domino>
+	<xpos> 53 </xpos>
+	<ypos> 29 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 61 </xpos>
+	<ypos> 21 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 69 </xpos>
+	<ypos> 13 </ypos>
+	<norm> 2.79282 </norm>
+</domino>
+<domino>
+	<xpos> 80 </xpos>
+	<ypos> 9 </ypos>
 	<norm> -2.11122 </norm>
 </domino>
 <domino>
-	<xpos> 489 </xpos>
-	<ypos> 142 </ypos>
-	<norm> 1.5708 </norm>
+	<xpos> 86 </xpos>
+	<ypos> 19 </ypos>
+	<norm> -1.39094 </norm>
 </domino>
 <domino>
-	<xpos> 489 </xpos>
-	<ypos> 131 </ypos>
-	<norm> 1.5708 </norm>
+	<xpos> 84 </xpos>
+	<ypos> 30 </ypos>
+	<norm> -1.22203 </norm>
 </domino>
 <domino>
-	<xpos> 489 </xpos>
-	<ypos> 120 </ypos>
-	<norm> 1.48014 </norm>
+	<xpos> 80 </xpos>
+	<ypos> 41 </ypos>
+	<norm> -0.54042 </norm>
 </domino>
 <domino>
-	<xpos> 488 </xpos>
-	<ypos> 109 </ypos>
-	<norm> 1.39094 </norm>
-</domino>
-<domino>
-	<xpos> 486 </xpos>
-	<ypos> 98 </ypos>
-	<norm> 1.48014 </norm>
-</domino>
-<domino>
-	<xpos> 485 </xpos>
-	<ypos> 87 </ypos>
-	<norm> 1.30454 </norm>
-</domino>
-<domino>
-	<xpos> 482 </xpos>
-	<ypos> 76 </ypos>
-	<norm> 1.39094 </norm>
-</domino>
-<domino>
-	<xpos> 480 </xpos>
-	<ypos> 65 </ypos>
-	<norm> 1.03038 </norm>
-</domino>
-<domino>
-	<xpos> 474 </xpos>
-	<ypos> 55 </ypos>
-	<norm> 0.785398 </norm>
-</domino>
-<domino>
-	<xpos> 466 </xpos>
+	<xpos> 70 </xpos>
 	<ypos> 47 </ypos>
-	<norm> 0.661043 </norm>
+	<norm> -0.661043 </norm>
 </domino>
 <domino>
-	<xpos> 457 </xpos>
-	<ypos> 40 </ypos>
-	<norm> 0.610726 </norm>
+	<xpos> 61 </xpos>
+	<ypos> 54 </ypos>
+	<norm> -0.661043 </norm>
 </domino>
 <domino>
-	<xpos> 447 </xpos>
-	<ypos> 33 </ypos>
-	<norm> 0.610726 </norm>
+	<xpos> 52 </xpos>
+	<ypos> 61 </ypos>
+	<norm> -0.785398 </norm>
 </domino>
 <domino>
-	<xpos> 437 </xpos>
-	<ypos> 26 </ypos>
-	<norm> 0.463648 </norm>
+	<xpos> 44 </xpos>
+	<ypos> 69 </ypos>
+	<norm> -0.54042 </norm>
 </domino>
 <domino>
-	<xpos> 427 </xpos>
-	<ypos> 21 </ypos>
-	<norm> 0.266252 </norm>
+	<xpos> 34 </xpos>
+	<ypos> 75 </ypos>
+	<norm> -0.661043 </norm>
 </domino>
 <domino>
-	<xpos> 416 </xpos>
-	<ypos> 18 </ypos>
+	<xpos> 25 </xpos>
+	<ypos> 82 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 17 </xpos>
+	<ypos> 90 </ypos>
+	<norm> -1.30454 </norm>
+</domino>
+<domino>
+	<xpos> 14 </xpos>
+	<ypos> 101 </ypos>
+	<norm> -1.75065 </norm>
+</domino>
+<domino>
+	<xpos> 16 </xpos>
+	<ypos> 112 </ypos>
+	<norm> -2.87534 </norm>
+</domino>
+<domino>
+	<xpos> 27 </xpos>
+	<ypos> 115 </ypos>
 	<norm> 2.67795 </norm>
 </domino>
 <domino>
-	<xpos> 426 </xpos>
-	<ypos> 13 </ypos>
-	<norm> 3.14159 </norm>
+	<xpos> 37 </xpos>
+	<ypos> 110 </ypos>
+	<norm> 2.48055 </norm>
 </domino>
 <domino>
-	<xpos> 437 </xpos>
+	<xpos> 46 </xpos>
+	<ypos> 103 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 53 </xpos>
+	<ypos> 94 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 62 </xpos>
+	<ypos> 87 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 69 </xpos>
+	<ypos> 78 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 76 </xpos>
+	<ypos> 69 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 81 </xpos>
+	<ypos> 59 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 88 </xpos>
+	<ypos> 50 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 94 </xpos>
+	<ypos> 40 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 102 </xpos>
+	<ypos> 32 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 110 </xpos>
+	<ypos> 24 </ypos>
+	<norm> 2.60117 </norm>
+</domino>
+<domino>
+	<xpos> 120 </xpos>
+	<ypos> 18 </ypos>
+	<norm> -2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 128 </xpos>
+	<ypos> 26 </ypos>
+	<norm> -1.5708 </norm>
+</domino>
+<domino>
+	<xpos> 128 </xpos>
+	<ypos> 37 </ypos>
+	<norm> -1.22203 </norm>
+</domino>
+<domino>
+	<xpos> 124 </xpos>
+	<ypos> 48 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 117 </xpos>
+	<ypos> 57 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 109 </xpos>
+	<ypos> 65 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 101 </xpos>
+	<ypos> 73 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 93 </xpos>
+	<ypos> 81 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 85 </xpos>
+	<ypos> 89 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 77 </xpos>
+	<ypos> 97 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 69 </xpos>
+	<ypos> 105 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 61 </xpos>
+	<ypos> 113 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 54 </xpos>
+	<ypos> 122 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 47 </xpos>
+	<ypos> 131 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 40 </xpos>
+	<ypos> 140 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 32 </xpos>
+	<ypos> 148 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 24 </xpos>
+	<ypos> 156 </ypos>
+	<norm> -1.10715 </norm>
+</domino>
+<domino>
+	<xpos> 19 </xpos>
+	<ypos> 166 </ypos>
+	<norm> -1.10715 </norm>
+</domino>
+<domino>
+	<xpos> 14 </xpos>
+	<ypos> 176 </ypos>
+	<norm> -1.48014 </norm>
+</domino>
+<domino>
+	<xpos> 13 </xpos>
+	<ypos> 187 </ypos>
+	<norm> -1.83705 </norm>
+</domino>
+<domino>
+	<xpos> 16 </xpos>
+	<ypos> 198 </ypos>
+	<norm> 3.05093 </norm>
+</domino>
+<domino>
+	<xpos> 27 </xpos>
+	<ypos> 197 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 35 </xpos>
+	<ypos> 189 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 42 </xpos>
+	<ypos> 180 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 49 </xpos>
+	<ypos> 171 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 56 </xpos>
+	<ypos> 162 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 65 </xpos>
+	<ypos> 155 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 74 </xpos>
+	<ypos> 148 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 82 </xpos>
+	<ypos> 140 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 91 </xpos>
+	<ypos> 133 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 98 </xpos>
+	<ypos> 124 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 105 </xpos>
+	<ypos> 115 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 110 </xpos>
+	<ypos> 105 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 117 </xpos>
+	<ypos> 96 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 124 </xpos>
+	<ypos> 87 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 129 </xpos>
+	<ypos> 77 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 135 </xpos>
+	<ypos> 67 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 143 </xpos>
+	<ypos> 59 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 149 </xpos>
+	<ypos> 49 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 154 </xpos>
+	<ypos> 39 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 159 </xpos>
+	<ypos> 29 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 166 </xpos>
+	<ypos> 20 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 175 </xpos>
 	<ypos> 13 </ypos>
 	<norm> 2.96174 </norm>
 </domino>
 <domino>
-	<xpos> 448 </xpos>
+	<xpos> 186 </xpos>
 	<ypos> 11 </ypos>
-	<norm> -2.96174 </norm>
+	<norm> -2.23184 </norm>
 </domino>
 <domino>
-	<xpos> 459 </xpos>
-	<ypos> 13 </ypos>
-	<norm> -2.87534 </norm>
+	<xpos> 193 </xpos>
+	<ypos> 20 </ypos>
+	<norm> -1.48014 </norm>
 </domino>
 <domino>
-	<xpos> 470 </xpos>
-	<ypos> 16 </ypos>
-	<norm> -2.60117 </norm>
+	<xpos> 192 </xpos>
+	<ypos> 31 </ypos>
+	<norm> -1.39094 </norm>
 </domino>
 <domino>
-	<xpos> 480 </xpos>
-	<ypos> 22 </ypos>
-	<norm> -2.18152 </norm>
+	<xpos> 190 </xpos>
+	<ypos> 42 </ypos>
+	<norm> -1.39094 </norm>
 </domino>
 <domino>
-	<xpos> 487 </xpos>
-	<ypos> 32 </ypos>
+	<xpos> 188 </xpos>
+	<ypos> 53 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 181 </xpos>
+	<ypos> 62 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 173 </xpos>
+	<ypos> 70 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 166 </xpos>
+	<ypos> 79 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 157 </xpos>
+	<ypos> 86 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 150 </xpos>
+	<ypos> 95 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 143 </xpos>
+	<ypos> 104 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 136 </xpos>
+	<ypos> 113 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 128 </xpos>
+	<ypos> 121 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 119 </xpos>
+	<ypos> 128 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 110 </xpos>
+	<ypos> 135 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 103 </xpos>
+	<ypos> 144 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 96 </xpos>
+	<ypos> 153 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 87 </xpos>
+	<ypos> 160 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 79 </xpos>
+	<ypos> 168 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 72 </xpos>
+	<ypos> 177 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 64 </xpos>
+	<ypos> 185 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 57 </xpos>
+	<ypos> 194 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 49 </xpos>
+	<ypos> 202 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 42 </xpos>
+	<ypos> 211 </ypos>
 	<norm> -1.10715 </norm>
 </domino>
 <domino>
-	<xpos> 482 </xpos>
-	<ypos> 42 </ypos>
-	<norm> -0.266252 </norm>
-</domino>
-<domino>
-	<xpos> 471 </xpos>
-	<ypos> 45 </ypos>
-	<norm> -0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 462 </xpos>
-	<ypos> 52 </ypos>
+	<xpos> 37 </xpos>
+	<ypos> 221 </ypos>
 	<norm> -0.785398 </norm>
 </domino>
 <domino>
-	<xpos> 454 </xpos>
-	<ypos> 60 </ypos>
-	<norm> -0.909753 </norm>
-</domino>
-<domino>
-	<xpos> 447 </xpos>
-	<ypos> 69 </ypos>
-	<norm> -0.909753 </norm>
-</domino>
-<domino>
-	<xpos> 440 </xpos>
-	<ypos> 78 </ypos>
-	<norm> -0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 431 </xpos>
-	<ypos> 85 </ypos>
-	<norm> -0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 422 </xpos>
-	<ypos> 92 </ypos>
-	<norm> -0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 413 </xpos>
-	<ypos> 99 </ypos>
-	<norm> -0.463648 </norm>
-</domino>
-<domino>
-	<xpos> 403 </xpos>
-	<ypos> 104 </ypos>
-	<norm> -0.463648 </norm>
-</domino>
-<domino>
-	<xpos> 393 </xpos>
-	<ypos> 109 </ypos>
-	<norm> -0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 384 </xpos>
-	<ypos> 116 </ypos>
-	<norm> -0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 375 </xpos>
-	<ypos> 123 </ypos>
-	<norm> -0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 366 </xpos>
-	<ypos> 130 </ypos>
-	<norm> -0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 356 </xpos>
-	<ypos> 136 </ypos>
-	<norm> -0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 347 </xpos>
-	<ypos> 143 </ypos>
-	<norm> -0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 337 </xpos>
-	<ypos> 149 </ypos>
-	<norm> -0.54042 </norm>
-</domino>
-<domino>
-	<xpos> 327 </xpos>
-	<ypos> 155 </ypos>
-	<norm> -0.463648 </norm>
-</domino>
-<domino>
-	<xpos> 317 </xpos>
-	<ypos> 160 </ypos>
-	<norm> -0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 308 </xpos>
-	<ypos> 167 </ypos>
-	<norm> -0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 299 </xpos>
-	<ypos> 174 </ypos>
+	<xpos> 29 </xpos>
+	<ypos> 229 </ypos>
 	<norm> -0.785398 </norm>
 </domino>
 <domino>
-	<xpos> 291 </xpos>
-	<ypos> 182 </ypos>
-	<norm> -0.909753 </norm>
+	<xpos> 21 </xpos>
+	<ypos> 237 </ypos>
+	<norm> -1.10715 </norm>
 </domino>
 <domino>
-	<xpos> 284 </xpos>
-	<ypos> 191 </ypos>
-	<norm> -0.909753 </norm>
+	<xpos> 16 </xpos>
+	<ypos> 247 </ypos>
+	<norm> -1.10715 </norm>
 </domino>
 <domino>
-	<xpos> 277 </xpos>
-	<ypos> 200 </ypos>
-	<norm> -0.909753 </norm>
+	<xpos> 11 </xpos>
+	<ypos> 257 </ypos>
+	<norm> -1.83705 </norm>
 </domino>
 <domino>
-	<xpos> 270 </xpos>
-	<ypos> 209 </ypos>
-	<norm> -0.661043 </norm>
+	<xpos> 14 </xpos>
+	<ypos> 268 </ypos>
+	<norm> -2.87534 </norm>
 </domino>
 <domino>
-	<xpos> 261 </xpos>
-	<ypos> 216 </ypos>
-	<norm> -0.909753 </norm>
+	<xpos> 25 </xpos>
+	<ypos> 271 </ypos>
+	<norm> 2.67795 </norm>
 </domino>
 <domino>
-	<xpos> 254 </xpos>
-	<ypos> 225 </ypos>
-	<norm> -0.785398 </norm>
-</domino>
-<domino>
-	<xpos> 246 </xpos>
-	<ypos> 233 </ypos>
-	<norm> -0.785398 </norm>
-</domino>
-<domino>
-	<xpos> 238 </xpos>
-	<ypos> 241 </ypos>
-	<norm> -0.785398 </norm>
-</domino>
-<domino>
-	<xpos> 230 </xpos>
-	<ypos> 249 </ypos>
-	<norm> -0.909753 </norm>
-</domino>
-<domino>
-	<xpos> 223 </xpos>
-	<ypos> 258 </ypos>
-	<norm> -0.785398 </norm>
-</domino>
-<domino>
-	<xpos> 215 </xpos>
+	<xpos> 35 </xpos>
 	<ypos> 266 </ypos>
+	<norm> 2.60117 </norm>
+</domino>
+<domino>
+	<xpos> 45 </xpos>
+	<ypos> 260 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 53 </xpos>
+	<ypos> 252 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 60 </xpos>
+	<ypos> 243 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 66 </xpos>
+	<ypos> 233 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 72 </xpos>
+	<ypos> 223 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 80 </xpos>
+	<ypos> 215 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 87 </xpos>
+	<ypos> 206 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 94 </xpos>
+	<ypos> 197 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 102 </xpos>
+	<ypos> 189 </ypos>
+	<norm> 2.60117 </norm>
+</domino>
+<domino>
+	<xpos> 112 </xpos>
+	<ypos> 183 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 119 </xpos>
+	<ypos> 174 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 124 </xpos>
+	<ypos> 164 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 132 </xpos>
+	<ypos> 156 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 139 </xpos>
+	<ypos> 147 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 147 </xpos>
+	<ypos> 139 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 154 </xpos>
+	<ypos> 130 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 160 </xpos>
+	<ypos> 120 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 166 </xpos>
+	<ypos> 110 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 172 </xpos>
+	<ypos> 100 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 179 </xpos>
+	<ypos> 91 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 186 </xpos>
+	<ypos> 82 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 195 </xpos>
+	<ypos> 75 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 204 </xpos>
+	<ypos> 68 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 211 </xpos>
+	<ypos> 59 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 216 </xpos>
+	<ypos> 49 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 221 </xpos>
+	<ypos> 39 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 226 </xpos>
+	<ypos> 29 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 232 </xpos>
+	<ypos> 19 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 239 </xpos>
+	<ypos> 10 </ypos>
+	<norm> 2.87534 </norm>
+</domino>
+<domino>
+	<xpos> 250 </xpos>
+	<ypos> 7 </ypos>
+	<norm> -2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 257 </xpos>
+	<ypos> 16 </ypos>
+	<norm> -1.75065 </norm>
+</domino>
+<domino>
+	<xpos> 259 </xpos>
+	<ypos> 27 </ypos>
+	<norm> -1.5708 </norm>
+</domino>
+<domino>
+	<xpos> 259 </xpos>
+	<ypos> 38 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 252 </xpos>
+	<ypos> 47 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 245 </xpos>
+	<ypos> 56 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 236 </xpos>
+	<ypos> 63 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 229 </xpos>
+	<ypos> 72 </ypos>
 	<norm> -1.03038 </norm>
 </domino>
 <domino>
+	<xpos> 223 </xpos>
+	<ypos> 82 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 216 </xpos>
+	<ypos> 91 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
 	<xpos> 209 </xpos>
+	<ypos> 100 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 201 </xpos>
+	<ypos> 108 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 192 </xpos>
+	<ypos> 115 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 183 </xpos>
+	<ypos> 122 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 175 </xpos>
+	<ypos> 130 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 168 </xpos>
+	<ypos> 139 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 161 </xpos>
+	<ypos> 148 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 154 </xpos>
+	<ypos> 157 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 146 </xpos>
+	<ypos> 165 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 140 </xpos>
+	<ypos> 175 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 133 </xpos>
+	<ypos> 184 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 125 </xpos>
+	<ypos> 192 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 118 </xpos>
+	<ypos> 201 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 110 </xpos>
+	<ypos> 209 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 104 </xpos>
+	<ypos> 219 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 97 </xpos>
+	<ypos> 228 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 90 </xpos>
+	<ypos> 237 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 82 </xpos>
+	<ypos> 245 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 74 </xpos>
+	<ypos> 253 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 65 </xpos>
+	<ypos> 260 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 57 </xpos>
+	<ypos> 268 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 49 </xpos>
 	<ypos> 276 </ypos>
 	<norm> -0.909753 </norm>
 </domino>
 <domino>
-	<xpos> 202 </xpos>
+	<xpos> 42 </xpos>
 	<ypos> 285 </ypos>
+	<norm> -1.10715 </norm>
+</domino>
+<domino>
+	<xpos> 37 </xpos>
+	<ypos> 295 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 29 </xpos>
+	<ypos> 303 </ypos>
 	<norm> -0.909753 </norm>
 </domino>
 <domino>
-	<xpos> 195 </xpos>
+	<xpos> 22 </xpos>
+	<ypos> 312 </ypos>
+	<norm> -1.10715 </norm>
+</domino>
+<domino>
+	<xpos> 17 </xpos>
+	<ypos> 322 </ypos>
+	<norm> -1.10715 </norm>
+</domino>
+<domino>
+	<xpos> 12 </xpos>
+	<ypos> 332 </ypos>
+	<norm> -1.22203 </norm>
+</domino>
+<domino>
+	<xpos> 8 </xpos>
+	<ypos> 343 </ypos>
+	<norm> -1.48014 </norm>
+</domino>
+<domino>
+	<xpos> 7 </xpos>
+	<ypos> 354 </ypos>
+	<norm> -2.67795 </norm>
+</domino>
+<domino>
+	<xpos> 17 </xpos>
+	<ypos> 359 </ypos>
+	<norm> 2.67795 </norm>
+</domino>
+<domino>
+	<xpos> 27 </xpos>
+	<ypos> 354 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 34 </xpos>
+	<ypos> 345 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 41 </xpos>
+	<ypos> 336 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 49 </xpos>
+	<ypos> 328 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 57 </xpos>
+	<ypos> 320 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 65 </xpos>
+	<ypos> 312 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 72 </xpos>
+	<ypos> 303 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 79 </xpos>
 	<ypos> 294 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 86 </xpos>
+	<ypos> 285 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 93 </xpos>
+	<ypos> 276 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 100 </xpos>
+	<ypos> 267 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 107 </xpos>
+	<ypos> 258 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 115 </xpos>
+	<ypos> 250 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 123 </xpos>
+	<ypos> 242 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 131 </xpos>
+	<ypos> 234 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 138 </xpos>
+	<ypos> 225 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 146 </xpos>
+	<ypos> 217 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 153 </xpos>
+	<ypos> 208 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 160 </xpos>
+	<ypos> 199 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 166 </xpos>
+	<ypos> 189 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 171 </xpos>
+	<ypos> 179 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 177 </xpos>
+	<ypos> 169 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 185 </xpos>
+	<ypos> 161 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 191 </xpos>
+	<ypos> 151 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 198 </xpos>
+	<ypos> 142 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 205 </xpos>
+	<ypos> 133 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 213 </xpos>
+	<ypos> 125 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 221 </xpos>
+	<ypos> 117 </ypos>
+	<norm> 2.60117 </norm>
+</domino>
+<domino>
+	<xpos> 231 </xpos>
+	<ypos> 111 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 239 </xpos>
+	<ypos> 103 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 246 </xpos>
+	<ypos> 94 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 254 </xpos>
+	<ypos> 86 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 261 </xpos>
+	<ypos> 77 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 268 </xpos>
+	<ypos> 68 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 274 </xpos>
+	<ypos> 58 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 282 </xpos>
+	<ypos> 50 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 288 </xpos>
+	<ypos> 40 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 294 </xpos>
+	<ypos> 30 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 301 </xpos>
+	<ypos> 21 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 310 </xpos>
+	<ypos> 14 </ypos>
+	<norm> 2.60117 </norm>
+</domino>
+<domino>
+	<xpos> 320 </xpos>
+	<ypos> 8 </ypos>
+	<norm> -2.96174 </norm>
+</domino>
+<domino>
+	<xpos> 331 </xpos>
+	<ypos> 10 </ypos>
+	<norm> -2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 338 </xpos>
+	<ypos> 19 </ypos>
+	<norm> -1.91957 </norm>
+</domino>
+<domino>
+	<xpos> 342 </xpos>
+	<ypos> 30 </ypos>
+	<norm> -1.39094 </norm>
+</domino>
+<domino>
+	<xpos> 340 </xpos>
+	<ypos> 41 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 331 </xpos>
+	<ypos> 48 </ypos>
 	<norm> -0.785398 </norm>
 </domino>
 <domino>
-	<xpos> 187 </xpos>
-	<ypos> 302 </ypos>
+	<xpos> 323 </xpos>
+	<ypos> 56 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 315 </xpos>
+	<ypos> 64 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 306 </xpos>
+	<ypos> 71 </ypos>
 	<norm> -0.909753 </norm>
 </domino>
 <domino>
-	<xpos> 180 </xpos>
-	<ypos> 311 </ypos>
+	<xpos> 299 </xpos>
+	<ypos> 80 </ypos>
 	<norm> -0.785398 </norm>
 </domino>
 <domino>
-	<xpos> 172 </xpos>
-	<ypos> 319 </ypos>
+	<xpos> 291 </xpos>
+	<ypos> 88 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 283 </xpos>
+	<ypos> 96 </ypos>
 	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 274 </xpos>
+	<ypos> 103 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 266 </xpos>
+	<ypos> 111 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 258 </xpos>
+	<ypos> 119 </ypos>
+	<norm> -0.610726 </norm>
+</domino>
+<domino>
+	<xpos> 248 </xpos>
+	<ypos> 126 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 241 </xpos>
+	<ypos> 135 </ypos>
+	<norm> -0.54042 </norm>
+</domino>
+<domino>
+	<xpos> 231 </xpos>
+	<ypos> 141 </ypos>
+	<norm> -0.54042 </norm>
+</domino>
+<domino>
+	<xpos> 221 </xpos>
+	<ypos> 147 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 214 </xpos>
+	<ypos> 156 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 206 </xpos>
+	<ypos> 164 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 199 </xpos>
+	<ypos> 173 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 191 </xpos>
+	<ypos> 181 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 184 </xpos>
+	<ypos> 190 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 176 </xpos>
+	<ypos> 198 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 170 </xpos>
+	<ypos> 208 </ypos>
+	<norm> -0.909753 </norm>
 </domino>
 <domino>
 	<xpos> 163 </xpos>
-	<ypos> 326 </ypos>
+	<ypos> 217 </ypos>
+	<norm> -1.10715 </norm>
+</domino>
+<domino>
+	<xpos> 158 </xpos>
+	<ypos> 227 </ypos>
 	<norm> -0.909753 </norm>
 </domino>
 <domino>
-	<xpos> 156 </xpos>
-	<ypos> 335 </ypos>
-	<norm> -0.661043 </norm>
+	<xpos> 151 </xpos>
+	<ypos> 236 </ypos>
+	<norm> -1.03038 </norm>
 </domino>
 <domino>
-	<xpos> 147 </xpos>
-	<ypos> 342 </ypos>
-	<norm> -0.785398 </norm>
+	<xpos> 145 </xpos>
+	<ypos> 246 </ypos>
+	<norm> -1.03038 </norm>
 </domino>
 <domino>
 	<xpos> 139 </xpos>
-	<ypos> 350 </ypos>
-	<norm> -0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 130 </xpos>
-	<ypos> 357 </ypos>
-	<norm> -0.661043 </norm>
-</domino>
-<domino>
-	<xpos> 121 </xpos>
-	<ypos> 364 </ypos>
+	<ypos> 256 </ypos>
 	<norm> -0.909753 </norm>
 </domino>
 <domino>
-	<xpos> 114 </xpos>
+	<xpos> 132 </xpos>
+	<ypos> 265 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 125 </xpos>
+	<ypos> 274 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 119 </xpos>
+	<ypos> 284 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 110 </xpos>
+	<ypos> 291 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 102 </xpos>
+	<ypos> 299 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 93 </xpos>
+	<ypos> 306 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 85 </xpos>
+	<ypos> 314 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 77 </xpos>
+	<ypos> 322 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 70 </xpos>
+	<ypos> 331 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 62 </xpos>
+	<ypos> 339 </ypos>
+	<norm> -1.10715 </norm>
+</domino>
+<domino>
+	<xpos> 57 </xpos>
+	<ypos> 349 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 51 </xpos>
+	<ypos> 359 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 45 </xpos>
+	<ypos> 369 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 38 </xpos>
+	<ypos> 378 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 31 </xpos>
+	<ypos> 387 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 23 </xpos>
+	<ypos> 395 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 15 </xpos>
+	<ypos> 403 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 8 </xpos>
+	<ypos> 412 </ypos>
+	<norm> -2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 13 </xpos>
+	<ypos> 422 </ypos>
+	<norm> 2.96174 </norm>
+</domino>
+<domino>
+	<xpos> 24 </xpos>
+	<ypos> 420 </ypos>
+	<norm> 2.60117 </norm>
+</domino>
+<domino>
+	<xpos> 34 </xpos>
+	<ypos> 414 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 41 </xpos>
+	<ypos> 405 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 48 </xpos>
+	<ypos> 396 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 55 </xpos>
+	<ypos> 387 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 62 </xpos>
+	<ypos> 378 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 70 </xpos>
+	<ypos> 370 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 78 </xpos>
+	<ypos> 362 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 86 </xpos>
+	<ypos> 354 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 95 </xpos>
+	<ypos> 347 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 103 </xpos>
+	<ypos> 339 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 112 </xpos>
+	<ypos> 332 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 120 </xpos>
+	<ypos> 324 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 129 </xpos>
+	<ypos> 317 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 137 </xpos>
+	<ypos> 309 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 145 </xpos>
+	<ypos> 301 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 150 </xpos>
+	<ypos> 291 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 159 </xpos>
+	<ypos> 284 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 167 </xpos>
+	<ypos> 276 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 174 </xpos>
+	<ypos> 267 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 182 </xpos>
+	<ypos> 259 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 189 </xpos>
+	<ypos> 250 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 195 </xpos>
+	<ypos> 240 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 202 </xpos>
+	<ypos> 231 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 208 </xpos>
+	<ypos> 221 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 215 </xpos>
+	<ypos> 212 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 222 </xpos>
+	<ypos> 203 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 229 </xpos>
+	<ypos> 194 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 237 </xpos>
+	<ypos> 186 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 244 </xpos>
+	<ypos> 177 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 251 </xpos>
+	<ypos> 168 </ypos>
+	<norm> 2.60117 </norm>
+</domino>
+<domino>
+	<xpos> 261 </xpos>
+	<ypos> 162 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 269 </xpos>
+	<ypos> 154 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 277 </xpos>
+	<ypos> 146 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 285 </xpos>
+	<ypos> 138 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 293 </xpos>
+	<ypos> 130 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 299 </xpos>
+	<ypos> 120 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 306 </xpos>
+	<ypos> 111 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 313 </xpos>
+	<ypos> 102 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 319 </xpos>
+	<ypos> 92 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 324 </xpos>
+	<ypos> 82 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 331 </xpos>
+	<ypos> 73 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 337 </xpos>
+	<ypos> 63 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 343 </xpos>
+	<ypos> 53 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 350 </xpos>
+	<ypos> 44 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 357 </xpos>
+	<ypos> 35 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 365 </xpos>
+	<ypos> 27 </ypos>
+	<norm> 2.60117 </norm>
+</domino>
+<domino>
+	<xpos> 375 </xpos>
+	<ypos> 21 </ypos>
+	<norm> 2.60117 </norm>
+</domino>
+<domino>
+	<xpos> 385 </xpos>
+	<ypos> 15 </ypos>
+	<norm> 2.67795 </norm>
+</domino>
+<domino>
+	<xpos> 395 </xpos>
+	<ypos> 10 </ypos>
+	<norm> -2.41495 </norm>
+</domino>
+<domino>
+	<xpos> 404 </xpos>
+	<ypos> 18 </ypos>
+	<norm> -1.5708 </norm>
+</domino>
+<domino>
+	<xpos> 404 </xpos>
+	<ypos> 29 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 398 </xpos>
+	<ypos> 39 </ypos>
+	<norm> -1.10715 </norm>
+</domino>
+<domino>
+	<xpos> 393 </xpos>
+	<ypos> 49 </ypos>
+	<norm> -1.10715 </norm>
+</domino>
+<domino>
+	<xpos> 388 </xpos>
+	<ypos> 59 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 381 </xpos>
+	<ypos> 68 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 374 </xpos>
+	<ypos> 77 </ypos>
+	<norm> -1.22203 </norm>
+</domino>
+<domino>
+	<xpos> 370 </xpos>
+	<ypos> 88 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 364 </xpos>
+	<ypos> 98 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 355 </xpos>
+	<ypos> 105 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 348 </xpos>
+	<ypos> 114 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 339 </xpos>
+	<ypos> 121 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 330 </xpos>
+	<ypos> 128 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 322 </xpos>
+	<ypos> 136 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 314 </xpos>
+	<ypos> 144 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 306 </xpos>
+	<ypos> 152 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 299 </xpos>
+	<ypos> 161 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 293 </xpos>
+	<ypos> 171 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 286 </xpos>
+	<ypos> 180 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 278 </xpos>
+	<ypos> 188 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 269 </xpos>
+	<ypos> 195 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 261 </xpos>
+	<ypos> 203 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 254 </xpos>
+	<ypos> 212 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 246 </xpos>
+	<ypos> 220 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 238 </xpos>
+	<ypos> 228 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 230 </xpos>
+	<ypos> 236 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 223 </xpos>
+	<ypos> 245 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 216 </xpos>
+	<ypos> 254 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 210 </xpos>
+	<ypos> 264 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 204 </xpos>
+	<ypos> 274 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 197 </xpos>
+	<ypos> 283 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 191 </xpos>
+	<ypos> 293 </ypos>
+	<norm> -1.10715 </norm>
+</domino>
+<domino>
+	<xpos> 186 </xpos>
+	<ypos> 303 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 179 </xpos>
+	<ypos> 312 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 172 </xpos>
+	<ypos> 321 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 165 </xpos>
+	<ypos> 330 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 158 </xpos>
+	<ypos> 339 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 150 </xpos>
+	<ypos> 347 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 143 </xpos>
+	<ypos> 356 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 135 </xpos>
+	<ypos> 364 </ypos>
+	<norm> -0.54042 </norm>
+</domino>
+<domino>
+	<xpos> 125 </xpos>
+	<ypos> 370 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 116 </xpos>
+	<ypos> 377 </ypos>
+	<norm> -0.54042 </norm>
+</domino>
+<domino>
+	<xpos> 106 </xpos>
+	<ypos> 383 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 98 </xpos>
+	<ypos> 391 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 89 </xpos>
+	<ypos> 398 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 80 </xpos>
+	<ypos> 405 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 72 </xpos>
+	<ypos> 413 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 63 </xpos>
+	<ypos> 420 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 55 </xpos>
+	<ypos> 428 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 47 </xpos>
+	<ypos> 436 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 39 </xpos>
+	<ypos> 444 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 30 </xpos>
+	<ypos> 451 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 22 </xpos>
+	<ypos> 459 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 14 </xpos>
+	<ypos> 467 </ypos>
+	<norm> -1.22203 </norm>
+</domino>
+<domino>
+	<xpos> 10 </xpos>
+	<ypos> 478 </ypos>
+	<norm> -2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 17 </xpos>
+	<ypos> 487 </ypos>
+	<norm> 2.87534 </norm>
+</domino>
+<domino>
+	<xpos> 28 </xpos>
+	<ypos> 484 </ypos>
+	<norm> 2.79282 </norm>
+</domino>
+<domino>
+	<xpos> 39 </xpos>
+	<ypos> 480 </ypos>
+	<norm> 2.60117 </norm>
+</domino>
+<domino>
+	<xpos> 49 </xpos>
+	<ypos> 474 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 58 </xpos>
+	<ypos> 467 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 67 </xpos>
+	<ypos> 460 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 76 </xpos>
+	<ypos> 453 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 85 </xpos>
+	<ypos> 446 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 93 </xpos>
+	<ypos> 438 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 102 </xpos>
+	<ypos> 431 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 111 </xpos>
+	<ypos> 424 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 120 </xpos>
+	<ypos> 417 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 129 </xpos>
+	<ypos> 410 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 136 </xpos>
+	<ypos> 401 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 143 </xpos>
+	<ypos> 392 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 151 </xpos>
+	<ypos> 384 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 159 </xpos>
+	<ypos> 376 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 168 </xpos>
+	<ypos> 369 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 176 </xpos>
+	<ypos> 361 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 185 </xpos>
+	<ypos> 354 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 193 </xpos>
+	<ypos> 346 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 200 </xpos>
+	<ypos> 337 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 208 </xpos>
+	<ypos> 329 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 216 </xpos>
+	<ypos> 321 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 223 </xpos>
+	<ypos> 312 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 232 </xpos>
+	<ypos> 305 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 241 </xpos>
+	<ypos> 298 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 247 </xpos>
+	<ypos> 288 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 252 </xpos>
+	<ypos> 278 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 258 </xpos>
+	<ypos> 268 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 263 </xpos>
+	<ypos> 258 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 269 </xpos>
+	<ypos> 248 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 275 </xpos>
+	<ypos> 238 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 281 </xpos>
+	<ypos> 228 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 288 </xpos>
+	<ypos> 219 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 293 </xpos>
+	<ypos> 209 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 300 </xpos>
+	<ypos> 200 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 307 </xpos>
+	<ypos> 191 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 314 </xpos>
+	<ypos> 182 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 321 </xpos>
+	<ypos> 173 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 329 </xpos>
+	<ypos> 165 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 337 </xpos>
+	<ypos> 157 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 346 </xpos>
+	<ypos> 150 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 354 </xpos>
+	<ypos> 142 </ypos>
+	<norm> 2.67795 </norm>
+</domino>
+<domino>
+	<xpos> 364 </xpos>
+	<ypos> 137 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 373 </xpos>
+	<ypos> 130 </ypos>
+	<norm> 2.60117 </norm>
+</domino>
+<domino>
+	<xpos> 383 </xpos>
+	<ypos> 124 </ypos>
+	<norm> 2.67795 </norm>
+</domino>
+<domino>
+	<xpos> 393 </xpos>
+	<ypos> 119 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 401 </xpos>
+	<ypos> 111 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 408 </xpos>
+	<ypos> 102 </ypos>
+	<norm> 1.91957 </norm>
+</domino>
+<domino>
+	<xpos> 412 </xpos>
+	<ypos> 91 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 417 </xpos>
+	<ypos> 81 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 423 </xpos>
+	<ypos> 71 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 428 </xpos>
+	<ypos> 61 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 435 </xpos>
+	<ypos> 52 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 443 </xpos>
+	<ypos> 44 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 450 </xpos>
+	<ypos> 35 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 458 </xpos>
+	<ypos> 27 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 466 </xpos>
+	<ypos> 19 </ypos>
+	<norm> 2.96174 </norm>
+</domino>
+<domino>
+	<xpos> 477 </xpos>
+	<ypos> 17 </ypos>
+	<norm> -2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 485 </xpos>
+	<ypos> 25 </ypos>
+	<norm> -2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 493 </xpos>
+	<ypos> 33 </ypos>
+	<norm> -1.5708 </norm>
+</domino>
+<domino>
+	<xpos> 493 </xpos>
+	<ypos> 44 </ypos>
+	<norm> -1.10715 </norm>
+</domino>
+<domino>
+	<xpos> 488 </xpos>
+	<ypos> 54 </ypos>
+	<norm> -1.10715 </norm>
+</domino>
+<domino>
+	<xpos> 483 </xpos>
+	<ypos> 64 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 476 </xpos>
+	<ypos> 73 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 470 </xpos>
+	<ypos> 83 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 462 </xpos>
+	<ypos> 91 </ypos>
+	<norm> -0.54042 </norm>
+</domino>
+<domino>
+	<xpos> 452 </xpos>
+	<ypos> 97 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 443 </xpos>
+	<ypos> 104 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 435 </xpos>
+	<ypos> 112 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 428 </xpos>
+	<ypos> 121 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 420 </xpos>
+	<ypos> 129 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 413 </xpos>
+	<ypos> 138 </ypos>
+	<norm> -0.54042 </norm>
+</domino>
+<domino>
+	<xpos> 403 </xpos>
+	<ypos> 144 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 394 </xpos>
+	<ypos> 151 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 386 </xpos>
+	<ypos> 159 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 378 </xpos>
+	<ypos> 167 </ypos>
+	<norm> -0.54042 </norm>
+</domino>
+<domino>
+	<xpos> 368 </xpos>
+	<ypos> 173 </ypos>
+	<norm> -0.54042 </norm>
+</domino>
+<domino>
+	<xpos> 358 </xpos>
+	<ypos> 179 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 349 </xpos>
+	<ypos> 186 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 341 </xpos>
+	<ypos> 194 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 333 </xpos>
+	<ypos> 202 </ypos>
+	<norm> -1.30454 </norm>
+</domino>
+<domino>
+	<xpos> 330 </xpos>
+	<ypos> 213 </ypos>
+	<norm> -1.10715 </norm>
+</domino>
+<domino>
+	<xpos> 325 </xpos>
+	<ypos> 223 </ypos>
+	<norm> -1.30454 </norm>
+</domino>
+<domino>
+	<xpos> 322 </xpos>
+	<ypos> 234 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 316 </xpos>
+	<ypos> 244 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 309 </xpos>
+	<ypos> 253 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 302 </xpos>
+	<ypos> 262 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 295 </xpos>
+	<ypos> 271 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 288 </xpos>
+	<ypos> 280 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 281 </xpos>
+	<ypos> 289 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 274 </xpos>
+	<ypos> 298 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 267 </xpos>
+	<ypos> 307 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 260 </xpos>
+	<ypos> 316 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 252 </xpos>
+	<ypos> 324 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 244 </xpos>
+	<ypos> 332 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 236 </xpos>
+	<ypos> 340 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 229 </xpos>
+	<ypos> 349 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 221 </xpos>
+	<ypos> 357 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 214 </xpos>
+	<ypos> 366 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 205 </xpos>
 	<ypos> 373 </ypos>
 	<norm> -0.909753 </norm>
 </domino>
 <domino>
-	<xpos> 107 </xpos>
+	<xpos> 198 </xpos>
 	<ypos> 382 </ypos>
 	<norm> -0.909753 </norm>
 </domino>
 <domino>
-	<xpos> 100 </xpos>
+	<xpos> 191 </xpos>
 	<ypos> 391 </ypos>
 	<norm> -0.909753 </norm>
 </domino>
 <domino>
-	<xpos> 93 </xpos>
+	<xpos> 184 </xpos>
 	<ypos> 400 </ypos>
 	<norm> -0.909753 </norm>
 </domino>
 <domino>
-	<xpos> 86 </xpos>
+	<xpos> 177 </xpos>
 	<ypos> 409 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 170 </xpos>
+	<ypos> 418 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 163 </xpos>
+	<ypos> 427 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 155 </xpos>
+	<ypos> 435 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 146 </xpos>
+	<ypos> 442 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 138 </xpos>
+	<ypos> 450 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 129 </xpos>
+	<ypos> 457 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 120 </xpos>
+	<ypos> 464 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 111 </xpos>
+	<ypos> 471 </ypos>
 	<norm> -1.10715 </norm>
 </domino>
 <domino>
-	<xpos> 81 </xpos>
-	<ypos> 419 </ypos>
+	<xpos> 106 </xpos>
+	<ypos> 481 </ypos>
+	<norm> -2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 115 </xpos>
+	<ypos> 488 </ypos>
+	<norm> 2.60117 </norm>
+</domino>
+<domino>
+	<xpos> 125 </xpos>
+	<ypos> 482 </ypos>
+	<norm> 2.67795 </norm>
+</domino>
+<domino>
+	<xpos> 135 </xpos>
+	<ypos> 477 </ypos>
+	<norm> 2.60117 </norm>
+</domino>
+<domino>
+	<xpos> 145 </xpos>
+	<ypos> 471 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 154 </xpos>
+	<ypos> 464 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 162 </xpos>
+	<ypos> 456 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 171 </xpos>
+	<ypos> 449 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 180 </xpos>
+	<ypos> 442 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 189 </xpos>
+	<ypos> 435 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 198 </xpos>
+	<ypos> 428 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 206 </xpos>
+	<ypos> 420 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 214 </xpos>
+	<ypos> 412 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 222 </xpos>
+	<ypos> 404 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 231 </xpos>
+	<ypos> 397 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 238 </xpos>
+	<ypos> 388 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 247 </xpos>
+	<ypos> 381 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 253 </xpos>
+	<ypos> 371 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 261 </xpos>
+	<ypos> 363 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 267 </xpos>
+	<ypos> 353 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 274 </xpos>
+	<ypos> 344 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 282 </xpos>
+	<ypos> 336 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 289 </xpos>
+	<ypos> 327 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 296 </xpos>
+	<ypos> 318 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 304 </xpos>
+	<ypos> 310 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 313 </xpos>
+	<ypos> 303 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 321 </xpos>
+	<ypos> 295 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 327 </xpos>
+	<ypos> 285 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 333 </xpos>
+	<ypos> 275 </ypos>
+	<norm> 1.91957 </norm>
+</domino>
+<domino>
+	<xpos> 337 </xpos>
+	<ypos> 264 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 342 </xpos>
+	<ypos> 254 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 348 </xpos>
+	<ypos> 244 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 353 </xpos>
+	<ypos> 234 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 359 </xpos>
+	<ypos> 224 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 367 </xpos>
+	<ypos> 216 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 374 </xpos>
+	<ypos> 207 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 381 </xpos>
+	<ypos> 198 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 389 </xpos>
+	<ypos> 190 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 397 </xpos>
+	<ypos> 182 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 405 </xpos>
+	<ypos> 174 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 413 </xpos>
+	<ypos> 166 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 420 </xpos>
+	<ypos> 157 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 429 </xpos>
+	<ypos> 150 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 438 </xpos>
+	<ypos> 143 </ypos>
+	<norm> 2.60117 </norm>
+</domino>
+<domino>
+	<xpos> 448 </xpos>
+	<ypos> 137 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 455 </xpos>
+	<ypos> 128 </ypos>
+	<norm> 2.87534 </norm>
+</domino>
+<domino>
+	<xpos> 466 </xpos>
+	<ypos> 125 </ypos>
+	<norm> -2.67795 </norm>
+</domino>
+<domino>
+	<xpos> 476 </xpos>
+	<ypos> 130 </ypos>
+	<norm> -2.41495 </norm>
+</domino>
+<domino>
+	<xpos> 485 </xpos>
+	<ypos> 138 </ypos>
+	<norm> -1.75065 </norm>
+</domino>
+<domino>
+	<xpos> 487 </xpos>
+	<ypos> 149 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 479 </xpos>
+	<ypos> 157 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 471 </xpos>
+	<ypos> 165 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 462 </xpos>
+	<ypos> 172 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 453 </xpos>
+	<ypos> 179 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 444 </xpos>
+	<ypos> 186 </ypos>
 	<norm> -0.909753 </norm>
 </domino>
 <domino>
-	<xpos> 74 </xpos>
-	<ypos> 428 </ypos>
+	<xpos> 437 </xpos>
+	<ypos> 195 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 429 </xpos>
+	<ypos> 203 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 422 </xpos>
+	<ypos> 212 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 415 </xpos>
+	<ypos> 221 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 407 </xpos>
+	<ypos> 229 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 399 </xpos>
+	<ypos> 237 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 392 </xpos>
+	<ypos> 246 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 384 </xpos>
+	<ypos> 254 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 376 </xpos>
+	<ypos> 262 </ypos>
 	<norm> -1.03038 </norm>
 </domino>
 <domino>
-	<xpos> 68 </xpos>
-	<ypos> 438 </ypos>
+	<xpos> 370 </xpos>
+	<ypos> 272 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 361 </xpos>
+	<ypos> 279 </ypos>
 	<norm> -0.785398 </norm>
 </domino>
 <domino>
-	<xpos> 60 </xpos>
-	<ypos> 446 </ypos>
+	<xpos> 353 </xpos>
+	<ypos> 287 </ypos>
 	<norm> -0.785398 </norm>
 </domino>
 <domino>
-	<xpos> 52 </xpos>
-	<ypos> 454 </ypos>
+	<xpos> 345 </xpos>
+	<ypos> 295 </ypos>
+	<norm> -1.10715 </norm>
+</domino>
+<domino>
+	<xpos> 340 </xpos>
+	<ypos> 305 </ypos>
 	<norm> -0.909753 </norm>
 </domino>
 <domino>
-	<xpos> 45 </xpos>
-	<ypos> 463 </ypos>
-	<norm> -0.463648 </norm>
+	<xpos> 333 </xpos>
+	<ypos> 314 </ypos>
+	<norm> -0.909753 </norm>
 </domino>
 <domino>
-	<xpos> 35 </xpos>
-	<ypos> 468 </ypos>
+	<xpos> 326 </xpos>
+	<ypos> 323 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 319 </xpos>
+	<ypos> 332 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 311 </xpos>
+	<ypos> 340 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 303 </xpos>
+	<ypos> 348 </ypos>
 	<norm> -0.661043 </norm>
 </domino>
 <domino>
-	<xpos> 26 </xpos>
+	<xpos> 294 </xpos>
+	<ypos> 355 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 286 </xpos>
+	<ypos> 363 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 279 </xpos>
+	<ypos> 372 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 270 </xpos>
+	<ypos> 379 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 262 </xpos>
+	<ypos> 387 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 256 </xpos>
+	<ypos> 397 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 250 </xpos>
+	<ypos> 407 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 243 </xpos>
+	<ypos> 416 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 235 </xpos>
+	<ypos> 424 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 226 </xpos>
+	<ypos> 431 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 220 </xpos>
+	<ypos> 441 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 212 </xpos>
+	<ypos> 449 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 204 </xpos>
+	<ypos> 457 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 197 </xpos>
+	<ypos> 466 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 190 </xpos>
 	<ypos> 475 </ypos>
+	<norm> -2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 197 </xpos>
+	<ypos> 484 </ypos>
+	<norm> 3.14159 </norm>
+</domino>
+<domino>
+	<xpos> 208 </xpos>
+	<ypos> 484 </ypos>
+	<norm> 3.05093 </norm>
+</domino>
+<domino>
+	<xpos> 219 </xpos>
+	<ypos> 483 </ypos>
+	<norm> 2.79282 </norm>
+</domino>
+<domino>
+	<xpos> 230 </xpos>
+	<ypos> 479 </ypos>
+	<norm> 2.60117 </norm>
+</domino>
+<domino>
+	<xpos> 240 </xpos>
+	<ypos> 473 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 248 </xpos>
+	<ypos> 465 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 256 </xpos>
+	<ypos> 457 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 264 </xpos>
+	<ypos> 449 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 271 </xpos>
+	<ypos> 440 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 278 </xpos>
+	<ypos> 431 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 286 </xpos>
+	<ypos> 423 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 293 </xpos>
+	<ypos> 414 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 300 </xpos>
+	<ypos> 405 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 308 </xpos>
+	<ypos> 397 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 316 </xpos>
+	<ypos> 389 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 324 </xpos>
+	<ypos> 381 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 332 </xpos>
+	<ypos> 373 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 340 </xpos>
+	<ypos> 365 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 346 </xpos>
+	<ypos> 355 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 353 </xpos>
+	<ypos> 346 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 359 </xpos>
+	<ypos> 336 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 368 </xpos>
+	<ypos> 329 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 376 </xpos>
+	<ypos> 321 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 385 </xpos>
+	<ypos> 314 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 393 </xpos>
+	<ypos> 306 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 401 </xpos>
+	<ypos> 298 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 408 </xpos>
+	<ypos> 289 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 415 </xpos>
+	<ypos> 280 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 421 </xpos>
+	<ypos> 270 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 428 </xpos>
+	<ypos> 261 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 433 </xpos>
+	<ypos> 251 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 438 </xpos>
+	<ypos> 241 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 445 </xpos>
+	<ypos> 232 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 452 </xpos>
+	<ypos> 223 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 459 </xpos>
+	<ypos> 214 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 467 </xpos>
+	<ypos> 206 </ypos>
+	<norm> 2.87534 </norm>
+</domino>
+<domino>
+	<xpos> 478 </xpos>
+	<ypos> 203 </ypos>
+	<norm> -1.75065 </norm>
+</domino>
+<domino>
+	<xpos> 480 </xpos>
+	<ypos> 214 </ypos>
+	<norm> -1.75065 </norm>
+</domino>
+<domino>
+	<xpos> 482 </xpos>
+	<ypos> 225 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 475 </xpos>
+	<ypos> 234 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 468 </xpos>
+	<ypos> 243 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 461 </xpos>
+	<ypos> 252 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 454 </xpos>
+	<ypos> 261 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 447 </xpos>
+	<ypos> 270 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 441 </xpos>
+	<ypos> 280 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 434 </xpos>
+	<ypos> 289 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 426 </xpos>
+	<ypos> 297 </ypos>
+	<norm> -1.10715 </norm>
+</domino>
+<domino>
+	<xpos> 421 </xpos>
+	<ypos> 307 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 414 </xpos>
+	<ypos> 316 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 406 </xpos>
+	<ypos> 324 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 400 </xpos>
+	<ypos> 334 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 392 </xpos>
+	<ypos> 342 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 386 </xpos>
+	<ypos> 352 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 379 </xpos>
+	<ypos> 361 </ypos>
+	<norm> -0.726642 </norm>
+</domino>
+<domino>
+	<xpos> 370 </xpos>
+	<ypos> 369 </ypos>
 	<norm> -0.661043 </norm>
 </domino>
 <domino>
-	<xpos> 17 </xpos>
-	<ypos> 482 </ypos>
+	<xpos> 361 </xpos>
+	<ypos> 376 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 354 </xpos>
+	<ypos> 385 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 346 </xpos>
+	<ypos> 393 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 339 </xpos>
+	<ypos> 402 </ypos>
+	<norm> -0.96007 </norm>
+</domino>
+<domino>
+	<xpos> 332 </xpos>
+	<ypos> 412 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 326 </xpos>
+	<ypos> 422 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 319 </xpos>
+	<ypos> 431 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 312 </xpos>
+	<ypos> 440 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 306 </xpos>
+	<ypos> 450 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 299 </xpos>
+	<ypos> 459 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 292 </xpos>
+	<ypos> 468 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 284 </xpos>
+	<ypos> 476 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 278 </xpos>
+	<ypos> 486 </ypos>
+	<norm> -2.87534 </norm>
+</domino>
+<domino>
+	<xpos> 289 </xpos>
+	<ypos> 489 </ypos>
+	<norm> 2.79282 </norm>
+</domino>
+<domino>
+	<xpos> 300 </xpos>
+	<ypos> 485 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 309 </xpos>
+	<ypos> 478 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 316 </xpos>
+	<ypos> 469 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 323 </xpos>
+	<ypos> 460 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 330 </xpos>
+	<ypos> 451 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 336 </xpos>
+	<ypos> 441 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 343 </xpos>
+	<ypos> 432 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 349 </xpos>
+	<ypos> 422 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 356 </xpos>
+	<ypos> 413 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 364 </xpos>
+	<ypos> 405 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 373 </xpos>
+	<ypos> 398 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 382 </xpos>
+	<ypos> 391 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 390 </xpos>
+	<ypos> 383 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 398 </xpos>
+	<ypos> 375 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 406 </xpos>
+	<ypos> 367 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 415 </xpos>
+	<ypos> 360 </ypos>
+	<norm> 2.67795 </norm>
+</domino>
+<domino>
+	<xpos> 425 </xpos>
+	<ypos> 355 </ypos>
+	<norm> 2.67795 </norm>
+</domino>
+<domino>
+	<xpos> 435 </xpos>
+	<ypos> 350 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 444 </xpos>
+	<ypos> 343 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 453 </xpos>
+	<ypos> 336 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 458 </xpos>
+	<ypos> 326 </ypos>
+	<norm> 1.83705 </norm>
+</domino>
+<domino>
+	<xpos> 461 </xpos>
+	<ypos> 315 </ypos>
+	<norm> 1.83705 </norm>
+</domino>
+<domino>
+	<xpos> 464 </xpos>
+	<ypos> 304 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 469 </xpos>
+	<ypos> 294 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 476 </xpos>
+	<ypos> 285 </ypos>
+	<norm> -2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 485 </xpos>
+	<ypos> 292 </ypos>
+	<norm> -1.83705 </norm>
+</domino>
+<domino>
+	<xpos> 488 </xpos>
+	<ypos> 303 </ypos>
+	<norm> -1.5708 </norm>
+</domino>
+<domino>
+	<xpos> 488 </xpos>
+	<ypos> 314 </ypos>
+	<norm> -1.5708 </norm>
+</domino>
+<domino>
+	<xpos> 488 </xpos>
+	<ypos> 325 </ypos>
+	<norm> -1.03038 </norm>
+</domino>
+<domino>
+	<xpos> 482 </xpos>
+	<ypos> 335 </ypos>
 	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 473 </xpos>
+	<ypos> 342 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 464 </xpos>
+	<ypos> 349 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 456 </xpos>
+	<ypos> 357 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 448 </xpos>
+	<ypos> 365 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 440 </xpos>
+	<ypos> 373 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 433 </xpos>
+	<ypos> 382 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 425 </xpos>
+	<ypos> 390 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 418 </xpos>
+	<ypos> 399 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 410 </xpos>
+	<ypos> 407 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 403 </xpos>
+	<ypos> 416 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 395 </xpos>
+	<ypos> 424 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 387 </xpos>
+	<ypos> 432 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 378 </xpos>
+	<ypos> 439 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 369 </xpos>
+	<ypos> 446 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 362 </xpos>
+	<ypos> 455 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 355 </xpos>
+	<ypos> 464 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 348 </xpos>
+	<ypos> 473 </ypos>
+	<norm> -1.30454 </norm>
+</domino>
+<domino>
+	<xpos> 345 </xpos>
+	<ypos> 484 </ypos>
+	<norm> -2.87534 </norm>
+</domino>
+<domino>
+	<xpos> 356 </xpos>
+	<ypos> 487 </ypos>
+	<norm> 2.96174 </norm>
+</domino>
+<domino>
+	<xpos> 367 </xpos>
+	<ypos> 485 </ypos>
+	<norm> 2.67795 </norm>
+</domino>
+<domino>
+	<xpos> 377 </xpos>
+	<ypos> 480 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 386 </xpos>
+	<ypos> 473 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 393 </xpos>
+	<ypos> 464 </ypos>
+	<norm> 2.11122 </norm>
+</domino>
+<domino>
+	<xpos> 399 </xpos>
+	<ypos> 454 </ypos>
+	<norm> 2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 404 </xpos>
+	<ypos> 444 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 411 </xpos>
+	<ypos> 435 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 418 </xpos>
+	<ypos> 426 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 426 </xpos>
+	<ypos> 418 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 434 </xpos>
+	<ypos> 410 </ypos>
+	<norm> 2.35619 </norm>
+</domino>
+<domino>
+	<xpos> 442 </xpos>
+	<ypos> 402 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 451 </xpos>
+	<ypos> 395 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 460 </xpos>
+	<ypos> 388 </ypos>
+	<norm> 2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 469 </xpos>
+	<ypos> 381 </ypos>
+	<norm> 2.79282 </norm>
+</domino>
+<domino>
+	<xpos> 480 </xpos>
+	<ypos> 377 </ypos>
+	<norm> -2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 485 </xpos>
+	<ypos> 387 </ypos>
+	<norm> -1.5708 </norm>
+</domino>
+<domino>
+	<xpos> 485 </xpos>
+	<ypos> 398 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 478 </xpos>
+	<ypos> 407 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 469 </xpos>
+	<ypos> 414 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 462 </xpos>
+	<ypos> 423 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 454 </xpos>
+	<ypos> 431 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 447 </xpos>
+	<ypos> 440 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 439 </xpos>
+	<ypos> 448 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 432 </xpos>
+	<ypos> 457 </ypos>
+	<norm> -0.785398 </norm>
+</domino>
+<domino>
+	<xpos> 424 </xpos>
+	<ypos> 465 </ypos>
+	<norm> -0.661043 </norm>
+</domino>
+<domino>
+	<xpos> 415 </xpos>
+	<ypos> 472 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 408 </xpos>
+	<ypos> 481 </ypos>
+	<norm> -2.48055 </norm>
+</domino>
+<domino>
+	<xpos> 417 </xpos>
+	<ypos> 488 </ypos>
+	<norm> 3.14159 </norm>
+</domino>
+<domino>
+	<xpos> 428 </xpos>
+	<ypos> 488 </ypos>
+	<norm> 2.67795 </norm>
+</domino>
+<domino>
+	<xpos> 438 </xpos>
+	<ypos> 483 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 445 </xpos>
+	<ypos> 474 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 452 </xpos>
+	<ypos> 465 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 459 </xpos>
+	<ypos> 456 </ypos>
+	<norm> 2.23184 </norm>
+</domino>
+<domino>
+	<xpos> 466 </xpos>
+	<ypos> 447 </ypos>
+	<norm> 2.79282 </norm>
+</domino>
+<domino>
+	<xpos> 477 </xpos>
+	<ypos> 443 </ypos>
+	<norm> -2.03444 </norm>
+</domino>
+<domino>
+	<xpos> 482 </xpos>
+	<ypos> 453 </ypos>
+	<norm> -1.48014 </norm>
+</domino>
+<domino>
+	<xpos> 481 </xpos>
+	<ypos> 464 </ypos>
+	<norm> -1.10715 </norm>
+</domino>
+<domino>
+	<xpos> 476 </xpos>
+	<ypos> 474 </ypos>
+	<norm> -0.909753 </norm>
+</domino>
+<domino>
+	<xpos> 469 </xpos>
+	<ypos> 483 </ypos>
+	<norm> -2.96174 </norm>
+</domino>
+<domino>
+	<xpos> 480 </xpos>
+	<ypos> 485 </ypos>
+	<norm> -2.96174 </norm>
 </domino>

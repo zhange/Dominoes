@@ -73,7 +73,9 @@ void draw_domino(domino d)
     // put two rotations in here, one for tilt one for forward
     
     glRotatef(norm, 0 , 0 , 1 );
-    glRotatef(tilt, 0,  12.5 , 0 );
+    glTranslatef(0,0,12.5);
+    glRotatef(tilt, 0,  1 , 0 );
+    glTranslatef(0,0,-12.5);
     //glScalef(1.5, 2.5, .5); //glScalef(.025,.025,.025);
     glScalef(5,15,-25);
     //glScalef(.5,.5,.5);
@@ -98,7 +100,7 @@ void rdraw(void)
     // move back a bit
     
     //if(dominoes.size()>1)gluLookAt(0.0, 0.0, 50, dominoes[0].getX(), dominoes[0].getY(), 0.0, 0, 1, 0);
-    glTranslatef( 0, 0, -300 );
+    //glTranslatef( 0, 0, -300 );
 cout << 2 << endl;
     //if(dominoes.size()>1)gluLookAt(0.0, 0.0, 50, dominoes[0].getX(), dominoes[0].getY(), 0.0, 0, 1, 0);
     // need 2 to give it perspective, or maybe just one done right
@@ -110,7 +112,8 @@ cout << 2 << endl;
     	{
     		lead = &dominoes[0];
     	}
-        gluLookAt(testThingX, testThingY, -300, dominoes[0].getX(), dominoes[0].getY(), 0, 0, 0, -1);
+        //gluLookAt(testThingX, testThingY, -300, lead -> getX(), lead -> getY(), 0, 0, 0, -1);
+        gluLookAt(0, 0, -30, lead -> getX(), lead -> getY(), 0, 0, 0, -1);
         cout << 4 << endl;
 	}
 	else
