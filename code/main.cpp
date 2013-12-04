@@ -56,13 +56,16 @@ int main(int argc, char *argv[])
 	glutInitWindowPosition(100, 100);
 	glutCreateWindow("Dominoes");
 	glutDisplayFunc(drawScene);
+	//cout << 10 << endl;
 	glutReshapeFunc(resize);
+	cout << 11 << endl;
 	glutKeyboardFunc(keyInput);
+	cout << 12 << endl;
 	glutMouseFunc(mouseControl);
 	//glutTimerFunc(5, animate, 1);
 	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 	Initialize();
-	
+	cout << 14 << endl;
 	cout << "d = draw" << endl << "r = run" << endl << "l = load" << endl << "s = save" << endl << "g = go" << endl << "c = clear" << endl;
 	
 	glutMainLoop();
@@ -160,7 +163,7 @@ void drawScene()
 		{
 			drawLines();
 		}
-		glutSwapBuffers();
+		//glutSwapBuffers();
 	}
 	else if(MODE == "RUN")
 	{
@@ -171,7 +174,8 @@ void drawScene()
 		colDet();
 		
 		//run mode display function
-		r_display(); 
+		r_display();
+		cout << 8 << endl;
 	}
 	
 		
@@ -185,7 +189,7 @@ void drawScene()
 	demButtons.push_back(button(1,2,"Run Mode"));
 	demButtons.push_back(button(2,1,"Load Setup"));
 	demButtons.push_back(button(2,2,"Save Setup"));
-	
+	//cout << 9 << endl;
 	if(MODE == "DRAW")
 	{
 		//draw buttons
@@ -199,7 +203,7 @@ void drawScene()
 	drawMenu();
 	
 	glDepthMask(GL_TRUE);
-	
+	//cout << 9.5 << endl;
 
 	glutSwapBuffers();
 }
@@ -207,12 +211,17 @@ void drawScene()
 //window resize function
 void resize(int w, int h)
 {
+	cout << 19 << endl;
 	WIDTH = w;
 	HEIGHT = h;
+	cout << 20 << endl;
 	glViewport(0, 0, (GLsizei)w, (GLsizei)h);
 	glMatrixMode(GL_PROJECTION);
+	cout << 21 << endl;
 	glLoadIdentity();
+	cout << 22 << endl;
 	glFrustum(-5.0, 5.0, -5.0, 5.0, 5.0, 250.0);
+	cout << 23 << endl;
 	glMatrixMode(GL_MODELVIEW);
 }
 
@@ -288,6 +297,7 @@ void mouseControl(int button, int state, int x, int y)
 					points = choosepts(points, 10);
 					points = calcforward(points);
 					dominoes = pointtodomino(points);
+					points.clear();
 					ptslines = 1;
 				}
 			}
@@ -325,7 +335,6 @@ void mouseControl(int button, int state, int x, int y)
 				else if(demButtons[i].getName() == "Load Setup")
 				{
 					readFile();
-					drawLines();
 				}
 				else if(demButtons[i].getName() == "Save Setup")
 				{

@@ -92,25 +92,30 @@ void rdraw(void)
   glClearColor(0,1,1,1);
   glMatrixMode(GL_MODELVIEW);
   glLoadIdentity();
+  
+  cout << 1 << endl;
 
     // move back a bit
     
     //if(dominoes.size()>1)gluLookAt(0.0, 0.0, 50, dominoes[0].getX(), dominoes[0].getY(), 0.0, 0, 1, 0);
     glTranslatef( 0, 0, -300 );
-
+cout << 2 << endl;
     //if(dominoes.size()>1)gluLookAt(0.0, 0.0, 50, dominoes[0].getX(), dominoes[0].getY(), 0.0, 0, 1, 0);
     // need 2 to give it perspective, or maybe just one done right
     //gluLookAt(10.0, 10.0, -14.0, 0.0, 0.0, 0.0, 0.0, 0, -1); 
     if(dominoes.size())
     {
+    	cout << 3 << endl;
     	if(lead == NULL)
     	{
     		lead = &dominoes[0];
     	}
         gluLookAt(testThingX, testThingY, -300, dominoes[0].getX(), dominoes[0].getY(), 0, 0, 0, -1);
+        cout << 4 << endl;
 	}
 	else
 	{
+		cout << 5 << endl;
 		gluLookAt(testThingX, testThingY, -300, 0, 0, 0, 0, 0, -1);
 	}
     
@@ -121,6 +126,7 @@ void rdraw(void)
     draw_domino(dominoes[i]);
     //cout << dominoes[i].getX() << " " << dominoes[i].getY() << " normal: " << endl;//dominoes[i].getNorm()*180/3.14 << endl;
   }
+  cout << 6 << endl;
 
 }
 
@@ -129,6 +135,6 @@ int r_display()
 {
    glutInitDisplayMode(GLUT_RGBA | GLUT_DEPTH);
    rdraw();
-  
+  cout << 7 << endl;
   return 0;
 }
