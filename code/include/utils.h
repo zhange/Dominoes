@@ -27,7 +27,7 @@ void mode3D()
 	glLoadIdentity();
 	//Using gluPerspective. It's pretty easy and looks nice.
 	
-gluPerspective(60, 1, 1, 1000);//gluPerspective(0, 1, 0, 10);
+gluPerspective(60, 9.0/5.0, 1, 10000);//gluPerspective(0, 1, 0, 10);
 	//Set up modelview matrix
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
@@ -147,7 +147,7 @@ void readFile()
 										if(temp == "</domino>")
 										{
 											dominoes.push_back(domino(val1, val2, val3));
-											cout << val1 << " " << val2 << " " << val3 << endl;
+											lead = &dominoes[0];											
 										}
 									}
 								}
@@ -207,7 +207,7 @@ void reset()
 void fullStep()
 {
 	
-	for(int i = 0; i < dominoes.size(); i++)
+	for(int i = dominoes.size() - 1; i >= 0; i--)
 	{
 		if(dominoes[i].step() && i == leadInd)
 		{
@@ -224,14 +224,16 @@ void colDet()
 		{
 			dominoes[leadInd].setSupport(&dominoes[leadInd + 1]);
 			lead = &dominoes[leadInd + 1];
+			dominoes[leadInd].rest(&dominoes[leadInd + 1]);
 			leadInd++;
+			dominoes[leadInd].start();
 		}
 	}
 }
 
 void start()
 {
-	if(dominoes.size() > 0)
+	if(dominoes.size())
 	{
 		dominoes[0].start();
 	}

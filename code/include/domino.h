@@ -70,15 +70,15 @@ class domino
 			if(!resting)
 			{
 				//falling
-				double speed = tilt/10.0 + load; 
-				tilt += speed/60.0;
-				if(tilt >= 90)
+				double speed = tilt/M_PI*180 + load; 
+				tilt += speed/120.0/180*M_PI;
+				if(tilt >= M_PI/2)
 				{
-					tilt = 90;
+					tilt = M_PI/2;
 					resting = true;
 				}
 				//collision detection
-				if(cos(tilt)*0.75*25 >= 10)
+				if(sin(tilt)*0.75*25 >= 10)
 				{
 					return true;
 				}
@@ -113,6 +113,7 @@ class domino
 		void start()
 		{
 			tilt = 1;
+			standing = false;
 		}
 		
 		void drawline()
@@ -121,6 +122,12 @@ class domino
 			  glVertex3f(x-5*cos(norm+(M_PI/2)), y-5*sin(norm+(M_PI/2)), 0.0);
 			  glVertex3f(x+5*cos(norm+(M_PI/2)), y+5*sin(norm+(M_PI/2)), 0.0);
 		   glEnd();
+		}
+		
+		void rest(domino* supporter)
+		{
+			resting = true;
+			support = supporter;
 		}
 };
 
