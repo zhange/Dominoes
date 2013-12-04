@@ -116,7 +116,7 @@ class domino
 		
 		void start()
 		{
-			tilt = 1;
+			tilt = 1/180*M_PI;
 			standing = false;
 		}
 		
