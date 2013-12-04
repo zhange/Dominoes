@@ -181,6 +181,7 @@ void drawScene()
 	{
 		demButtons.push_back(button(3,1,"Play Sequence"));
 		demButtons.push_back(button(3,2,"Reset Dominoes"));
+		demButtons.push_back(button(4,1,"Freeze"));
 	}
 	
 	drawMenu();
@@ -325,6 +326,10 @@ void mouseControl(int button, int state, int x, int y)
 				else if(demButtons[i].getName() == "Reset Dominoes")
 				{
 					reset();
+				}
+				else if(demButtons[i].getName() == "Freeze")
+				{
+					freeze();
 				}
 			}
 		}

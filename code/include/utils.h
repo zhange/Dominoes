@@ -241,3 +241,8 @@ void start()
 		STARTED = true;
 	}
 }
+
+void freeze()
+{
+	STARTED = false;
+}
