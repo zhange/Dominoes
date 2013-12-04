@@ -71,7 +71,7 @@ class domino
 			{
 				//falling
 				double speed = tilt/M_PI*180 + load; 
-				tilt += 0;//speed/120.0/180*M_PI;
+				tilt += speed/180.0*M_PI;
 				if(tilt >= M_PI/2)
 				{
 					tilt = M_PI/2;
