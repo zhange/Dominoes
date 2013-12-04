@@ -33,6 +33,7 @@ bool touchFlag = false;
 float testThingX = 0; 
 float testThingY = 0;
 bool up = true;
+bool STARTED = false;
 
 //helper includes
 #include "include/drawMode.h"
@@ -152,8 +153,11 @@ void drawScene()
 		//turn to 3D mode
 		mode3D();
 		
-		fullStep();
-		colDet();
+		if(STARTED)
+		{
+			fullStep();
+			colDet();
+		}
 		
 		//run mode display function
 		r_display(); 
