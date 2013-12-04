@@ -71,13 +71,14 @@ class domino
 			{
 				//falling
 				double speed = tilt/M_PI*180 + load; 
-				tilt += speed/180.0*M_PI;
+				tilt += speed/180.0*M_PI/100.0;
+				cout << speed << endl;
 				if(tilt >= M_PI/2)
 				{
 					tilt = M_PI/2;
 				}
 				//collision detection
-				if(sin(tilt)*0.75*25 >= 10)
+				if(sin(tilt)*0.75*25 >= 10 -.75*5)
 				{
 					return true;
 				}

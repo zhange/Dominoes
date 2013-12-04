@@ -113,7 +113,7 @@ cout << 2 << endl;
     		lead = &dominoes[0];
     	}
         //gluLookAt(testThingX, testThingY, -300, lead -> getX(), lead -> getY(), 0, 0, 0, -1);
-        gluLookAt(0, 0, -30, lead -> getX(), lead -> getY(), 0, 0, 0, -1);
+        gluLookAt(lead -> getX() + cos(lead -> getNorm())*100, lead -> getY() + sin(lead -> getNorm())*100, -30, lead -> getX(), lead -> getY(), 0, 0, 0, -1);
         cout << 4 << endl;
 	}
 	else
