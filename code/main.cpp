@@ -35,6 +35,7 @@ float testThingX = 0;
 float testThingY = 0;
 bool up = true;
 bool STARTED = false;
+int CAM = 1;
 
 //helper includes
 #include "include/drawMode.h"
@@ -77,6 +78,7 @@ void Initialize()
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 	glOrtho(-1.0,1.0,-1.0,1.0,-1.0,1.0);
+	glEnable(GL_NORMALIZE);
 	
 	// new stuff //
 	// Material property vectors.
@@ -244,6 +246,14 @@ void keyInput(unsigned char key, int x, int y)
 	    testThingX++;
 	else if(key == 'b')
 	    testThingX--;
+    else if(key == '1')
+    {
+    	CAM = 1;
+    }
+    else if(key == '2')
+    {
+    	CAM = 2;
+    }
 	    
 	glutPostRedisplay();
 }
@@ -314,6 +324,7 @@ void mouseControl(int button, int state, int x, int y)
 				{
 					readFile();
 					ptslines=1;
+					reset();
 				}
 				else if(demButtons[i].getName() == "Save Setup")
 				{

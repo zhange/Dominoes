@@ -87,9 +87,19 @@ class domino
 			{
 				if(support != NULL)
 				{
-					double w = sqrt((x - support -> getX())*(x - support -> getX()) + (y - support -> getY())*(y - support -> getY()));
-					double theta = asin(w*cos(support -> getTilt())/2)+support -> getTilt();
-					tilt = theta;
+					double h,d,o,n;
+					
+					//height
+					h = 25.0*0.75;
+					//distance
+					d = sqrt((x - support -> getX())*(x - support -> getX()) + (y - support -> getY())*(y - support -> getY()));
+					//old angle
+					o = M_PI/2.0 - support -> getTilt();
+		
+					n = M_PI/2.0 - (asin(d*sin(o)/h)+o);
+					
+					cout << n/M_PI*180 << endl;
+					tilt = min(tilt, n);
 				}
 				else if(tilt > 90/180*M_PI)
 				{

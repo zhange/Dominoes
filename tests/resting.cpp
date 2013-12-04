@@ -6,15 +6,17 @@ int main()
 {
 	while(true)
 	{
-		double tilt, w, d;
+		double h,d,o,n;
 		
-		cout << "tilt = ";
-		cin >> tilt;
-		cout << "w = ";
-		cin >> w;
-		d = 2;
+		cout << "height = ";
+		cin >> h;
+		cout << "distance = ";
+		cin >> d;
+		cout << "old angle = ";
+		cin >> o;
 		
-		double theta = asin(w*cos(tilt/180*M_PI)/2)+tilt/180*M_PI;
-		cout << theta/M_PI*180 << endl;
+		n = asin(d*sin(o/180*M_PI)/h)+o/180*M_PI;
+		n = abs(n);
+		cout << n/M_PI*180 << endl;
 	}
 }

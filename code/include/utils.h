@@ -208,7 +208,6 @@ void reset()
 
 void fullStep()
 {
-	
 	for(int i = dominoes.size() - 1; i >= 0; i--)
 	{
 		if(dominoes[i].step() && i == leadInd)
