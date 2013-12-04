@@ -59,9 +59,9 @@ class domino
 		}
 		
 		//add resting dominues
-		void newload(int x)
+		int getLoad()
 		{
-			load += x;
+			return load;
 		}
 		
 		//timestep
@@ -70,9 +70,9 @@ class domino
 			if(!resting)
 			{
 				//falling
-				double speed = tilt/M_PI*180 + load; 
-				tilt += speed/180.0*M_PI/100.0;
-				cout << speed << endl;
+				double speed = tilt/M_PI*180 + 10*load; 
+				tilt += speed/180.0*M_PI/60.0;
+				//cout << speed << endl;
 				if(tilt >= M_PI/2)
 				{
 					tilt = M_PI/2;
@@ -114,9 +114,13 @@ class domino
 			support = supporter;
 		}
 		
-		void start()
+		void start(int number)
 		{
-			tilt = 1/180*M_PI;
+			load = number;
+			if(load == 0)
+			{
+				tilt = 1.0/180*M_PI;
+			}
 			standing = false;
 		}
 		

@@ -227,9 +227,12 @@ void colDet()
 			dominoes[leadInd].setSupport(&dominoes[leadInd + 1]);
 			lead = &dominoes[leadInd + 1];
 			dominoes[leadInd].rest(&dominoes[leadInd + 1]);
+			int number = dominoes[leadInd].getLoad();
+			cout << number << endl;
 			leadInd++;
-			dominoes[leadInd].start();
+			dominoes[leadInd].start(number);
 		}
+		touchFlag = false;
 	}
 }
 
@@ -237,7 +240,7 @@ void start()
 {
 	if(dominoes.size())
 	{
-		dominoes[0].start();
+		dominoes[0].start(0);
 		STARTED = true;
 	}
 }

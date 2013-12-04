@@ -38,7 +38,6 @@ bool STARTED = false;
 //helper includes
 #include "include/drawMode.h"
 #include "include/runMode.h"
-#include "include/view.h"
 #include "include/utils.h"
 
 //function prototypes
