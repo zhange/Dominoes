@@ -16,6 +16,8 @@ In either mode, you can click the "Load Setup" and "Save Setup" buttons to load 
 
 In Run Mode, you can click "Play Sequence" to begin tilting the first domino and start the sequence of toppling. You can also click "Reset Dominoes" to reset all dominoes to a standing position. Finally, you can click "Freeze" at any time during the falling of dominoes to freeze or un-freeze their motion.
 
+When in Run Mode, you can press the 1 or 2 key on the keyboard in order to switch to camera mode 1 and camera mode 2, respectively. Camera mode 1 follows the lead domino, and camera mode 2 views the action from a fixed point in space.
+
 
 Implementation Manual
 ---------------------
