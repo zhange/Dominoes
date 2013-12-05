@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(WIDTH, HEIGHT);
 	glutInitWindowPosition(100, 100);
-	glutCreateWindow("Dominoes");
+	glutCreateWindow("Domsim");
 	glutDisplayFunc(drawScene);
 	glutReshapeFunc(resize);
 	glutKeyboardFunc(keyInput);
