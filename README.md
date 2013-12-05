@@ -1,23 +1,13 @@
-Dominoes
-========
+Domsim
+======
 
 A Dominoes Simulator
 
-Essential Fetures
------------------
-- Canvas for creating domino setups
-- Lighting effects
-- Coloring dominoes
-- Saving and loading domino setup files
+User Guide
+----------
 
-Bonus Features
---------------
-- Bezier curves for canvas
-- Branching paths
-- Camera following dominoes and branching
-- Sound Effects
-- Procedurally generated setup (fractal tree)
+The two topmost buttons in the menu will bring you to Draw Mode and Run Mode, respectively.
 
-Easter Eggs
------------
-- Konami Code
+In Draw Mode, you can draw a line on the canvas which will segment into distinct dominoes upon releasing the mouse button.
+
+In Run Mode, you will see the currently loaded line of dominoes in 3D with red wireframe dominoes on a blue floor.

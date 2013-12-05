@@ -21,7 +21,7 @@ using namespace std;
 #include "include/point.h"
 
 //global variables
-string MODE = "RUN";
+string MODE = "DRAW";
 int HEIGHT = 500;
 int WIDTH = 900;
 int ptslines = 0;
