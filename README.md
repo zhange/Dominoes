@@ -18,6 +18,8 @@ In Run Mode, you can click "Play Sequence" to begin tilting the first domino and
 
 When in Run Mode, you can press the 1 or 2 key on the keyboard in order to switch to camera mode 1 and camera mode 2, respectively. Camera mode 1 follows the lead domino, and camera mode 2 views the action from a fixed point in space.
 
+For additional camera control in Run Mode, you can press the z key and the x key to increment and decrement the x coordinate of the camera position, respectively. Similarly, you can press the v key and the b key to increment and decrement the y coordinate of the camera position, respectively. These controls ara available in both camera mode 1 and camera mode 2 and are held when transitioning between the modes.
+
 
 Implementation Manual
 ---------------------
