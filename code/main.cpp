@@ -61,10 +61,8 @@ int main(int argc, char *argv[])
 	glutReshapeFunc(resize);
 	glutKeyboardFunc(keyInput);
 	glutMouseFunc(mouseControl);
-	//glutTimerFunc(5, animate, 1);
 	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 	Initialize();
-	cout << "d = draw" << endl << "r = run" << endl << "l = load" << endl << "s = save" << endl << "g = go" << endl << "c = clear" << endl;
 	
 	glutMainLoop();
 
@@ -79,40 +77,39 @@ void Initialize()
 	glLoadIdentity();
 	glOrtho(-1.0,1.0,-1.0,1.0,-1.0,1.0);
 	glEnable(GL_NORMALIZE);
-	
-	// new stuff //
+
 	// Material property vectors.
-   float matSpec[] = { 0.0, 1.0, 1.0, 1.0 };
-   float matShine[] = { 50.0 };
-   float matAmbAndDif[] = {0.0, 0.1, 1.0, 1.0};
+	float matSpec[] = { 0.0, 1.0, 1.0, 1.0 };
+	float matShine[] = { 50.0 };
+	float matAmbAndDif[] = {0.0, 0.1, 1.0, 1.0};
 
-   // Light property vectors.
-   float lightAmb[] = { 1.0, 1.0, 1.0, 1.0 };
-   float lightDifAndSpec[] = { 1.0, 1.0, 1.0, 1.0 };
-   float lightPos[] = { 250.0, 250.0, 250.0, 1.0 };
-   float globAmb[] = { 0.2, 0.2, 0.2, 1.0 };
+	// Light property vectors.
+	float lightAmb[] = { 1.0, 1.0, 1.0, 1.0 };
+	float lightDifAndSpec[] = { 1.0, 1.0, 1.0, 1.0 };
+	float lightPos[] = { 250.0, 250.0, 250.0, 1.0 };
+	float globAmb[] = { 0.2, 0.2, 0.2, 1.0 };
 
-   // Material properties of the objects.
-   glMaterialfv(GL_FRONT_AND_BACK, GL_SPECULAR, matSpec);
-   glMaterialfv(GL_FRONT_AND_BACK, GL_SHININESS, matShine);
-   glMaterialfv(GL_FRONT_AND_BACK, GL_DIFFUSE, matAmbAndDif);
+	// Material properties of the objects.
+	glMaterialfv(GL_FRONT_AND_BACK, GL_SPECULAR, matSpec);
+	glMaterialfv(GL_FRONT_AND_BACK, GL_SHININESS, matShine);
+	glMaterialfv(GL_FRONT_AND_BACK, GL_DIFFUSE, matAmbAndDif);
 
-   // Light0 properties.
-   glLightfv(GL_LIGHT0, GL_AMBIENT, lightAmb);
-   glLightfv(GL_LIGHT0, GL_DIFFUSE, lightDifAndSpec);
-   glLightfv(GL_LIGHT0, GL_SPECULAR, lightDifAndSpec);
-   glLightfv(GL_LIGHT0, GL_POSITION, lightPos);
-    
-   // Poperties of the ambient light.
-   glLightModelfv(GL_LIGHT_MODEL_AMBIENT, globAmb); // Global ambient light.
+	// Light0 properties.
+	glLightfv(GL_LIGHT0, GL_AMBIENT, lightAmb);
+	glLightfv(GL_LIGHT0, GL_DIFFUSE, lightDifAndSpec);
+	glLightfv(GL_LIGHT0, GL_SPECULAR, lightDifAndSpec);
+	glLightfv(GL_LIGHT0, GL_POSITION, lightPos);
 
-   glEnable(GL_LIGHTING); // Enable lighting calculations.
-   glEnable(GL_LIGHT0); // Enable particular light source.
-   glEnable(GL_DEPTH_TEST); // Enable depth testing.
+	// Poperties of the ambient light.
+	glLightModelfv(GL_LIGHT_MODEL_AMBIENT, globAmb); // Global ambient light.
 
-   glEnable(GL_NORMALIZE); // Enable automatic normalization of normals.
+	glEnable(GL_LIGHTING); // Enable lighting calculations.
+	glEnable(GL_LIGHT0); // Enable particular light source.
+	glEnable(GL_DEPTH_TEST); // Enable depth testing.
 
-   glClearColor(1.0, 1.0, 1.0, 0.0);
+	glEnable(GL_NORMALIZE); // Enable automatic normalization of normals.
+
+	glClearColor(1.0, 1.0, 1.0, 0.0);
 	
 }
 
@@ -161,12 +158,11 @@ void drawScene()
 		}
 		
 		//run mode display function
-		r_display();
+		rdraw();
 	}
 	
 		
 	//turn to 2D mode
-	
 	mode2D();
 	
 	//menu buttons
@@ -177,10 +173,11 @@ void drawScene()
 	demButtons.push_back(button(2,2,"Save Setup"));
 	if(MODE == "DRAW")
 	{
-		//draw buttons
+		//draw-specific buttons
 	}
 	else if(MODE == "RUN")
 	{
+		//run-specific buttons
 		demButtons.push_back(button(3,1,"Play Sequence"));
 		demButtons.push_back(button(3,2,"Reset Dominoes"));
 		demButtons.push_back(button(4,1,"Freeze"));
@@ -208,44 +205,22 @@ void resize(int w, int h)
 //keyboard function
 void keyInput(unsigned char key, int x, int y)
 {
-	if(key == 'd')
+	if(key == 'z')
 	{
-		//draw
-		MODE = "DRAW";
-	}
-	else if(key == 'r')
-	{
-		//run
-		MODE = "RUN";
-	}
-	else if(key == 'l')
-	{
-		//load
-		readFile();
-	}
-	else if(key == 's')
-	{
-		//save
-		saveFile();
-	}
-	else if(key == 'g')
-	{
-		//go
-		
-	}
-	else if(key == 'c')
-	{
-		//clear
-		reset();		
-	}
-	else if(key == 'z')
 	    testThingY++;
+    }
 	else if(key == 'x')
+	{
 	    testThingY--;
+    }
 	else if(key == 'v')
+	{
 	    testThingX++;
+    }
 	else if(key == 'b')
+	{
 	    testThingX--;
+    }
     else if(key == '1')
     {
     	CAM = 1;
@@ -267,6 +242,7 @@ void mouseControl(int button, int state, int x, int y)
 	{
 		if(MODE == "DRAW")
 		{
+			//draw mode mouse work
 			y = HEIGHT - y; // Correct from mouse to OpenGL co-ordinates.
 			if ((button == GLUT_LEFT_BUTTON || button == GLUT_RIGHT_BUTTON )&& state == GLUT_DOWN)
     		{
@@ -289,13 +265,10 @@ void mouseControl(int button, int state, int x, int y)
 					ptslines = 1;
 				}
 			}
-
-			//draw mode mouse function
-
 		}
 		else if(MODE == "RUN")
 		{
-			//run mode mouse function
+			//run mode mouse work
 		}
 		
 	}

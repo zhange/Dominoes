@@ -72,7 +72,6 @@ class domino
 				//falling
 				double speed = min(300.0,tilt/M_PI*180 + 15*load); 
 				tilt += speed/180.0*M_PI/60.0;
-				//cout << speed << endl;
 				if(tilt >= M_PI/2)
 				{
 					tilt = M_PI/2;
@@ -98,7 +97,6 @@ class domino
 		
 					n = M_PI/2.0 - (asin(d*sin(o)/h)+o);
 					
-					cout << n/M_PI*180 << endl;
 					tilt = min(tilt, n);
 				}
 				else if(tilt > 90/180*M_PI)
@@ -110,6 +108,7 @@ class domino
 			return false;
 		}
 		
+		//reset to standing position
 		void reset()
 		{
 			tilt = 0;
@@ -119,11 +118,13 @@ class domino
 			support = NULL;
 		}
 		
+		//rest a domino on another
 		void setSupport(domino *supporter)
 		{
 			support = supporter;
 		}
 		
+		//start a domino moving
 		void start(int number)
 		{
 			load = number;
@@ -134,6 +135,7 @@ class domino
 			standing = false;
 		}
 		
+		//draw a line to represent a domino
 		void drawline()
 		{  
 		   glBegin(GL_LINES);
@@ -142,12 +144,14 @@ class domino
 		   glEnd();
 		}
 		
+		//resd a domino on another
 		void rest(domino* supporter)
 		{
 			resting = true;
 			support = supporter;
 		}
 		
+		//rest a domino on the floor
 		void rest()
 		{
 			resting = true;
